@@ -1,5 +1,9 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="Project">
+		<CBX_INST_ENTRY INSTANCE_NAME="|test|RAM:inst1|LPM_RAM_IO:inst|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_aa91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|test|Stack:inst|lpm_add_sub_STACK:inst|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_pki.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|test|Stack:inst|lpm_constant_F7:inst33|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_6j6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|test|Stack:inst|lpm_counter_8:inst35|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_i4i.tdf"/>
 	</PROJECT>
 </LOG_ROOT>
