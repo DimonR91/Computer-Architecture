@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY test
+set_global_assignment -name TOP_LEVEL_ENTITY Set
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:38:32  MARCH 03, 2013"
 set_global_assignment -name LAST_QUARTUS_VERSION 9.1
@@ -70,9 +70,32 @@ set_global_assignment -name LL_MEMBER_STATE LOCKED -entity RON -section_id "Root
 set_global_assignment -name VECTOR_WAVEFORM_FILE Stack.vwf
 set_global_assignment -name BDF_FILE test.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE test.vwf
+set_global_assignment -name BDF_FILE ALU.bdf
+set_global_assignment -name QIP_FILE lpm_compare_8bit.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE ALU.vwf
+set_global_assignment -name QIP_FILE lpm_and_8bit.qip
+set_global_assignment -name QIP_FILE lpm_or_8bit.qip
+set_global_assignment -name QIP_FILE lpm_shiftreg_8bit.qip
+set_global_assignment -name QIP_FILE lpm_compare_GREATER_8bit.qip
+set_global_assignment -name QIP_FILE lpm_compare_Equal_8bit.qip
+set_global_assignment -name BDF_FILE Cache.bdf
+set_global_assignment -name QIP_FILE lpm_dff_4bit.qip
+set_global_assignment -name BDF_FILE Set.bdf
+set_global_assignment -name BDF_FILE CacheCounter.bdf
+set_global_assignment -name QIP_FILE lpm_compare_4bit.qip
+set_global_assignment -name QIP_FILE lpm_compare_2bit.qip
+set_global_assignment -name QIP_FILE lpm_decode_2bit.qip
+set_global_assignment -name QIP_FILE lpm_bustri_4bit.qip
+set_global_assignment -name QIP_FILE lpm_and_2bit.qip
+set_global_assignment -name QIP_FILE lpm_constant_8bit_0.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE Set.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Cache.vwf
+set_global_assignment -name QIP_FILE lpm_counter_4bit.qip
+set_global_assignment -name QIP_FILE lpm_counter_8bit_with_load.qip
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE test.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Set.vwf
+set_global_assignment -name QIP_FILE lpm_counter_2bit.qip
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

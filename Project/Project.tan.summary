@@ -5,29 +5,29 @@ Timing Analyzer Summary
 Type           : Worst-case tsu
 Slack          : N/A
 Required Time  : None
-Actual Time    : 6.340 ns
-From           : pop
-To             : RAM:inst1|lpm_ram_io:inst|altram:sram|altsyncram:ram_block|altsyncram_aa91:auto_generated|ram_block1a0~porta_address_reg6
+Actual Time    : 1.459 ns
+From           : DATA_IN[1]
+To             : lpm_dff_8bit:inst85|lpm_ff:lpm_ff_component|dffs[1]
 From Clock     : --
-To Clock       : CLK
+To Clock       : WRITE_CMD
 Failed Paths   : 0
 
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 12.322 ns
-From           : Stack:inst|lpm_dff_8bit:inst34|lpm_ff:lpm_ff_component|dffs[7]
-To             : ADDR[7]
-From Clock     : CLK
+Actual Time    : 15.066 ns
+From           : lpm_dff_8bit:inst20|lpm_ff:lpm_ff_component|dffs[5]
+To             : DATA_OUT[5]
+From Clock     : SetString
 To Clock       : --
 Failed Paths   : 0
 
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 10.975 ns
-From           : read
-To             : DATA[3]
+Actual Time    : 11.226 ns
+From           : SetString
+To             : DATA_OUT[0]
 From Clock     : --
 To Clock       : --
 Failed Paths   : 0
@@ -35,72 +35,12 @@ Failed Paths   : 0
 Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : 2.739 ns
-From           : init
-To             : Stack:inst|lpm_dff_8bit:inst34|lpm_ff:lpm_ff_component|dffs[3]
+Actual Time    : 2.625 ns
+From           : DATA_IN[0]
+To             : lpm_dff_8bit:inst46|lpm_ff:lpm_ff_component|dffs[0]
 From Clock     : --
-To Clock       : CLK
+To Clock       : SetString
 Failed Paths   : 0
-
-Type           : Clock Setup: 'CLK'
-Slack          : N/A
-Required Time  : None
-Actual Time    : 143.00 MHz ( period = 6.993 ns )
-From           : Stack:inst|lpm_dff_8bit:inst34|lpm_ff:lpm_ff_component|dffs[3]
-To             : RAM:inst1|lpm_ram_io:inst|altram:sram|altsyncram:ram_block|altsyncram_aa91:auto_generated|ram_block1a0~porta_address_reg3
-From Clock     : CLK
-To Clock       : CLK
-Failed Paths   : 0
-
-Type           : Clock Setup: 'push'
-Slack          : N/A
-Required Time  : None
-Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
-From           : Stack:inst|lpm_counter_8:inst35|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[0]
-To             : Stack:inst|lpm_counter_8:inst35|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[1]
-From Clock     : push
-To Clock       : push
-Failed Paths   : 0
-
-Type           : Clock Setup: 'pop'
-Slack          : N/A
-Required Time  : None
-Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
-From           : Stack:inst|lpm_counter_8:inst35|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[0]
-To             : Stack:inst|lpm_counter_8:inst35|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[1]
-From Clock     : pop
-To Clock       : pop
-Failed Paths   : 0
-
-Type           : Clock Hold: 'CLK'
-Slack          : Not operational: Clock Skew > Data Delay
-Required Time  : None
-Actual Time    : N/A
-From           : Stack:inst|lpm_add_sub_STACK:inst|lpm_add_sub:lpm_add_sub_component|add_sub_pki:auto_generated|dffe2
-To             : Stack:inst|lpm_dff_8bit:inst34|lpm_ff:lpm_ff_component|dffs[1]
-From Clock     : CLK
-To Clock       : CLK
-Failed Paths   : 24
-
-Type           : Clock Hold: 'pop'
-Slack          : Not operational: Clock Skew > Data Delay
-Required Time  : None
-Actual Time    : N/A
-From           : Stack:inst|lpm_counter_8:inst35|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[3]
-To             : Stack:inst|lpm_counter_8:inst35|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[4]
-From Clock     : pop
-To Clock       : pop
-Failed Paths   : 16
-
-Type           : Clock Hold: 'push'
-Slack          : Not operational: Clock Skew > Data Delay
-Required Time  : None
-Actual Time    : N/A
-From           : Stack:inst|lpm_counter_8:inst35|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[3]
-To             : Stack:inst|lpm_counter_8:inst35|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[4]
-From Clock     : push
-To Clock       : push
-Failed Paths   : 16
 
 Type           : Total number of failed paths
 Slack          : 
@@ -110,7 +50,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 56
+Failed Paths   : 0
 
 --------------------------------------------------------------------------------------
 
