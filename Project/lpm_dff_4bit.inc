@@ -16,7 +16,8 @@
 FUNCTION lpm_dff_4bit 
 (
 	clock,
-	data[3..0]
+	data[3..0],
+	enable
 )
 
 RETURNS (

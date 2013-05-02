@@ -3,6 +3,8 @@
 	<PROJECT NAME="Project">
 		<CBX_INST_ENTRY INSTANCE_NAME="|Set|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Set|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Set|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_olh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Set|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Set|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Set|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Set|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
