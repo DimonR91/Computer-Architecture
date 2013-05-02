@@ -113,6 +113,9 @@ data0
 lpm_bustri.inc
 e542f5adf6af653bd181242b9785544
 }
+# hierarchies {
+RAM:inst20|lpm_bustri_8:inst3
+}
 # macro_sequence
 
 # end
@@ -211,6 +214,9 @@ data1
 data0
 -1
 3
+}
+# hierarchies {
+RAM:inst20|lpm_bustri_8:inst3|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -340,6 +346,9 @@ address1
 address0
 -1
 3
+}
+# hierarchies {
+RAM:inst20|lpm_ram_io:inst
 }
 # macro_sequence
 
@@ -502,6 +511,9 @@ address1
 address0
 -1
 3
+}
+# hierarchies {
+RAM:inst20|lpm_ram_io:inst|altram:sram
 }
 # macro_sequence
 
@@ -801,105 +813,8 @@ address_a0
 -1
 3
 }
-# macro_sequence
-
-# end
-# entity
-altsyncram_aa91
-# storage
-db|Project.(6).cnf
-db|Project.(6).cnf
-# case_insensitive
-# source_file
-db|altsyncram_aa91.tdf
-c9ea8f551fc69ab494e185b1d3fa5c6
-7
-# used_port {
-wren_a
--1
-3
-q_a7
--1
-3
-q_a6
--1
-3
-q_a5
--1
-3
-q_a4
--1
-3
-q_a3
--1
-3
-q_a2
--1
-3
-q_a1
--1
-3
-q_a0
--1
-3
-data_a7
--1
-3
-data_a6
--1
-3
-data_a5
--1
-3
-data_a4
--1
-3
-data_a3
--1
-3
-data_a2
--1
-3
-data_a1
--1
-3
-data_a0
--1
-3
-clock1
--1
-3
-clock0
--1
-3
-address_a7
--1
-3
-address_a6
--1
-3
-address_a5
--1
-3
-address_a4
--1
-3
-address_a3
--1
-3
-address_a2
--1
-3
-address_a1
--1
-3
-address_a0
--1
-3
-}
-# memory_file {
-ram.hex
-29cb6b1a2fb51fb254b24634452c710
+# hierarchies {
+RAM:inst20|lpm_ram_io:inst|altram:sram|altsyncram:ram_block
 }
 # macro_sequence
 
@@ -917,6 +832,9 @@ ram.bdf
 # internal_option {
 BLOCK_DESIGN_NAMING
 AUTO
+}
+# hierarchies {
+RAM:inst20
 }
 # macro_sequence
 
@@ -1638,22 +1556,70 @@ clock
 3
 }
 # hierarchies {
-lpm_dff_8bit:inst17|lpm_ff:lpm_ff_component
-lpm_dff_8bit:inst46|lpm_ff:lpm_ff_component
-lpm_dff_8bit:inst66|lpm_ff:lpm_ff_component
-lpm_dff_8bit:inst82|lpm_ff:lpm_ff_component
-lpm_dff_8bit:inst18|lpm_ff:lpm_ff_component
-lpm_dff_8bit:inst69|lpm_ff:lpm_ff_component
-lpm_dff_8bit:inst68|lpm_ff:lpm_ff_component
-lpm_dff_8bit:inst67|lpm_ff:lpm_ff_component
-lpm_dff_8bit:inst85|lpm_ff:lpm_ff_component
-lpm_dff_8bit:inst84|lpm_ff:lpm_ff_component
-lpm_dff_8bit:inst83|lpm_ff:lpm_ff_component
-lpm_dff_8bit:inst53|lpm_ff:lpm_ff_component
-lpm_dff_8bit:inst52|lpm_ff:lpm_ff_component
-lpm_dff_8bit:inst51|lpm_ff:lpm_ff_component
-lpm_dff_8bit:inst20|lpm_ff:lpm_ff_component
-lpm_dff_8bit:inst19|lpm_ff:lpm_ff_component
+Set:inst32|lpm_dff_8bit:inst17|lpm_ff:lpm_ff_component
+Set:inst32|lpm_dff_8bit:inst46|lpm_ff:lpm_ff_component
+Set:inst32|lpm_dff_8bit:inst66|lpm_ff:lpm_ff_component
+Set:inst32|lpm_dff_8bit:inst82|lpm_ff:lpm_ff_component
+Set:inst32|lpm_dff_8bit:inst18|lpm_ff:lpm_ff_component
+Set:inst32|lpm_dff_8bit:inst69|lpm_ff:lpm_ff_component
+Set:inst32|lpm_dff_8bit:inst68|lpm_ff:lpm_ff_component
+Set:inst32|lpm_dff_8bit:inst67|lpm_ff:lpm_ff_component
+Set:inst32|lpm_dff_8bit:inst85|lpm_ff:lpm_ff_component
+Set:inst32|lpm_dff_8bit:inst84|lpm_ff:lpm_ff_component
+Set:inst32|lpm_dff_8bit:inst83|lpm_ff:lpm_ff_component
+Set:inst32|lpm_dff_8bit:inst53|lpm_ff:lpm_ff_component
+Set:inst32|lpm_dff_8bit:inst52|lpm_ff:lpm_ff_component
+Set:inst32|lpm_dff_8bit:inst51|lpm_ff:lpm_ff_component
+Set:inst32|lpm_dff_8bit:inst20|lpm_ff:lpm_ff_component
+Set:inst32|lpm_dff_8bit:inst19|lpm_ff:lpm_ff_component
+Set:inst|lpm_dff_8bit:inst17|lpm_ff:lpm_ff_component
+Set:inst|lpm_dff_8bit:inst46|lpm_ff:lpm_ff_component
+Set:inst|lpm_dff_8bit:inst66|lpm_ff:lpm_ff_component
+Set:inst|lpm_dff_8bit:inst82|lpm_ff:lpm_ff_component
+Set:inst|lpm_dff_8bit:inst18|lpm_ff:lpm_ff_component
+Set:inst|lpm_dff_8bit:inst69|lpm_ff:lpm_ff_component
+Set:inst|lpm_dff_8bit:inst68|lpm_ff:lpm_ff_component
+Set:inst|lpm_dff_8bit:inst67|lpm_ff:lpm_ff_component
+Set:inst|lpm_dff_8bit:inst85|lpm_ff:lpm_ff_component
+Set:inst|lpm_dff_8bit:inst84|lpm_ff:lpm_ff_component
+Set:inst|lpm_dff_8bit:inst83|lpm_ff:lpm_ff_component
+Set:inst|lpm_dff_8bit:inst53|lpm_ff:lpm_ff_component
+Set:inst|lpm_dff_8bit:inst52|lpm_ff:lpm_ff_component
+Set:inst|lpm_dff_8bit:inst51|lpm_ff:lpm_ff_component
+Set:inst|lpm_dff_8bit:inst20|lpm_ff:lpm_ff_component
+Set:inst|lpm_dff_8bit:inst19|lpm_ff:lpm_ff_component
+Set:inst31|lpm_dff_8bit:inst17|lpm_ff:lpm_ff_component
+Set:inst31|lpm_dff_8bit:inst46|lpm_ff:lpm_ff_component
+Set:inst31|lpm_dff_8bit:inst66|lpm_ff:lpm_ff_component
+Set:inst31|lpm_dff_8bit:inst82|lpm_ff:lpm_ff_component
+Set:inst31|lpm_dff_8bit:inst18|lpm_ff:lpm_ff_component
+Set:inst31|lpm_dff_8bit:inst69|lpm_ff:lpm_ff_component
+Set:inst31|lpm_dff_8bit:inst68|lpm_ff:lpm_ff_component
+Set:inst31|lpm_dff_8bit:inst67|lpm_ff:lpm_ff_component
+Set:inst31|lpm_dff_8bit:inst85|lpm_ff:lpm_ff_component
+Set:inst31|lpm_dff_8bit:inst84|lpm_ff:lpm_ff_component
+Set:inst31|lpm_dff_8bit:inst83|lpm_ff:lpm_ff_component
+Set:inst31|lpm_dff_8bit:inst53|lpm_ff:lpm_ff_component
+Set:inst31|lpm_dff_8bit:inst52|lpm_ff:lpm_ff_component
+Set:inst31|lpm_dff_8bit:inst51|lpm_ff:lpm_ff_component
+Set:inst31|lpm_dff_8bit:inst20|lpm_ff:lpm_ff_component
+Set:inst31|lpm_dff_8bit:inst19|lpm_ff:lpm_ff_component
+Set:inst30|lpm_dff_8bit:inst17|lpm_ff:lpm_ff_component
+Set:inst30|lpm_dff_8bit:inst46|lpm_ff:lpm_ff_component
+Set:inst30|lpm_dff_8bit:inst66|lpm_ff:lpm_ff_component
+Set:inst30|lpm_dff_8bit:inst82|lpm_ff:lpm_ff_component
+Set:inst30|lpm_dff_8bit:inst18|lpm_ff:lpm_ff_component
+Set:inst30|lpm_dff_8bit:inst69|lpm_ff:lpm_ff_component
+Set:inst30|lpm_dff_8bit:inst68|lpm_ff:lpm_ff_component
+Set:inst30|lpm_dff_8bit:inst67|lpm_ff:lpm_ff_component
+Set:inst30|lpm_dff_8bit:inst85|lpm_ff:lpm_ff_component
+Set:inst30|lpm_dff_8bit:inst84|lpm_ff:lpm_ff_component
+Set:inst30|lpm_dff_8bit:inst83|lpm_ff:lpm_ff_component
+Set:inst30|lpm_dff_8bit:inst53|lpm_ff:lpm_ff_component
+Set:inst30|lpm_dff_8bit:inst52|lpm_ff:lpm_ff_component
+Set:inst30|lpm_dff_8bit:inst51|lpm_ff:lpm_ff_component
+Set:inst30|lpm_dff_8bit:inst20|lpm_ff:lpm_ff_component
+Set:inst30|lpm_dff_8bit:inst19|lpm_ff:lpm_ff_component
 }
 # macro_sequence
 
@@ -1683,39 +1649,146 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-lpm_bustri_8bit:inst14
+Set:inst32|lpm_bustri_8bit:inst14
+Set:inst32|lpm_bustri_8bit:inst54
+Set:inst32|lpm_bustri_8bit:inst70
+Set:inst32|lpm_bustri_8bit:inst86
+Set:inst32|lpm_bustri_8bit:inst15
+Set:inst32|lpm_bustri_8bit:inst98
+Set:inst32|lpm_bustri_8bit:inst42
+Set:inst32|lpm_bustri_8bit:inst74
+Set:inst32|lpm_bustri_8bit:inst77
+Set:inst32|lpm_bustri_8bit:inst73
+Set:inst32|lpm_bustri_8bit:inst76
+Set:inst32|lpm_bustri_8bit:inst72
+Set:inst32|lpm_bustri_8bit:inst75
+Set:inst32|lpm_bustri_8bit:inst71
+Set:inst32|lpm_bustri_8bit:inst90
+Set:inst32|lpm_bustri_8bit:inst93
+Set:inst32|lpm_bustri_8bit:inst89
+Set:inst32|lpm_bustri_8bit:inst92
+Set:inst32|lpm_bustri_8bit:inst88
+Set:inst32|lpm_bustri_8bit:inst91
+Set:inst32|lpm_bustri_8bit:inst87
+Set:inst32|lpm_bustri_8bit:inst58
+Set:inst32|lpm_bustri_8bit:inst61
+Set:inst32|lpm_bustri_8bit:inst57
+Set:inst32|lpm_bustri_8bit:inst60
+Set:inst32|lpm_bustri_8bit:inst56
+Set:inst32|lpm_bustri_8bit:inst59
+Set:inst32|lpm_bustri_8bit:inst55
+Set:inst32|lpm_bustri_8bit:inst45
+Set:inst32|lpm_bustri_8bit:inst37
+Set:inst32|lpm_bustri_8bit:inst44
+Set:inst32|lpm_bustri_8bit:inst16
+Set:inst32|lpm_bustri_8bit:inst43
+lpm_bustri_8bit:inst33
+lpm_bustri_8bit:inst34
+Set:inst|lpm_bustri_8bit:inst14
+Set:inst|lpm_bustri_8bit:inst54
+Set:inst|lpm_bustri_8bit:inst70
+Set:inst|lpm_bustri_8bit:inst86
+Set:inst|lpm_bustri_8bit:inst15
+Set:inst|lpm_bustri_8bit:inst98
+Set:inst|lpm_bustri_8bit:inst42
+Set:inst|lpm_bustri_8bit:inst74
+Set:inst|lpm_bustri_8bit:inst77
+Set:inst|lpm_bustri_8bit:inst73
+Set:inst|lpm_bustri_8bit:inst76
+Set:inst|lpm_bustri_8bit:inst72
+Set:inst|lpm_bustri_8bit:inst75
+Set:inst|lpm_bustri_8bit:inst71
+Set:inst|lpm_bustri_8bit:inst90
+Set:inst|lpm_bustri_8bit:inst93
+Set:inst|lpm_bustri_8bit:inst89
+Set:inst|lpm_bustri_8bit:inst92
+Set:inst|lpm_bustri_8bit:inst88
+Set:inst|lpm_bustri_8bit:inst91
+Set:inst|lpm_bustri_8bit:inst87
+Set:inst|lpm_bustri_8bit:inst58
+Set:inst|lpm_bustri_8bit:inst61
+Set:inst|lpm_bustri_8bit:inst57
+Set:inst|lpm_bustri_8bit:inst60
+Set:inst|lpm_bustri_8bit:inst56
+Set:inst|lpm_bustri_8bit:inst59
+Set:inst|lpm_bustri_8bit:inst55
+Set:inst|lpm_bustri_8bit:inst45
+Set:inst|lpm_bustri_8bit:inst37
+Set:inst|lpm_bustri_8bit:inst44
+Set:inst|lpm_bustri_8bit:inst16
+Set:inst|lpm_bustri_8bit:inst43
+Set:inst31|lpm_bustri_8bit:inst14
+Set:inst31|lpm_bustri_8bit:inst54
+Set:inst31|lpm_bustri_8bit:inst70
+Set:inst31|lpm_bustri_8bit:inst86
+Set:inst31|lpm_bustri_8bit:inst15
+Set:inst31|lpm_bustri_8bit:inst98
+Set:inst31|lpm_bustri_8bit:inst42
+Set:inst31|lpm_bustri_8bit:inst74
+Set:inst31|lpm_bustri_8bit:inst77
+Set:inst31|lpm_bustri_8bit:inst73
+Set:inst31|lpm_bustri_8bit:inst76
+Set:inst31|lpm_bustri_8bit:inst72
+Set:inst31|lpm_bustri_8bit:inst75
+Set:inst31|lpm_bustri_8bit:inst71
+Set:inst31|lpm_bustri_8bit:inst90
+Set:inst31|lpm_bustri_8bit:inst93
+Set:inst31|lpm_bustri_8bit:inst89
+Set:inst31|lpm_bustri_8bit:inst92
+Set:inst31|lpm_bustri_8bit:inst88
+Set:inst31|lpm_bustri_8bit:inst91
+Set:inst31|lpm_bustri_8bit:inst87
+Set:inst31|lpm_bustri_8bit:inst58
+Set:inst31|lpm_bustri_8bit:inst61
+Set:inst31|lpm_bustri_8bit:inst57
+Set:inst31|lpm_bustri_8bit:inst60
+Set:inst31|lpm_bustri_8bit:inst56
+Set:inst31|lpm_bustri_8bit:inst59
+Set:inst31|lpm_bustri_8bit:inst55
+Set:inst31|lpm_bustri_8bit:inst45
+Set:inst31|lpm_bustri_8bit:inst37
+Set:inst31|lpm_bustri_8bit:inst44
+Set:inst31|lpm_bustri_8bit:inst16
+Set:inst31|lpm_bustri_8bit:inst43
+Set:inst30|lpm_bustri_8bit:inst14
+Set:inst30|lpm_bustri_8bit:inst54
+Set:inst30|lpm_bustri_8bit:inst70
+Set:inst30|lpm_bustri_8bit:inst86
+Set:inst30|lpm_bustri_8bit:inst15
+Set:inst30|lpm_bustri_8bit:inst98
+Set:inst30|lpm_bustri_8bit:inst42
+Set:inst30|lpm_bustri_8bit:inst74
+Set:inst30|lpm_bustri_8bit:inst77
+Set:inst30|lpm_bustri_8bit:inst73
+Set:inst30|lpm_bustri_8bit:inst76
+Set:inst30|lpm_bustri_8bit:inst72
+Set:inst30|lpm_bustri_8bit:inst75
+Set:inst30|lpm_bustri_8bit:inst71
+Set:inst30|lpm_bustri_8bit:inst90
+Set:inst30|lpm_bustri_8bit:inst93
+Set:inst30|lpm_bustri_8bit:inst89
+Set:inst30|lpm_bustri_8bit:inst92
+Set:inst30|lpm_bustri_8bit:inst88
+Set:inst30|lpm_bustri_8bit:inst91
+Set:inst30|lpm_bustri_8bit:inst87
+Set:inst30|lpm_bustri_8bit:inst58
+Set:inst30|lpm_bustri_8bit:inst61
+Set:inst30|lpm_bustri_8bit:inst57
+Set:inst30|lpm_bustri_8bit:inst60
+Set:inst30|lpm_bustri_8bit:inst56
+Set:inst30|lpm_bustri_8bit:inst59
+Set:inst30|lpm_bustri_8bit:inst55
+Set:inst30|lpm_bustri_8bit:inst45
+Set:inst30|lpm_bustri_8bit:inst37
+Set:inst30|lpm_bustri_8bit:inst44
+Set:inst30|lpm_bustri_8bit:inst16
+Set:inst30|lpm_bustri_8bit:inst43
+lpm_bustri_8bit:inst22
 lpm_bustri_8bit:inst54
-lpm_bustri_8bit:inst70
-lpm_bustri_8bit:inst86
-lpm_bustri_8bit:inst15
-lpm_bustri_8bit:inst98
-lpm_bustri_8bit:inst42
-lpm_bustri_8bit:inst74
-lpm_bustri_8bit:inst77
-lpm_bustri_8bit:inst73
-lpm_bustri_8bit:inst76
-lpm_bustri_8bit:inst72
-lpm_bustri_8bit:inst75
-lpm_bustri_8bit:inst71
-lpm_bustri_8bit:inst90
-lpm_bustri_8bit:inst93
-lpm_bustri_8bit:inst89
-lpm_bustri_8bit:inst92
-lpm_bustri_8bit:inst88
-lpm_bustri_8bit:inst91
-lpm_bustri_8bit:inst87
-lpm_bustri_8bit:inst58
-lpm_bustri_8bit:inst61
-lpm_bustri_8bit:inst57
-lpm_bustri_8bit:inst60
-lpm_bustri_8bit:inst56
-lpm_bustri_8bit:inst59
 lpm_bustri_8bit:inst55
-lpm_bustri_8bit:inst45
-lpm_bustri_8bit:inst37
-lpm_bustri_8bit:inst44
-lpm_bustri_8bit:inst16
-lpm_bustri_8bit:inst43
+lpm_bustri_8bit:inst56
+lpm_bustri_8bit:inst57
+lpm_bustri_8bit:inst21
 }
 # lmf
 |altera|91|quartus|lmf|maxplus2.lmf
@@ -1793,39 +1866,146 @@ data0
 3
 }
 # hierarchies {
-lpm_bustri_8bit:inst14|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst14|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst54|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst70|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst86|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst15|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst98|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst42|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst74|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst77|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst73|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst76|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst72|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst75|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst71|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst90|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst93|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst89|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst92|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst88|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst91|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst87|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst58|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst61|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst57|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst60|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst56|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst59|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst55|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst45|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst37|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst44|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst16|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_8bit:inst43|lpm_bustri:lpm_bustri_component
+lpm_bustri_8bit:inst33|lpm_bustri:lpm_bustri_component
+lpm_bustri_8bit:inst34|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst14|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst54|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst70|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst86|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst15|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst98|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst42|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst74|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst77|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst73|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst76|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst72|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst75|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst71|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst90|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst93|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst89|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst92|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst88|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst91|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst87|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst58|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst61|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst57|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst60|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst56|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst59|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst55|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst45|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst37|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst44|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst16|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_8bit:inst43|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst14|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst54|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst70|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst86|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst15|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst98|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst42|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst74|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst77|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst73|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst76|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst72|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst75|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst71|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst90|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst93|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst89|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst92|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst88|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst91|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst87|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst58|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst61|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst57|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst60|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst56|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst59|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst55|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst45|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst37|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst44|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst16|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_8bit:inst43|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst14|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst54|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst70|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst86|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst15|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst98|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst42|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst74|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst77|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst73|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst76|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst72|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst75|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst71|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst90|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst93|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst89|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst92|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst88|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst91|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst87|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst58|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst61|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst57|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst60|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst56|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst59|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst55|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst45|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst37|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst44|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst16|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_8bit:inst43|lpm_bustri:lpm_bustri_component
+lpm_bustri_8bit:inst22|lpm_bustri:lpm_bustri_component
 lpm_bustri_8bit:inst54|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst70|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst86|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst15|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst98|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst42|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst74|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst77|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst73|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst76|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst72|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst75|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst71|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst90|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst93|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst89|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst92|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst88|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst91|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst87|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst58|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst61|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst57|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst60|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst56|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst59|lpm_bustri:lpm_bustri_component
 lpm_bustri_8bit:inst55|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst45|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst37|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst44|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst16|lpm_bustri:lpm_bustri_component
-lpm_bustri_8bit:inst43|lpm_bustri:lpm_bustri_component
+lpm_bustri_8bit:inst56|lpm_bustri:lpm_bustri_component
+lpm_bustri_8bit:inst57|lpm_bustri:lpm_bustri_component
+lpm_bustri_8bit:inst21|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -1946,6 +2126,9 @@ clock
 -1
 3
 }
+# hierarchies {
+CacheCounter:inst25|lpm_counter_8:inst22|lpm_counter:lpm_counter_component
+}
 # macro_sequence
 
 # end
@@ -1991,6 +2174,9 @@ clock
 -1
 3
 }
+# hierarchies {
+CacheCounter:inst25|lpm_counter_8:inst22|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated
+}
 # macro_sequence
 
 # end
@@ -2019,22 +2205,70 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-lpm_dff_8bit:inst17
-lpm_dff_8bit:inst46
-lpm_dff_8bit:inst66
-lpm_dff_8bit:inst82
-lpm_dff_8bit:inst18
-lpm_dff_8bit:inst69
-lpm_dff_8bit:inst68
-lpm_dff_8bit:inst67
-lpm_dff_8bit:inst85
-lpm_dff_8bit:inst84
-lpm_dff_8bit:inst83
-lpm_dff_8bit:inst53
-lpm_dff_8bit:inst52
-lpm_dff_8bit:inst51
-lpm_dff_8bit:inst20
-lpm_dff_8bit:inst19
+Set:inst32|lpm_dff_8bit:inst17
+Set:inst32|lpm_dff_8bit:inst46
+Set:inst32|lpm_dff_8bit:inst66
+Set:inst32|lpm_dff_8bit:inst82
+Set:inst32|lpm_dff_8bit:inst18
+Set:inst32|lpm_dff_8bit:inst69
+Set:inst32|lpm_dff_8bit:inst68
+Set:inst32|lpm_dff_8bit:inst67
+Set:inst32|lpm_dff_8bit:inst85
+Set:inst32|lpm_dff_8bit:inst84
+Set:inst32|lpm_dff_8bit:inst83
+Set:inst32|lpm_dff_8bit:inst53
+Set:inst32|lpm_dff_8bit:inst52
+Set:inst32|lpm_dff_8bit:inst51
+Set:inst32|lpm_dff_8bit:inst20
+Set:inst32|lpm_dff_8bit:inst19
+Set:inst|lpm_dff_8bit:inst17
+Set:inst|lpm_dff_8bit:inst46
+Set:inst|lpm_dff_8bit:inst66
+Set:inst|lpm_dff_8bit:inst82
+Set:inst|lpm_dff_8bit:inst18
+Set:inst|lpm_dff_8bit:inst69
+Set:inst|lpm_dff_8bit:inst68
+Set:inst|lpm_dff_8bit:inst67
+Set:inst|lpm_dff_8bit:inst85
+Set:inst|lpm_dff_8bit:inst84
+Set:inst|lpm_dff_8bit:inst83
+Set:inst|lpm_dff_8bit:inst53
+Set:inst|lpm_dff_8bit:inst52
+Set:inst|lpm_dff_8bit:inst51
+Set:inst|lpm_dff_8bit:inst20
+Set:inst|lpm_dff_8bit:inst19
+Set:inst31|lpm_dff_8bit:inst17
+Set:inst31|lpm_dff_8bit:inst46
+Set:inst31|lpm_dff_8bit:inst66
+Set:inst31|lpm_dff_8bit:inst82
+Set:inst31|lpm_dff_8bit:inst18
+Set:inst31|lpm_dff_8bit:inst69
+Set:inst31|lpm_dff_8bit:inst68
+Set:inst31|lpm_dff_8bit:inst67
+Set:inst31|lpm_dff_8bit:inst85
+Set:inst31|lpm_dff_8bit:inst84
+Set:inst31|lpm_dff_8bit:inst83
+Set:inst31|lpm_dff_8bit:inst53
+Set:inst31|lpm_dff_8bit:inst52
+Set:inst31|lpm_dff_8bit:inst51
+Set:inst31|lpm_dff_8bit:inst20
+Set:inst31|lpm_dff_8bit:inst19
+Set:inst30|lpm_dff_8bit:inst17
+Set:inst30|lpm_dff_8bit:inst46
+Set:inst30|lpm_dff_8bit:inst66
+Set:inst30|lpm_dff_8bit:inst82
+Set:inst30|lpm_dff_8bit:inst18
+Set:inst30|lpm_dff_8bit:inst69
+Set:inst30|lpm_dff_8bit:inst68
+Set:inst30|lpm_dff_8bit:inst67
+Set:inst30|lpm_dff_8bit:inst85
+Set:inst30|lpm_dff_8bit:inst84
+Set:inst30|lpm_dff_8bit:inst83
+Set:inst30|lpm_dff_8bit:inst53
+Set:inst30|lpm_dff_8bit:inst52
+Set:inst30|lpm_dff_8bit:inst51
+Set:inst30|lpm_dff_8bit:inst20
+Set:inst30|lpm_dff_8bit:inst19
 }
 # lmf
 |altera|91|quartus|lmf|maxplus2.lmf
@@ -2550,6 +2784,9 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+CacheCounter:inst25|lpm_counter_8:inst22
 }
 # lmf
 |altera|91|quartus|lmf|maxplus2.lmf
@@ -4664,8 +4901,15 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-lpm_decode_2bit:inst198
-lpm_decode_2bit:inst9
+Set:inst32|lpm_decode_2bit:inst198
+Set:inst32|lpm_decode_2bit:inst9
+lpm_decode_2bit:inst36
+Set:inst|lpm_decode_2bit:inst198
+Set:inst|lpm_decode_2bit:inst9
+Set:inst31|lpm_decode_2bit:inst198
+Set:inst31|lpm_decode_2bit:inst9
+Set:inst30|lpm_decode_2bit:inst198
+Set:inst30|lpm_decode_2bit:inst9
 }
 # lmf
 |altera|91|quartus|lmf|maxplus2.lmf
@@ -4746,8 +4990,15 @@ data0
 3
 }
 # hierarchies {
-lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component
-lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component
+Set:inst32|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component
+Set:inst32|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component
+lpm_decode_2bit:inst36|lpm_decode:lpm_decode_component
+Set:inst|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component
+Set:inst|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component
+Set:inst31|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component
+Set:inst31|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component
+Set:inst30|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component
+Set:inst30|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component
 }
 # macro_sequence
 
@@ -4783,8 +5034,15 @@ data0
 3
 }
 # hierarchies {
-lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
-lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+Set:inst32|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+Set:inst32|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+lpm_decode_2bit:inst36|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+Set:inst|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+Set:inst|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+Set:inst31|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+Set:inst31|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+Set:inst30|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+Set:inst30|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
 }
 # macro_sequence
 
@@ -4833,10 +5091,22 @@ lpm_compare.inc
 bbd3e8c93afb7320934629e5fb11566
 }
 # hierarchies {
-lpm_compare_4bit:inst33
-lpm_compare_4bit:inst35
-lpm_compare_4bit:inst36
-lpm_compare_4bit:inst34
+Set:inst32|lpm_compare_4bit:inst33
+Set:inst32|lpm_compare_4bit:inst35
+Set:inst32|lpm_compare_4bit:inst36
+Set:inst32|lpm_compare_4bit:inst34
+Set:inst|lpm_compare_4bit:inst33
+Set:inst|lpm_compare_4bit:inst35
+Set:inst|lpm_compare_4bit:inst36
+Set:inst|lpm_compare_4bit:inst34
+Set:inst31|lpm_compare_4bit:inst33
+Set:inst31|lpm_compare_4bit:inst35
+Set:inst31|lpm_compare_4bit:inst36
+Set:inst31|lpm_compare_4bit:inst34
+Set:inst30|lpm_compare_4bit:inst33
+Set:inst30|lpm_compare_4bit:inst35
+Set:inst30|lpm_compare_4bit:inst36
+Set:inst30|lpm_compare_4bit:inst34
 }
 # macro_sequence
 
@@ -4943,10 +5213,22 @@ aeb
 3
 }
 # hierarchies {
-lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component
-lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component
-lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component
-lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component
+Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component
+Set:inst32|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component
+Set:inst32|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component
+Set:inst32|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component
+Set:inst|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component
+Set:inst|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component
+Set:inst|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component
+Set:inst|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component
+Set:inst31|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component
+Set:inst31|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component
+Set:inst31|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component
+Set:inst31|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component
+Set:inst30|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component
+Set:inst30|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component
+Set:inst30|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component
+Set:inst30|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component
 }
 # macro_sequence
 
@@ -4991,10 +5273,22 @@ aeb
 3
 }
 # hierarchies {
-lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
-lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
-lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
-lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
+Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
+Set:inst32|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
+Set:inst32|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
+Set:inst32|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
+Set:inst|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
+Set:inst|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
+Set:inst|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
+Set:inst|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
+Set:inst31|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
+Set:inst31|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
+Set:inst31|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
+Set:inst31|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
+Set:inst30|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
+Set:inst30|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
+Set:inst30|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
+Set:inst30|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
 }
 # macro_sequence
 
@@ -5024,18 +5318,62 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-lpm_bustri_4bit:inst13
-lpm_bustri_4bit:inst11
-lpm_bustri_4bit:inst10
-lpm_bustri_4bit:inst12
-lpm_bustri_4bit:inst172
-lpm_bustri_4bit:inst229
-lpm_bustri_4bit:inst230
-lpm_bustri_4bit:inst231
-lpm_bustri_4bit:inst168
-lpm_bustri_4bit:inst171
-lpm_bustri_4bit:inst170
-lpm_bustri_4bit:inst169
+Set:inst32|lpm_bustri_4bit:inst13
+Set:inst32|lpm_bustri_4bit:inst11
+Set:inst32|lpm_bustri_4bit:inst10
+Set:inst32|lpm_bustri_4bit:inst12
+Set:inst32|lpm_bustri_4bit:inst7
+Set:inst32|lpm_bustri_4bit:inst6
+Set:inst32|lpm_bustri_4bit:inst172
+Set:inst32|lpm_bustri_4bit:inst230
+Set:inst32|lpm_bustri_4bit:inst231
+Set:inst32|lpm_bustri_4bit:inst229
+Set:inst32|lpm_bustri_4bit:inst168
+Set:inst32|lpm_bustri_4bit:inst171
+Set:inst32|lpm_bustri_4bit:inst170
+Set:inst32|lpm_bustri_4bit:inst169
+Set:inst|lpm_bustri_4bit:inst13
+Set:inst|lpm_bustri_4bit:inst11
+Set:inst|lpm_bustri_4bit:inst10
+Set:inst|lpm_bustri_4bit:inst12
+Set:inst|lpm_bustri_4bit:inst7
+Set:inst|lpm_bustri_4bit:inst6
+Set:inst|lpm_bustri_4bit:inst172
+Set:inst|lpm_bustri_4bit:inst230
+Set:inst|lpm_bustri_4bit:inst231
+Set:inst|lpm_bustri_4bit:inst229
+Set:inst|lpm_bustri_4bit:inst168
+Set:inst|lpm_bustri_4bit:inst171
+Set:inst|lpm_bustri_4bit:inst170
+Set:inst|lpm_bustri_4bit:inst169
+Set:inst31|lpm_bustri_4bit:inst13
+Set:inst31|lpm_bustri_4bit:inst11
+Set:inst31|lpm_bustri_4bit:inst10
+Set:inst31|lpm_bustri_4bit:inst12
+Set:inst31|lpm_bustri_4bit:inst7
+Set:inst31|lpm_bustri_4bit:inst6
+Set:inst31|lpm_bustri_4bit:inst172
+Set:inst31|lpm_bustri_4bit:inst230
+Set:inst31|lpm_bustri_4bit:inst231
+Set:inst31|lpm_bustri_4bit:inst229
+Set:inst31|lpm_bustri_4bit:inst168
+Set:inst31|lpm_bustri_4bit:inst171
+Set:inst31|lpm_bustri_4bit:inst170
+Set:inst31|lpm_bustri_4bit:inst169
+Set:inst30|lpm_bustri_4bit:inst13
+Set:inst30|lpm_bustri_4bit:inst11
+Set:inst30|lpm_bustri_4bit:inst10
+Set:inst30|lpm_bustri_4bit:inst12
+Set:inst30|lpm_bustri_4bit:inst7
+Set:inst30|lpm_bustri_4bit:inst6
+Set:inst30|lpm_bustri_4bit:inst172
+Set:inst30|lpm_bustri_4bit:inst230
+Set:inst30|lpm_bustri_4bit:inst231
+Set:inst30|lpm_bustri_4bit:inst229
+Set:inst30|lpm_bustri_4bit:inst168
+Set:inst30|lpm_bustri_4bit:inst171
+Set:inst30|lpm_bustri_4bit:inst170
+Set:inst30|lpm_bustri_4bit:inst169
 }
 # lmf
 |altera|91|quartus|lmf|maxplus2.lmf
@@ -5089,35 +5427,62 @@ data0
 3
 }
 # hierarchies {
-lpm_bustri_4bit:inst13|lpm_bustri:lpm_bustri_component
-lpm_bustri_4bit:inst11|lpm_bustri:lpm_bustri_component
-lpm_bustri_4bit:inst10|lpm_bustri:lpm_bustri_component
-lpm_bustri_4bit:inst12|lpm_bustri:lpm_bustri_component
-lpm_bustri_4bit:inst172|lpm_bustri:lpm_bustri_component
-lpm_bustri_4bit:inst229|lpm_bustri:lpm_bustri_component
-lpm_bustri_4bit:inst230|lpm_bustri:lpm_bustri_component
-lpm_bustri_4bit:inst231|lpm_bustri:lpm_bustri_component
-lpm_bustri_4bit:inst168|lpm_bustri:lpm_bustri_component
-lpm_bustri_4bit:inst171|lpm_bustri:lpm_bustri_component
-lpm_bustri_4bit:inst170|lpm_bustri:lpm_bustri_component
-lpm_bustri_4bit:inst169|lpm_bustri:lpm_bustri_component
-}
-# macro_sequence
-
-# end
-# entity
-CacheCounter
-# storage
-db|Project.(66).cnf
-db|Project.(66).cnf
-# case_insensitive
-# source_file
-cachecounter.bdf
-af0f824a823f384ca4cb9763f2c303
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
+Set:inst32|lpm_bustri_4bit:inst13|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_4bit:inst11|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_4bit:inst10|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_4bit:inst12|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_4bit:inst7|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_4bit:inst6|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_4bit:inst172|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_4bit:inst230|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_4bit:inst231|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_4bit:inst229|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_4bit:inst168|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_4bit:inst171|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_4bit:inst170|lpm_bustri:lpm_bustri_component
+Set:inst32|lpm_bustri_4bit:inst169|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_4bit:inst13|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_4bit:inst11|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_4bit:inst10|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_4bit:inst12|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_4bit:inst7|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_4bit:inst6|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_4bit:inst172|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_4bit:inst230|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_4bit:inst231|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_4bit:inst229|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_4bit:inst168|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_4bit:inst171|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_4bit:inst170|lpm_bustri:lpm_bustri_component
+Set:inst|lpm_bustri_4bit:inst169|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_4bit:inst13|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_4bit:inst11|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_4bit:inst10|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_4bit:inst12|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_4bit:inst7|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_4bit:inst6|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_4bit:inst172|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_4bit:inst230|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_4bit:inst231|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_4bit:inst229|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_4bit:inst168|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_4bit:inst171|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_4bit:inst170|lpm_bustri:lpm_bustri_component
+Set:inst31|lpm_bustri_4bit:inst169|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_4bit:inst13|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_4bit:inst11|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_4bit:inst10|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_4bit:inst12|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_4bit:inst7|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_4bit:inst6|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_4bit:inst172|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_4bit:inst230|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_4bit:inst231|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_4bit:inst229|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_4bit:inst168|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_4bit:inst171|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_4bit:inst170|lpm_bustri:lpm_bustri_component
+Set:inst30|lpm_bustri_4bit:inst169|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -5277,7 +5642,10 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-lpm_counter_2bit:inst196
+Set:inst32|lpm_counter_2bit:inst196
+Set:inst|lpm_counter_2bit:inst196
+Set:inst31|lpm_counter_2bit:inst196
+Set:inst30|lpm_counter_2bit:inst196
 }
 # lmf
 |altera|91|quartus|lmf|maxplus2.lmf
@@ -5381,7 +5749,10 @@ clock
 3
 }
 # hierarchies {
-lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component
+Set:inst32|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component
+Set:inst|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component
+Set:inst31|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component
+Set:inst30|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component
 }
 # macro_sequence
 
@@ -5408,7 +5779,10 @@ clock
 3
 }
 # hierarchies {
-lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component|cntr_olh:auto_generated
+Set:inst32|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component|cntr_olh:auto_generated
+Set:inst|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component|cntr_olh:auto_generated
+Set:inst31|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component|cntr_olh:auto_generated
+Set:inst30|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component|cntr_olh:auto_generated
 }
 # macro_sequence
 
@@ -5438,7 +5812,11 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-lpm_bustri_6bit:inst210
+lpm_bustri_6bit:inst72
+lpm_bustri_6bit:inst68
+lpm_bustri_6bit:inst71
+lpm_bustri_6bit:inst70
+lpm_bustri_6bit:inst69
 }
 # lmf
 |altera|91|quartus|lmf|maxplus2.lmf
@@ -5504,7 +5882,11 @@ data0
 3
 }
 # hierarchies {
-lpm_bustri_6bit:inst210|lpm_bustri:lpm_bustri_component
+lpm_bustri_6bit:inst72|lpm_bustri:lpm_bustri_component
+lpm_bustri_6bit:inst68|lpm_bustri:lpm_bustri_component
+lpm_bustri_6bit:inst71|lpm_bustri:lpm_bustri_component
+lpm_bustri_6bit:inst70|lpm_bustri:lpm_bustri_component
+lpm_bustri_6bit:inst69|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -5624,10 +6006,22 @@ clock
 3
 }
 # hierarchies {
-lpm_ff_4bit:inst234|lpm_ff:lpm_ff_component
-lpm_ff_4bit:inst232|lpm_ff:lpm_ff_component
-lpm_ff_4bit:inst209|lpm_ff:lpm_ff_component
-lpm_ff_4bit:inst233|lpm_ff:lpm_ff_component
+Set:inst32|lpm_ff_4bit:inst234|lpm_ff:lpm_ff_component
+Set:inst32|lpm_ff_4bit:inst232|lpm_ff:lpm_ff_component
+Set:inst32|lpm_ff_4bit:inst209|lpm_ff:lpm_ff_component
+Set:inst32|lpm_ff_4bit:inst233|lpm_ff:lpm_ff_component
+Set:inst|lpm_ff_4bit:inst234|lpm_ff:lpm_ff_component
+Set:inst|lpm_ff_4bit:inst232|lpm_ff:lpm_ff_component
+Set:inst|lpm_ff_4bit:inst209|lpm_ff:lpm_ff_component
+Set:inst|lpm_ff_4bit:inst233|lpm_ff:lpm_ff_component
+Set:inst31|lpm_ff_4bit:inst234|lpm_ff:lpm_ff_component
+Set:inst31|lpm_ff_4bit:inst232|lpm_ff:lpm_ff_component
+Set:inst31|lpm_ff_4bit:inst209|lpm_ff:lpm_ff_component
+Set:inst31|lpm_ff_4bit:inst233|lpm_ff:lpm_ff_component
+Set:inst30|lpm_ff_4bit:inst234|lpm_ff:lpm_ff_component
+Set:inst30|lpm_ff_4bit:inst232|lpm_ff:lpm_ff_component
+Set:inst30|lpm_ff_4bit:inst209|lpm_ff:lpm_ff_component
+Set:inst30|lpm_ff_4bit:inst233|lpm_ff:lpm_ff_component
 }
 # macro_sequence
 
@@ -5657,10 +6051,22 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-lpm_ff_4bit:inst234
-lpm_ff_4bit:inst232
-lpm_ff_4bit:inst209
-lpm_ff_4bit:inst233
+Set:inst32|lpm_ff_4bit:inst234
+Set:inst32|lpm_ff_4bit:inst232
+Set:inst32|lpm_ff_4bit:inst209
+Set:inst32|lpm_ff_4bit:inst233
+Set:inst|lpm_ff_4bit:inst234
+Set:inst|lpm_ff_4bit:inst232
+Set:inst|lpm_ff_4bit:inst209
+Set:inst|lpm_ff_4bit:inst233
+Set:inst31|lpm_ff_4bit:inst234
+Set:inst31|lpm_ff_4bit:inst232
+Set:inst31|lpm_ff_4bit:inst209
+Set:inst31|lpm_ff_4bit:inst233
+Set:inst30|lpm_ff_4bit:inst234
+Set:inst30|lpm_ff_4bit:inst232
+Set:inst30|lpm_ff_4bit:inst209
+Set:inst30|lpm_ff_4bit:inst233
 }
 # lmf
 |altera|91|quartus|lmf|maxplus2.lmf
@@ -5676,7 +6082,153 @@ db|Project.(54).cnf
 # case_insensitive
 # source_file
 set.bdf
-c955b0fea6b65a3a6530a13197d0a898
+d1a62055b9bbcd61d45581a7494be
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Set:inst32
+Set:inst
+Set:inst31
+Set:inst30
+}
+# macro_sequence
+
+# end
+# entity
+CacheCounter
+# storage
+db|Project.(66).cnf
+db|Project.(66).cnf
+# case_insensitive
+# source_file
+cachecounter.bdf
+991c46735bd69a229787cfa4acaf739
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+CacheCounter:inst25
+}
+# macro_sequence
+
+# end
+# entity
+altsyncram_aa91
+# storage
+db|Project.(6).cnf
+db|Project.(6).cnf
+# case_insensitive
+# source_file
+db|altsyncram_aa91.tdf
+c9ea8f551fc69ab494e185b1d3fa5c6
+7
+# used_port {
+wren_a
+-1
+3
+q_a7
+-1
+3
+q_a6
+-1
+3
+q_a5
+-1
+3
+q_a4
+-1
+3
+q_a3
+-1
+3
+q_a2
+-1
+3
+q_a1
+-1
+3
+q_a0
+-1
+3
+data_a7
+-1
+3
+data_a6
+-1
+3
+data_a5
+-1
+3
+data_a4
+-1
+3
+data_a3
+-1
+3
+data_a2
+-1
+3
+data_a1
+-1
+3
+data_a0
+-1
+3
+clock1
+-1
+3
+clock0
+-1
+3
+address_a7
+-1
+3
+address_a6
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# memory_file {
+ram.hex
+64a47c8c4fa8d725fc1d75dd85b7ddb
+}
+# hierarchies {
+RAM:inst20|lpm_ram_io:inst|altram:sram|altsyncram:ram_block|altsyncram_aa91:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+Cache
+# storage
+db|Project.(76).cnf
+db|Project.(76).cnf
+# case_insensitive
+# source_file
+cache.bdf
+945e6da7ed2d8c0eb1b97a311653f2
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
