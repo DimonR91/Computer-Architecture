@@ -53,10 +53,17 @@ applicable agreement for further details.
 	)
 	(port
 		(pt 200 48)
+		(output)
+		(text "BX[7..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "BX[7..0]" (rect 135 43 179 57)(font "Arial" (font_size 8)))
+		(line (pt 200 48)(pt 184 48)(line_width 3))
+	)
+	(port
+		(pt 200 64)
 		(bidir)
 		(text "DATA[7..0]" (rect 0 0 62 14)(font "Arial" (font_size 8)))
-		(text "DATA[7..0]" (rect 117 43 179 57)(font "Arial" (font_size 8)))
-		(line (pt 200 48)(pt 184 48)(line_width 3))
+		(text "DATA[7..0]" (rect 117 59 179 73)(font "Arial" (font_size 8)))
+		(line (pt 200 64)(pt 184 64)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 184 80)(line_width 1))
