@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Project
-Sun May 05 03:34:16 2013
+Sun May 05 17:13:41 2013
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -344,33 +344,39 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 336. Parameter Settings for User Entity Instance: ROM:inst3|LPM_ROM:inst
 337. Parameter Settings for User Entity Instance: lpm_counter_8bit_with_load:inst18|lpm_counter:lpm_counter_component
 338. Parameter Settings for User Entity Instance: lpm_dff_8bit_en:inst|lpm_ff:lpm_ff_component
-339. Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst30|lpm_bustri:lpm_bustri_component
-340. Parameter Settings for User Entity Instance: lpm_dff_8bit_en:inst7|lpm_ff:lpm_ff_component
-341. Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst28|lpm_bustri:lpm_bustri_component
-342. Parameter Settings for User Entity Instance: lpm_dff_8bit_en:inst8|lpm_ff:lpm_ff_component
-343. Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst58|lpm_bustri:lpm_bustri_component
-344. Parameter Settings for User Entity Instance: lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component
-345. Parameter Settings for User Entity Instance: RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component
-346. Parameter Settings for User Entity Instance: RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component
-347. Parameter Settings for User Entity Instance: RON:inst13|lpm_dff0:inst36|lpm_ff:lpm_ff_component
-348. Parameter Settings for User Entity Instance: RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component
-349. Parameter Settings for User Entity Instance: RON:inst13|lpm_bustri_8:inst15|lpm_bustri:lpm_bustri_component
-350. Parameter Settings for User Entity Instance: RON:inst13|lpm_dff0:inst38|lpm_ff:lpm_ff_component
-351. Parameter Settings for User Entity Instance: RON:inst13|lpm_bustri_8:inst20|lpm_bustri:lpm_bustri_component
-352. Parameter Settings for User Entity Instance: RON:inst13|lpm_dff0:inst37|lpm_ff:lpm_ff_component
-353. Parameter Settings for User Entity Instance: lpm_bustri_4bit:inst29|lpm_bustri:lpm_bustri_component
-354. Parameter Settings for User Entity Instance: lpm_bustri_4bit:inst26|lpm_bustri:lpm_bustri_component
-355. Parameter Settings for User Entity Instance: RAM:inst24|lpm_bustri_8:inst3|lpm_bustri:lpm_bustri_component
-356. Parameter Settings for User Entity Instance: RAM:inst24|LPM_RAM_IO:inst
-357. Parameter Settings for User Entity Instance: ALU:inst12|lpm_compare_8bit:inst|lpm_compare:lpm_compare_component
-358. Parameter Settings for User Entity Instance: ALU:inst12|lpm_and_8bit:inst4|LPM_AND:lpm_and_component
-359. Parameter Settings for User Entity Instance: ALU:inst12|lpm_or_8bit:inst9|LPM_OR:lpm_or_component
-360. Parameter Settings for User Entity Instance: ALU:inst12|lpm_counter_8:inst35|lpm_counter:lpm_counter_component
-361. Parameter Settings for User Entity Instance: ALU:inst12|lpm_dff_8bit:inst1|lpm_ff:lpm_ff_component
-362. Parameter Settings for User Entity Instance: ALU:inst12|lpm_compare_Equal_8bit:inst5|lpm_compare:lpm_compare_component
-363. Parameter Settings for User Entity Instance: ALU:inst12|lpm_shiftreg_8bit:inst10|lpm_shiftreg:lpm_shiftreg_component
-364. lpm_shiftreg Parameter Settings by Entity Instance
-365. Analysis & Synthesis Messages
+339. Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst41|lpm_bustri:lpm_bustri_component
+340. Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst53|lpm_bustri:lpm_bustri_component
+341. Parameter Settings for User Entity Instance: lpm_dff_8bit_en:inst7|lpm_ff:lpm_ff_component
+342. Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst32|lpm_bustri:lpm_bustri_component
+343. Parameter Settings for User Entity Instance: lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component
+344. Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst80|lpm_bustri:lpm_bustri_component
+345. Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst79|lpm_bustri:lpm_bustri_component
+346. Parameter Settings for User Entity Instance: lpm_dff_8bit_en:inst8|lpm_ff:lpm_ff_component
+347. Parameter Settings for User Entity Instance: RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component
+348. Parameter Settings for User Entity Instance: RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component
+349. Parameter Settings for User Entity Instance: RON:inst13|lpm_dff0:inst36|lpm_ff:lpm_ff_component
+350. Parameter Settings for User Entity Instance: RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component
+351. Parameter Settings for User Entity Instance: RON:inst13|lpm_bustri_8:inst15|lpm_bustri:lpm_bustri_component
+352. Parameter Settings for User Entity Instance: RON:inst13|lpm_dff0:inst38|lpm_ff:lpm_ff_component
+353. Parameter Settings for User Entity Instance: RON:inst13|lpm_bustri_8:inst20|lpm_bustri:lpm_bustri_component
+354. Parameter Settings for User Entity Instance: RON:inst13|lpm_dff0:inst37|lpm_ff:lpm_ff_component
+355. Parameter Settings for User Entity Instance: lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component
+356. Parameter Settings for User Entity Instance: lpm_bustri_4bit:inst29|lpm_bustri:lpm_bustri_component
+357. Parameter Settings for User Entity Instance: lpm_bustri_4bit:inst26|lpm_bustri:lpm_bustri_component
+358. Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst30|lpm_bustri:lpm_bustri_component
+359. Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst28|lpm_bustri:lpm_bustri_component
+360. Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst58|lpm_bustri:lpm_bustri_component
+361. Parameter Settings for User Entity Instance: RAM:inst24|lpm_bustri_8:inst3|lpm_bustri:lpm_bustri_component
+362. Parameter Settings for User Entity Instance: RAM:inst24|LPM_RAM_IO:inst
+363. Parameter Settings for User Entity Instance: ALU:inst12|lpm_compare_8bit:inst|lpm_compare:lpm_compare_component
+364. Parameter Settings for User Entity Instance: ALU:inst12|lpm_and_8bit:inst4|LPM_AND:lpm_and_component
+365. Parameter Settings for User Entity Instance: ALU:inst12|lpm_or_8bit:inst9|LPM_OR:lpm_or_component
+366. Parameter Settings for User Entity Instance: ALU:inst12|lpm_counter_8:inst35|lpm_counter:lpm_counter_component
+367. Parameter Settings for User Entity Instance: ALU:inst12|lpm_dff_8bit:inst1|lpm_ff:lpm_ff_component
+368. Parameter Settings for User Entity Instance: ALU:inst12|lpm_compare_Equal_8bit:inst5|lpm_compare:lpm_compare_component
+369. Parameter Settings for User Entity Instance: ALU:inst12|lpm_shiftreg_8bit:inst10|lpm_shiftreg:lpm_shiftreg_component
+370. lpm_shiftreg Parameter Settings by Entity Instance
+371. Analysis & Synthesis Messages
 
 
 
@@ -396,16 +402,16 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Sun May 05 03:34:16 2013   ;
+; Analysis & Synthesis Status   ; Successful - Sun May 05 17:13:41 2013   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; Project                                 ;
 ; Top-level Entity Name         ; CPUManager                              ;
 ; Family                        ; Stratix II                              ;
 ; Logic utilization             ; N/A                                     ;
-;     Combinational ALUTs       ; 1,315                                   ;
-;     Dedicated logic registers ; 669                                     ;
-; Total registers               ; 669                                     ;
-; Total pins                    ; 140                                     ;
+;     Combinational ALUTs       ; 1,366                                   ;
+;     Dedicated logic registers ; 677                                     ;
+; Total registers               ; 677                                     ;
+; Total pins                    ; 164                                     ;
 ; Total virtual pins            ; 0                                       ;
 ; Total block memory bits       ; 4,096                                   ;
 ; DSP block 9-bit elements      ; 0                                       ;
@@ -538,6 +544,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; lpm_counter_5bit.vhd             ; yes             ; User Wizard-Generated File            ; D:/Учеба/СиФО/Курсач/Project/lpm_counter_5bit.vhd             ;
 ; lpm_dff_8bit_en.vhd              ; yes             ; User Wizard-Generated File            ; D:/Учеба/СиФО/Курсач/Project/lpm_dff_8bit_en.vhd              ;
 ; lpm_decode_8bit_20out.vhd        ; yes             ; User Wizard-Generated File            ; D:/Учеба/СиФО/Курсач/Project/lpm_decode_8bit_20out.vhd        ;
+; lpm_add_8bit.vhd                 ; yes             ; User Wizard-Generated File            ; D:/Учеба/СиФО/Курсач/Project/lpm_add_8bit.vhd                 ;
 ; lpm_decode.tdf                   ; yes             ; Megafunction                          ; d:/altera/91/quartus/libraries/megafunctions/lpm_decode.tdf   ;
 ; lpm_compare.inc                  ; yes             ; Megafunction                          ; d:/altera/91/quartus/libraries/megafunctions/lpm_compare.inc  ;
 ; db/decode_d9f.tdf                ; yes             ; Auto-Generated Megafunction           ; D:/Учеба/СиФО/Курсач/Project/db/decode_d9f.tdf                ;
@@ -557,6 +564,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; altsyncram.tdf                   ; yes             ; Megafunction                          ; d:/altera/91/quartus/libraries/megafunctions/altsyncram.tdf   ;
 ; db/altsyncram_nrv.tdf            ; yes             ; Auto-Generated Megafunction           ; D:/Учеба/СиФО/Курсач/Project/db/altsyncram_nrv.tdf            ;
 ; db/cntr_pki.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/Учеба/СиФО/Курсач/Project/db/cntr_pki.tdf                  ;
+; lpm_add_sub.tdf                  ; yes             ; Megafunction                          ; d:/altera/91/quartus/libraries/megafunctions/lpm_add_sub.tdf  ;
+; db/add_sub_j4k.tdf               ; yes             ; Auto-Generated Megafunction           ; D:/Учеба/СиФО/Курсач/Project/db/add_sub_j4k.tdf               ;
 ; lpm_bustri_8.tdf                 ; yes             ; Auto-Found Wizard-Generated File      ; D:/Учеба/СиФО/Курсач/Project/lpm_bustri_8.tdf                 ;
 ; lpm_bustri.inc                   ; yes             ; Auto-Found AHDL File                  ; d:/altera/91/quartus/libraries/megafunctions/lpm_bustri.inc   ;
 ; lpm_ram_io.tdf                   ; yes             ; Megafunction                          ; d:/altera/91/quartus/libraries/megafunctions/lpm_ram_io.tdf   ;
@@ -572,45 +581,45 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-----------------+---------------------------------------+---------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                                                                    ;
-+-----------------------------------------------+----------------------------------------------------------------+
-; Resource                                      ; Usage                                                          ;
-+-----------------------------------------------+----------------------------------------------------------------+
-; Estimated ALUTs Used                          ; 1315                                                           ;
-; Dedicated logic registers                     ; 669                                                            ;
-;                                               ;                                                                ;
-; Estimated ALUTs Unavailable                   ; 751                                                            ;
-;                                               ;                                                                ;
-; Total combinational functions                 ; 1315                                                           ;
-; Combinational ALUT usage by number of inputs  ;                                                                ;
-;     -- 7 input functions                      ; 0                                                              ;
-;     -- 6 input functions                      ; 807                                                            ;
-;     -- 5 input functions                      ; 276                                                            ;
-;     -- 4 input functions                      ; 64                                                             ;
-;     -- <=3 input functions                    ; 168                                                            ;
-;                                               ;                                                                ;
-; Combinational ALUTs by mode                   ;                                                                ;
-;     -- normal mode                            ; 1286                                                           ;
-;     -- extended LUT mode                      ; 0                                                              ;
-;     -- arithmetic mode                        ; 29                                                             ;
-;     -- shared arithmetic mode                 ; 0                                                              ;
-;                                               ;                                                                ;
-; Estimated ALUT/register pairs used            ; 2132                                                           ;
-;                                               ;                                                                ;
-; Total registers                               ; 669                                                            ;
-;     -- Dedicated logic registers              ; 669                                                            ;
-;     -- I/O registers                          ; 0                                                              ;
-;                                               ;                                                                ;
-; Estimated ALMs:  partially or completely used ; 1,066                                                          ;
-;                                               ;                                                                ;
-; I/O pins                                      ; 140                                                            ;
-; Total block memory bits                       ; 4096                                                           ;
-; Maximum fan-out node                          ; lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[7]~26 ;
-; Maximum fan-out                               ; 544                                                            ;
-; Total fan-out                                 ; 8695                                                           ;
-; Average fan-out                               ; 4.06                                                           ;
-+-----------------------------------------------+----------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                                                   ;
++-----------------------------------------------+---------------------------------------------------------------+
+; Resource                                      ; Usage                                                         ;
++-----------------------------------------------+---------------------------------------------------------------+
+; Estimated ALUTs Used                          ; 1366                                                          ;
+; Dedicated logic registers                     ; 677                                                           ;
+;                                               ;                                                               ;
+; Estimated ALUTs Unavailable                   ; 884                                                           ;
+;                                               ;                                                               ;
+; Total combinational functions                 ; 1366                                                          ;
+; Combinational ALUT usage by number of inputs  ;                                                               ;
+;     -- 7 input functions                      ; 0                                                             ;
+;     -- 6 input functions                      ; 934                                                           ;
+;     -- 5 input functions                      ; 216                                                           ;
+;     -- 4 input functions                      ; 79                                                            ;
+;     -- <=3 input functions                    ; 137                                                           ;
+;                                               ;                                                               ;
+; Combinational ALUTs by mode                   ;                                                               ;
+;     -- normal mode                            ; 1329                                                          ;
+;     -- extended LUT mode                      ; 0                                                             ;
+;     -- arithmetic mode                        ; 37                                                            ;
+;     -- shared arithmetic mode                 ; 0                                                             ;
+;                                               ;                                                               ;
+; Estimated ALUT/register pairs used            ; 2317                                                          ;
+;                                               ;                                                               ;
+; Total registers                               ; 677                                                           ;
+;     -- Dedicated logic registers              ; 677                                                           ;
+;     -- I/O registers                          ; 0                                                             ;
+;                                               ;                                                               ;
+; Estimated ALMs:  partially or completely used ; 1,159                                                         ;
+;                                               ;                                                               ;
+; I/O pins                                      ; 164                                                           ;
+; Total block memory bits                       ; 4096                                                          ;
+; Maximum fan-out node                          ; lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[7]~0 ;
+; Maximum fan-out                               ; 545                                                           ;
+; Total fan-out                                 ; 9191                                                          ;
+; Average fan-out                               ; 4.13                                                          ;
++-----------------------------------------------+---------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -618,8 +627,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                         ; Library Name ;
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------+--------------+
-; |CPUManager                                     ; 1315 (10)         ; 669 (0)      ; 4096              ; 0            ; 0       ; 0         ; 0         ; 140  ; 0            ; |CPUManager                                                                                                                 ; work         ;
-;    |Cache:inst23|                               ; 1179 (15)         ; 592 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23                                                                                                    ; work         ;
+; |CPUManager                                     ; 1366 (16)         ; 677 (0)      ; 4096              ; 0            ; 0       ; 0         ; 0         ; 164  ; 0            ; |CPUManager                                                                                                                 ; work         ;
+;    |Cache:inst23|                               ; 1195 (14)         ; 592 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23                                                                                                    ; work         ;
 ;       |CacheCounter:inst25|                     ; 18 (10)           ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|CacheCounter:inst25                                                                                ; work         ;
 ;          |lpm_counter_8:inst22|                 ; 8 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|CacheCounter:inst25|lpm_counter_8:inst22                                                           ; work         ;
 ;             |lpm_counter:lpm_counter_component| ; 8 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|CacheCounter:inst25|lpm_counter_8:inst22|lpm_counter:lpm_counter_component                         ; work         ;
@@ -633,12 +642,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst16|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_bustri_8bit:inst37|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst37                                                                  ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst37|lpm_bustri:lpm_bustri_component                                  ; work         ;
-;          |lpm_bustri_8bit:inst42|               ; 66 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst42                                                                  ; work         ;
-;             |lpm_bustri:lpm_bustri_component|   ; 66 (66)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst42|lpm_bustri:lpm_bustri_component                                  ; work         ;
+;          |lpm_bustri_8bit:inst42|               ; 70 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst42                                                                  ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 70 (70)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst42|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_bustri_8bit:inst54|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst54                                                                  ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst54|lpm_bustri:lpm_bustri_component                                  ; work         ;
-;          |lpm_bustri_8bit:inst56|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst56                                                                  ; work         ;
-;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst56|lpm_bustri:lpm_bustri_component                                  ; work         ;
+;          |lpm_bustri_8bit:inst56|               ; 7 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst56                                                                  ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 7 (7)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst56|lpm_bustri:lpm_bustri_component                                  ; work         ;
+;          |lpm_bustri_8bit:inst58|               ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst58                                                                  ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst58|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_bustri_8bit:inst59|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst59                                                                  ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst59|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_bustri_8bit:inst60|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst60                                                                  ; work         ;
@@ -661,27 +672,21 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst92|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_bustri_8bit:inst93|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst93                                                                  ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_bustri_8bit:inst93|lpm_bustri:lpm_bustri_component                                  ; work         ;
-;          |lpm_compare_4bit:inst33|              ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst33                                                                 ; work         ;
-;             |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component                               ; work         ;
-;                |cmpr_big:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
-;          |lpm_compare_4bit:inst34|              ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst34                                                                 ; work         ;
-;             |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component                               ; work         ;
-;                |cmpr_big:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
-;          |lpm_compare_4bit:inst35|              ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst35                                                                 ; work         ;
-;             |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component                               ; work         ;
-;                |cmpr_big:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
-;          |lpm_compare_4bit:inst36|              ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst36                                                                 ; work         ;
-;             |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component                               ; work         ;
-;                |cmpr_big:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
+;          |lpm_compare_4bit:inst33|              ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst33                                                                 ; work         ;
+;             |lpm_compare:lpm_compare_component| ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component                               ; work         ;
+;                |cmpr_big:auto_generated|        ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
+;          |lpm_compare_4bit:inst34|              ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst34                                                                 ; work         ;
+;             |lpm_compare:lpm_compare_component| ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component                               ; work         ;
+;                |cmpr_big:auto_generated|        ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
+;          |lpm_compare_4bit:inst35|              ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst35                                                                 ; work         ;
+;             |lpm_compare:lpm_compare_component| ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component                               ; work         ;
+;                |cmpr_big:auto_generated|        ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
+;          |lpm_compare_4bit:inst36|              ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst36                                                                 ; work         ;
+;             |lpm_compare:lpm_compare_component| ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component                               ; work         ;
+;                |cmpr_big:auto_generated|        ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
 ;          |lpm_counter_2bit:inst196|             ; 2 (0)             ; 2 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_counter_2bit:inst196                                                                ; work         ;
 ;             |lpm_counter:lpm_counter_component| ; 2 (0)             ; 2 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component                              ; work         ;
 ;                |cntr_olh:auto_generated|        ; 2 (2)             ; 2 (2)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component|cntr_olh:auto_generated      ; work         ;
-;          |lpm_decode_2bit:inst198|              ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_decode_2bit:inst198                                                                 ; work         ;
-;             |lpm_decode:lpm_decode_component|   ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component                                 ; work         ;
-;                |decode_p7f:auto_generated|      ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component|decode_p7f:auto_generated       ; work         ;
-;          |lpm_decode_2bit:inst9|                ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_decode_2bit:inst9                                                                   ; work         ;
-;             |lpm_decode:lpm_decode_component|   ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component                                   ; work         ;
-;                |decode_p7f:auto_generated|      ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component|decode_p7f:auto_generated         ; work         ;
 ;          |lpm_dff_8bit:inst17|                  ; 0 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_dff_8bit:inst17                                                                     ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 8 (8)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_dff_8bit:inst17|lpm_ff:lpm_ff_component                                             ; work         ;
 ;          |lpm_dff_8bit:inst18|                  ; 0 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_dff_8bit:inst18                                                                     ; work         ;
@@ -722,7 +727,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 4 (4)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_ff_4bit:inst233|lpm_ff:lpm_ff_component                                             ; work         ;
 ;          |lpm_ff_4bit:inst234|                  ; 0 (0)             ; 4 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_ff_4bit:inst234                                                                     ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 4 (4)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst30|lpm_ff_4bit:inst234|lpm_ff:lpm_ff_component                                             ; work         ;
-;       |Set:inst31|                              ; 263 (47)          ; 146 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31                                                                                         ; work         ;
+;       |Set:inst31|                              ; 262 (47)          ; 146 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31                                                                                         ; work         ;
 ;          |lpm_bustri_8bit:inst14|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst14                                                                  ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst14|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_bustri_8bit:inst15|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst15                                                                  ; work         ;
@@ -731,8 +736,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst16|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_bustri_8bit:inst37|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst37                                                                  ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst37|lpm_bustri:lpm_bustri_component                                  ; work         ;
-;          |lpm_bustri_8bit:inst42|               ; 66 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst42                                                                  ; work         ;
-;             |lpm_bustri:lpm_bustri_component|   ; 66 (66)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst42|lpm_bustri:lpm_bustri_component                                  ; work         ;
+;          |lpm_bustri_8bit:inst42|               ; 67 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst42                                                                  ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 67 (67)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst42|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_bustri_8bit:inst54|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst54                                                                  ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst54|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_bustri_8bit:inst56|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst56                                                                  ; work         ;
@@ -759,18 +764,20 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst92|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_bustri_8bit:inst93|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst93                                                                  ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst93|lpm_bustri:lpm_bustri_component                                  ; work         ;
+;          |lpm_bustri_8bit:inst98|               ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst98                                                                  ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_bustri_8bit:inst98|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_compare_4bit:inst33|              ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst33                                                                 ; work         ;
 ;             |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component                               ; work         ;
 ;                |cmpr_big:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
-;          |lpm_compare_4bit:inst34|              ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst34                                                                 ; work         ;
-;             |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component                               ; work         ;
-;                |cmpr_big:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
-;          |lpm_compare_4bit:inst35|              ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst35                                                                 ; work         ;
-;             |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component                               ; work         ;
-;                |cmpr_big:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
-;          |lpm_compare_4bit:inst36|              ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst36                                                                 ; work         ;
-;             |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component                               ; work         ;
-;                |cmpr_big:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
+;          |lpm_compare_4bit:inst34|              ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst34                                                                 ; work         ;
+;             |lpm_compare:lpm_compare_component| ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component                               ; work         ;
+;                |cmpr_big:auto_generated|        ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
+;          |lpm_compare_4bit:inst35|              ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst35                                                                 ; work         ;
+;             |lpm_compare:lpm_compare_component| ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component                               ; work         ;
+;                |cmpr_big:auto_generated|        ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
+;          |lpm_compare_4bit:inst36|              ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst36                                                                 ; work         ;
+;             |lpm_compare:lpm_compare_component| ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component                               ; work         ;
+;                |cmpr_big:auto_generated|        ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
 ;          |lpm_counter_2bit:inst196|             ; 2 (0)             ; 2 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_counter_2bit:inst196                                                                ; work         ;
 ;             |lpm_counter:lpm_counter_component| ; 2 (0)             ; 2 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component                              ; work         ;
 ;                |cntr_olh:auto_generated|        ; 2 (2)             ; 2 (2)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component|cntr_olh:auto_generated      ; work         ;
@@ -814,7 +821,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 4 (4)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_ff_4bit:inst233|lpm_ff:lpm_ff_component                                             ; work         ;
 ;          |lpm_ff_4bit:inst234|                  ; 0 (0)             ; 4 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_ff_4bit:inst234                                                                     ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 4 (4)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst31|lpm_ff_4bit:inst234|lpm_ff:lpm_ff_component                                             ; work         ;
-;       |Set:inst32|                              ; 268 (52)          ; 146 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32                                                                                         ; work         ;
+;       |Set:inst32|                              ; 281 (67)          ; 146 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32                                                                                         ; work         ;
 ;          |lpm_bustri_8bit:inst14|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst14                                                                  ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst14|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_bustri_8bit:inst15|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst15                                                                  ; work         ;
@@ -823,14 +830,12 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst16|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_bustri_8bit:inst37|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst37                                                                  ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst37|lpm_bustri:lpm_bustri_component                                  ; work         ;
-;          |lpm_bustri_8bit:inst42|               ; 66 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst42                                                                  ; work         ;
-;             |lpm_bustri:lpm_bustri_component|   ; 66 (66)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst42|lpm_bustri:lpm_bustri_component                                  ; work         ;
-;          |lpm_bustri_8bit:inst45|               ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst45                                                                  ; work         ;
-;             |lpm_bustri:lpm_bustri_component|   ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst45|lpm_bustri:lpm_bustri_component                                  ; work         ;
+;          |lpm_bustri_8bit:inst42|               ; 67 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst42                                                                  ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 67 (67)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst42|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_bustri_8bit:inst54|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst54                                                                  ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst54|lpm_bustri:lpm_bustri_component                                  ; work         ;
-;          |lpm_bustri_8bit:inst56|               ; 7 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst56                                                                  ; work         ;
-;             |lpm_bustri:lpm_bustri_component|   ; 7 (7)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst56|lpm_bustri:lpm_bustri_component                                  ; work         ;
+;          |lpm_bustri_8bit:inst56|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst56                                                                  ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst56|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_bustri_8bit:inst59|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst59                                                                  ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst59|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_bustri_8bit:inst60|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst60                                                                  ; work         ;
@@ -853,18 +858,20 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst92|lpm_bustri:lpm_bustri_component                                  ; work         ;
 ;          |lpm_bustri_8bit:inst93|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst93                                                                  ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst93|lpm_bustri:lpm_bustri_component                                  ; work         ;
-;          |lpm_compare_4bit:inst33|              ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst33                                                                 ; work         ;
-;             |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component                               ; work         ;
-;                |cmpr_big:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
-;          |lpm_compare_4bit:inst34|              ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst34                                                                 ; work         ;
-;             |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component                               ; work         ;
-;                |cmpr_big:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
-;          |lpm_compare_4bit:inst35|              ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst35                                                                 ; work         ;
-;             |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component                               ; work         ;
-;                |cmpr_big:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
-;          |lpm_compare_4bit:inst36|              ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst36                                                                 ; work         ;
-;             |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component                               ; work         ;
-;                |cmpr_big:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
+;          |lpm_bustri_8bit:inst98|               ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst98                                                                  ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_bustri_8bit:inst98|lpm_bustri:lpm_bustri_component                                  ; work         ;
+;          |lpm_compare_4bit:inst33|              ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst33                                                                 ; work         ;
+;             |lpm_compare:lpm_compare_component| ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component                               ; work         ;
+;                |cmpr_big:auto_generated|        ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
+;          |lpm_compare_4bit:inst34|              ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst34                                                                 ; work         ;
+;             |lpm_compare:lpm_compare_component| ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component                               ; work         ;
+;                |cmpr_big:auto_generated|        ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
+;          |lpm_compare_4bit:inst35|              ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst35                                                                 ; work         ;
+;             |lpm_compare:lpm_compare_component| ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component                               ; work         ;
+;                |cmpr_big:auto_generated|        ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
+;          |lpm_compare_4bit:inst36|              ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst36                                                                 ; work         ;
+;             |lpm_compare:lpm_compare_component| ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component                               ; work         ;
+;                |cmpr_big:auto_generated|        ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component|cmpr_big:auto_generated       ; work         ;
 ;          |lpm_counter_2bit:inst196|             ; 2 (0)             ; 2 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_counter_2bit:inst196                                                                ; work         ;
 ;             |lpm_counter:lpm_counter_component| ; 2 (0)             ; 2 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component                              ; work         ;
 ;                |cntr_olh:auto_generated|        ; 2 (2)             ; 2 (2)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component|cntr_olh:auto_generated      ; work         ;
@@ -908,7 +915,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 4 (4)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_ff_4bit:inst233|lpm_ff:lpm_ff_component                                             ; work         ;
 ;          |lpm_ff_4bit:inst234|                  ; 0 (0)             ; 4 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_ff_4bit:inst234                                                                     ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 4 (4)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst32|lpm_ff_4bit:inst234|lpm_ff:lpm_ff_component                                             ; work         ;
-;       |Set:inst|                                ; 212 (47)          ; 146 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst                                                                                           ; work         ;
+;       |Set:inst|                                ; 218 (48)          ; 146 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst                                                                                           ; work         ;
 ;          |lpm_bustri_4bit:inst6|                ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_4bit:inst6                                                                     ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_4bit:inst6|lpm_bustri:lpm_bustri_component                                     ; work         ;
 ;          |lpm_bustri_4bit:inst7|                ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_4bit:inst7                                                                     ; work         ;
@@ -921,12 +928,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst16|lpm_bustri:lpm_bustri_component                                    ; work         ;
 ;          |lpm_bustri_8bit:inst37|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst37                                                                    ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst37|lpm_bustri:lpm_bustri_component                                    ; work         ;
-;          |lpm_bustri_8bit:inst42|               ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst42                                                                    ; work         ;
-;             |lpm_bustri:lpm_bustri_component|   ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst42|lpm_bustri:lpm_bustri_component                                    ; work         ;
+;          |lpm_bustri_8bit:inst42|               ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst42                                                                    ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst42|lpm_bustri:lpm_bustri_component                                    ; work         ;
 ;          |lpm_bustri_8bit:inst54|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst54                                                                    ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst54|lpm_bustri:lpm_bustri_component                                    ; work         ;
 ;          |lpm_bustri_8bit:inst56|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst56                                                                    ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst56|lpm_bustri:lpm_bustri_component                                    ; work         ;
+;          |lpm_bustri_8bit:inst58|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst58                                                                    ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst58|lpm_bustri:lpm_bustri_component                                    ; work         ;
 ;          |lpm_bustri_8bit:inst59|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst59                                                                    ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst59|lpm_bustri:lpm_bustri_component                                    ; work         ;
 ;          |lpm_bustri_8bit:inst60|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst60                                                                    ; work         ;
@@ -949,18 +958,18 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst92|lpm_bustri:lpm_bustri_component                                    ; work         ;
 ;          |lpm_bustri_8bit:inst93|               ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst93                                                                    ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_bustri_8bit:inst93|lpm_bustri:lpm_bustri_component                                    ; work         ;
-;          |lpm_compare_4bit:inst33|              ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst33                                                                   ; work         ;
-;             |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component                                 ; work         ;
-;                |cmpr_big:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated         ; work         ;
-;          |lpm_compare_4bit:inst34|              ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst34                                                                   ; work         ;
-;             |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component                                 ; work         ;
-;                |cmpr_big:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component|cmpr_big:auto_generated         ; work         ;
-;          |lpm_compare_4bit:inst35|              ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst35                                                                   ; work         ;
-;             |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component                                 ; work         ;
-;                |cmpr_big:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component|cmpr_big:auto_generated         ; work         ;
-;          |lpm_compare_4bit:inst36|              ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst36                                                                   ; work         ;
-;             |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component                                 ; work         ;
-;                |cmpr_big:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component|cmpr_big:auto_generated         ; work         ;
+;          |lpm_compare_4bit:inst33|              ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst33                                                                   ; work         ;
+;             |lpm_compare:lpm_compare_component| ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component                                 ; work         ;
+;                |cmpr_big:auto_generated|        ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated         ; work         ;
+;          |lpm_compare_4bit:inst34|              ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst34                                                                   ; work         ;
+;             |lpm_compare:lpm_compare_component| ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component                                 ; work         ;
+;                |cmpr_big:auto_generated|        ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component|cmpr_big:auto_generated         ; work         ;
+;          |lpm_compare_4bit:inst35|              ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst35                                                                   ; work         ;
+;             |lpm_compare:lpm_compare_component| ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component                                 ; work         ;
+;                |cmpr_big:auto_generated|        ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component|cmpr_big:auto_generated         ; work         ;
+;          |lpm_compare_4bit:inst36|              ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst36                                                                   ; work         ;
+;             |lpm_compare:lpm_compare_component| ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component                                 ; work         ;
+;                |cmpr_big:auto_generated|        ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component|cmpr_big:auto_generated         ; work         ;
 ;          |lpm_counter_2bit:inst196|             ; 2 (0)             ; 2 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_counter_2bit:inst196                                                                  ; work         ;
 ;             |lpm_counter:lpm_counter_component| ; 2 (0)             ; 2 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component                                ; work         ;
 ;                |cntr_olh:auto_generated|        ; 2 (2)             ; 2 (2)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component|cntr_olh:auto_generated        ; work         ;
@@ -1004,8 +1013,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 4 (4)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_ff_4bit:inst233|lpm_ff:lpm_ff_component                                               ; work         ;
 ;          |lpm_ff_4bit:inst234|                  ; 0 (0)             ; 4 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_ff_4bit:inst234                                                                       ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 4 (4)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|Set:inst|lpm_ff_4bit:inst234|lpm_ff:lpm_ff_component                                               ; work         ;
-;       |lpm_bustri_6bit:inst69|                  ; 10 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_6bit:inst69                                                                             ; work         ;
-;          |lpm_bustri:lpm_bustri_component|      ; 10 (10)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_6bit:inst69|lpm_bustri:lpm_bustri_component                                             ; work         ;
+;       |lpm_bustri_6bit:inst69|                  ; 12 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_6bit:inst69                                                                             ; work         ;
+;          |lpm_bustri:lpm_bustri_component|      ; 12 (12)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_6bit:inst69|lpm_bustri:lpm_bustri_component                                             ; work         ;
 ;       |lpm_bustri_6bit:inst70|                  ; 9 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_6bit:inst70                                                                             ; work         ;
 ;          |lpm_bustri:lpm_bustri_component|      ; 9 (9)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_6bit:inst70|lpm_bustri:lpm_bustri_component                                             ; work         ;
 ;       |lpm_bustri_6bit:inst71|                  ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_6bit:inst71                                                                             ; work         ;
@@ -1014,17 +1023,17 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |lpm_bustri:lpm_bustri_component|      ; 10 (10)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_6bit:inst72|lpm_bustri:lpm_bustri_component                                             ; work         ;
 ;       |lpm_bustri_8bit:inst21|                  ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_8bit:inst21                                                                             ; work         ;
 ;          |lpm_bustri:lpm_bustri_component|      ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_8bit:inst21|lpm_bustri:lpm_bustri_component                                             ; work         ;
-;       |lpm_bustri_8bit:inst54|                  ; 91 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_8bit:inst54                                                                             ; work         ;
-;          |lpm_bustri:lpm_bustri_component|      ; 91 (91)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_8bit:inst54|lpm_bustri:lpm_bustri_component                                             ; work         ;
-;       |lpm_bustri_8bit:inst55|                  ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_8bit:inst55                                                                             ; work         ;
-;          |lpm_bustri:lpm_bustri_component|      ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_8bit:inst55|lpm_bustri:lpm_bustri_component                                             ; work         ;
-;       |lpm_bustri_8bit:inst56|                  ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_8bit:inst56                                                                             ; work         ;
-;          |lpm_bustri:lpm_bustri_component|      ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_8bit:inst56|lpm_bustri:lpm_bustri_component                                             ; work         ;
+;       |lpm_bustri_8bit:inst54|                  ; 75 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_8bit:inst54                                                                             ; work         ;
+;          |lpm_bustri:lpm_bustri_component|      ; 75 (75)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_8bit:inst54|lpm_bustri:lpm_bustri_component                                             ; work         ;
+;       |lpm_bustri_8bit:inst55|                  ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_8bit:inst55                                                                             ; work         ;
+;          |lpm_bustri:lpm_bustri_component|      ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_8bit:inst55|lpm_bustri:lpm_bustri_component                                             ; work         ;
+;       |lpm_bustri_8bit:inst56|                  ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_8bit:inst56                                                                             ; work         ;
+;          |lpm_bustri:lpm_bustri_component|      ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_8bit:inst56|lpm_bustri:lpm_bustri_component                                             ; work         ;
 ;       |lpm_bustri_8bit:inst57|                  ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_8bit:inst57                                                                             ; work         ;
 ;          |lpm_bustri:lpm_bustri_component|      ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_bustri_8bit:inst57|lpm_bustri:lpm_bustri_component                                             ; work         ;
-;       |lpm_decode_2bit:inst36|                  ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_decode_2bit:inst36                                                                             ; work         ;
-;          |lpm_decode:lpm_decode_component|      ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_decode_2bit:inst36|lpm_decode:lpm_decode_component                                             ; work         ;
-;             |decode_p7f:auto_generated|         ; 4 (4)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_decode_2bit:inst36|lpm_decode:lpm_decode_component|decode_p7f:auto_generated                   ; work         ;
+;       |lpm_decode_2bit:inst36|                  ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_decode_2bit:inst36                                                                             ; work         ;
+;          |lpm_decode:lpm_decode_component|      ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_decode_2bit:inst36|lpm_decode:lpm_decode_component                                             ; work         ;
+;             |decode_p7f:auto_generated|         ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|Cache:inst23|lpm_decode_2bit:inst36|lpm_decode:lpm_decode_component|decode_p7f:auto_generated                   ; work         ;
 ;    |RAM:inst24|                                 ; 17 (0)            ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|RAM:inst24                                                                                                      ; work         ;
 ;       |lpm_bustri_8:inst3|                      ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|RAM:inst24|lpm_bustri_8:inst3                                                                                   ; work         ;
 ;          |lpm_bustri:lpm_bustri_component|      ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|RAM:inst24|lpm_bustri_8:inst3|lpm_bustri:lpm_bustri_component                                                   ; work         ;
@@ -1037,7 +1046,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |altrom:srom|                          ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|ROM:inst3|lpm_rom:inst|altrom:srom                                                                              ; work         ;
 ;             |altsyncram:rom_block|              ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|ROM:inst3|lpm_rom:inst|altrom:srom|altsyncram:rom_block                                                         ; work         ;
 ;                |altsyncram_nrv:auto_generated|  ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|ROM:inst3|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_nrv:auto_generated                           ; work         ;
-;    |RON:inst13|                                 ; 41 (9)            ; 32 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|RON:inst13                                                                                                      ; work         ;
+;    |RON:inst13|                                 ; 40 (8)            ; 32 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|RON:inst13                                                                                                      ; work         ;
 ;       |lpm_bustri_8:inst14|                     ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|RON:inst13|lpm_bustri_8:inst14                                                                                  ; work         ;
 ;          |lpm_bustri:lpm_bustri_component|      ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component                                                  ; work         ;
 ;       |lpm_bustri_8:inst15|                     ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|RON:inst13|lpm_bustri_8:inst15                                                                                  ; work         ;
@@ -1054,10 +1063,15 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 8 (8)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|RON:inst13|lpm_dff0:inst37|lpm_ff:lpm_ff_component                                                              ; work         ;
 ;       |lpm_dff0:inst38|                         ; 0 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|RON:inst13|lpm_dff0:inst38                                                                                      ; work         ;
 ;          |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 8 (8)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|RON:inst13|lpm_dff0:inst38|lpm_ff:lpm_ff_component                                                              ; work         ;
-;    |lpm_bustri_8:inst27|                        ; 27 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_bustri_8:inst27                                                                                             ; work         ;
-;       |lpm_bustri:lpm_bustri_component|         ; 27 (27)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component                                                             ; work         ;
-;    |lpm_bustri_8bit:inst30|                     ; 11 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_bustri_8bit:inst30                                                                                          ; work         ;
-;       |lpm_bustri:lpm_bustri_component|         ; 11 (11)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_bustri_8bit:inst30|lpm_bustri:lpm_bustri_component                                                          ; work         ;
+;    |lpm_add_8bit:inst72|                        ; 8 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_add_8bit:inst72                                                                                             ; work         ;
+;       |lpm_add_sub:lpm_add_sub_component|       ; 8 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component                                                           ; work         ;
+;          |add_sub_j4k:auto_generated|           ; 8 (8)             ; 8 (8)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component|add_sub_j4k:auto_generated                                ; work         ;
+;    |lpm_bustri_8:inst27|                        ; 26 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_bustri_8:inst27                                                                                             ; work         ;
+;       |lpm_bustri:lpm_bustri_component|         ; 26 (26)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component                                                             ; work         ;
+;    |lpm_bustri_8bit:inst32|                     ; 22 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_bustri_8bit:inst32                                                                                          ; work         ;
+;       |lpm_bustri:lpm_bustri_component|         ; 22 (22)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_bustri_8bit:inst32|lpm_bustri:lpm_bustri_component                                                          ; work         ;
+;    |lpm_bustri_8bit:inst80|                     ; 9 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_bustri_8bit:inst80                                                                                          ; work         ;
+;       |lpm_bustri:lpm_bustri_component|         ; 9 (9)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_bustri_8bit:inst80|lpm_bustri:lpm_bustri_component                                                          ; work         ;
 ;    |lpm_counter_5bit:inst4|                     ; 5 (0)             ; 5 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_counter_5bit:inst4                                                                                          ; work         ;
 ;       |lpm_counter:lpm_counter_component|       ; 5 (0)             ; 5 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_counter_5bit:inst4|lpm_counter:lpm_counter_component                                                        ; work         ;
 ;          |cntr_f4i:auto_generated|              ; 5 (5)             ; 5 (5)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_counter_5bit:inst4|lpm_counter:lpm_counter_component|cntr_f4i:auto_generated                                ; work         ;
@@ -1067,17 +1081,17 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;    |lpm_decode_5bit:inst1|                      ; 7 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_decode_5bit:inst1                                                                                           ;              ;
 ;       |lpm_decode:lpm_decode_component|         ; 7 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_decode_5bit:inst1|lpm_decode:lpm_decode_component                                                           ; work         ;
 ;          |decode_d9f:auto_generated|            ; 7 (7)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_decode_5bit:inst1|lpm_decode:lpm_decode_component|decode_d9f:auto_generated                                 ; work         ;
-;    |lpm_decode_8bit_20out:inst2|                ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_decode_8bit_20out:inst2                                                                                     ; work         ;
-;       |lpm_decode:lpm_decode_component|         ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_decode_8bit_20out:inst2|lpm_decode:lpm_decode_component                                                     ; work         ;
-;          |decode_8bf:auto_generated|            ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_decode_8bit_20out:inst2|lpm_decode:lpm_decode_component|decode_8bf:auto_generated                           ; work         ;
+;    |lpm_decode_8bit_20out:inst2|                ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_decode_8bit_20out:inst2                                                                                     ; work         ;
+;       |lpm_decode:lpm_decode_component|         ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_decode_8bit_20out:inst2|lpm_decode:lpm_decode_component                                                     ; work         ;
+;          |decode_8bf:auto_generated|            ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_decode_8bit_20out:inst2|lpm_decode:lpm_decode_component|decode_8bf:auto_generated                           ; work         ;
 ;    |lpm_dff_8bit_en:inst6|                      ; 0 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_dff_8bit_en:inst6                                                                                           ; work         ;
 ;       |lpm_ff:lpm_ff_component|                 ; 0 (0)             ; 8 (8)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_dff_8bit_en:inst6|lpm_ff:lpm_ff_component                                                                   ; work         ;
 ;    |lpm_dff_8bit_en:inst7|                      ; 0 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_dff_8bit_en:inst7                                                                                           ; work         ;
 ;       |lpm_ff:lpm_ff_component|                 ; 0 (0)             ; 8 (8)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_dff_8bit_en:inst7|lpm_ff:lpm_ff_component                                                                   ; work         ;
 ;    |lpm_dff_8bit_en:inst8|                      ; 0 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_dff_8bit_en:inst8                                                                                           ; work         ;
 ;       |lpm_ff:lpm_ff_component|                 ; 0 (0)             ; 8 (8)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_dff_8bit_en:inst8|lpm_ff:lpm_ff_component                                                                   ; work         ;
-;    |lpm_dff_8bit_en:inst|                       ; 0 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_dff_8bit_en:inst                                                                                            ; work         ;
-;       |lpm_ff:lpm_ff_component|                 ; 0 (0)             ; 8 (8)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_dff_8bit_en:inst|lpm_ff:lpm_ff_component                                                                    ; work         ;
+;    |lpm_dff_8bit_en:inst|                       ; 0 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_dff_8bit_en:inst                                                                                            ;              ;
+;       |lpm_ff:lpm_ff_component|                 ; 0 (0)             ; 8 (8)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPUManager|lpm_dff_8bit_en:inst|lpm_ff:lpm_ff_component                                                                    ;              ;
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -1123,12 +1137,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 669   ;
+; Total registers                              ; 677   ;
 ; Number of registers using Synchronous Clear  ; 13    ;
-; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Synchronous Load   ; 8     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 8     ;
-; Number of registers using Clock Enable       ; 96    ;
+; Number of registers using Clock Enable       ; 104   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -5610,7 +5624,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst30|lpm_bustri:lpm_bustri_component ;
+; Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst41|lpm_bustri:lpm_bustri_component ;
++----------------+-------+----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                       ;
++----------------+-------+----------------------------------------------------------------------------+
+; LPM_WIDTH      ; 8     ; Signed Integer                                                             ;
++----------------+-------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst53|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+----------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                       ;
 +----------------+-------+----------------------------------------------------------------------------+
@@ -5639,7 +5663,55 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst28|lpm_bustri:lpm_bustri_component ;
+; Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst32|lpm_bustri:lpm_bustri_component ;
++----------------+-------+----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                       ;
++----------------+-------+----------------------------------------------------------------------------+
+; LPM_WIDTH      ; 8     ; Signed Integer                                                             ;
++----------------+-------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component ;
++------------------------+-------------+-------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                        ;
++------------------------+-------------+-------------------------------------------------------------+
+; LPM_WIDTH              ; 8           ; Signed Integer                                              ;
+; LPM_REPRESENTATION     ; UNSIGNED    ; Untyped                                                     ;
+; LPM_DIRECTION          ; ADD         ; Untyped                                                     ;
+; ONE_INPUT_IS_CONSTANT  ; NO          ; Untyped                                                     ;
+; LPM_PIPELINE           ; 1           ; Signed Integer                                              ;
+; MAXIMIZE_SPEED         ; 5           ; Untyped                                                     ;
+; REGISTERED_AT_END      ; 0           ; Untyped                                                     ;
+; OPTIMIZE_FOR_SPEED     ; 5           ; Untyped                                                     ;
+; USE_CS_BUFFERS         ; 1           ; Untyped                                                     ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                     ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                          ;
+; DEVICE_FAMILY          ; Stratix II  ; Untyped                                                     ;
+; USE_WYS                ; OFF         ; Untyped                                                     ;
+; STYLE                  ; FAST        ; Untyped                                                     ;
+; CBXI_PARAMETER         ; add_sub_j4k ; Untyped                                                     ;
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                  ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                              ;
++------------------------+-------------+-------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst80|lpm_bustri:lpm_bustri_component ;
++----------------+-------+----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                       ;
++----------------+-------+----------------------------------------------------------------------------+
+; LPM_WIDTH      ; 8     ; Signed Integer                                                             ;
++----------------+-------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst79|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+----------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                       ;
 +----------------+-------+----------------------------------------------------------------------------+
@@ -5664,26 +5736,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                         ;
 ; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                       ;
 +------------------------+------------+------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst58|lpm_bustri:lpm_bustri_component ;
-+----------------+-------+----------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                       ;
-+----------------+-------+----------------------------------------------------------------------------+
-; LPM_WIDTH      ; 8     ; Signed Integer                                                             ;
-+----------------+-------+----------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component ;
-+----------------+-------+-------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                    ;
-+----------------+-------+-------------------------------------------------------------------------+
-; LPM_WIDTH      ; 8     ; Untyped                                                                 ;
-+----------------+-------+-------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -5803,6 +5855,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++--------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component ;
++----------------+-------+-------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                    ;
++----------------+-------+-------------------------------------------------------------------------+
+; LPM_WIDTH      ; 8     ; Untyped                                                                 ;
++----------------+-------+-------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-----------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: lpm_bustri_4bit:inst29|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+----------------------------------------------------------------------------+
@@ -5819,6 +5881,36 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Parameter Name ; Value ; Type                                                                       ;
 +----------------+-------+----------------------------------------------------------------------------+
 ; LPM_WIDTH      ; 4     ; Signed Integer                                                             ;
++----------------+-------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst30|lpm_bustri:lpm_bustri_component ;
++----------------+-------+----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                       ;
++----------------+-------+----------------------------------------------------------------------------+
+; LPM_WIDTH      ; 8     ; Signed Integer                                                             ;
++----------------+-------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst28|lpm_bustri:lpm_bustri_component ;
++----------------+-------+----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                       ;
++----------------+-------+----------------------------------------------------------------------------+
+; LPM_WIDTH      ; 8     ; Signed Integer                                                             ;
++----------------+-------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst58|lpm_bustri:lpm_bustri_component ;
++----------------+-------+----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                       ;
++----------------+-------+----------------------------------------------------------------------------+
+; LPM_WIDTH      ; 8     ; Signed Integer                                                             ;
 +----------------+-------+----------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -6023,7 +6115,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Sun May 05 03:33:38 2013
+    Info: Processing started: Sun May 05 17:12:39 2013
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Project -c Project
 Warning: Tcl Script File lpm_counter_4bit.qip not found
     Info: set_global_assignment -name QIP_FILE lpm_counter_4bit.qip
@@ -6121,6 +6213,9 @@ Info: Found 2 design units, including 1 entities, in source file lpm_dff_8bit_en
 Info: Found 2 design units, including 1 entities, in source file lpm_decode_8bit_20out.vhd
     Info: Found design unit 1: lpm_decode_8bit_20out-SYN
     Info: Found entity 1: lpm_decode_8bit_20out
+Info: Found 2 design units, including 1 entities, in source file lpm_add_8bit.vhd
+    Info: Found design unit 1: lpm_add_8bit-SYN
+    Info: Found entity 1: lpm_add_8bit
 Info: Elaborating entity "CPUManager" for the top level hierarchy
 Warning: Block or symbol "ROM" of instance "inst3" overlaps another block or symbol
 Warning: Block or symbol "NOT" of instance "inst42" overlaps another block or symbol
@@ -6333,7 +6428,6 @@ Info: Elaborated megafunction instantiation "ROM:inst3|LPM_ROM:inst|altrom:srom|
 Info: Found 1 design units, including 1 entities, in source file db/altsyncram_nrv.tdf
     Info: Found entity 1: altsyncram_nrv
 Info: Elaborating entity "altsyncram_nrv" for hierarchy "ROM:inst3|LPM_ROM:inst|altrom:srom|altsyncram:rom_block|altsyncram_nrv:auto_generated"
-Warning: Byte addressed memory initialization file "rom.hex" was read in the word-addressed format
 Info: Elaborating entity "lpm_counter_8bit_with_load" for hierarchy "lpm_counter_8bit_with_load:inst18"
 Info: Elaborating entity "lpm_counter" for hierarchy "lpm_counter_8bit_with_load:inst18|lpm_counter:lpm_counter_component"
 Info: Elaborated megafunction instantiation "lpm_counter_8bit_with_load:inst18|lpm_counter:lpm_counter_component"
@@ -6345,16 +6439,29 @@ Info: Instantiated megafunction "lpm_counter_8bit_with_load:inst18|lpm_counter:l
 Info: Found 1 design units, including 1 entities, in source file db/cntr_pki.tdf
     Info: Found entity 1: cntr_pki
 Info: Elaborating entity "cntr_pki" for hierarchy "lpm_counter_8bit_with_load:inst18|lpm_counter:lpm_counter_component|cntr_pki:auto_generated"
-Warning: Using design file lpm_bustri_8.tdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info: Found entity 1: lpm_bustri_8
-Info: Elaborating entity "lpm_bustri_8" for hierarchy "lpm_bustri_8:inst27"
-Info: Elaborating entity "lpm_bustri" for hierarchy "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component"
-Info: Elaborated megafunction instantiation "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component"
-Info: Instantiated megafunction "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component" with the following parameter:
-    Info: Parameter "LPM_TYPE" = "LPM_BUSTRI"
-    Info: Parameter "LPM_WIDTH" = "8"
+Info: Elaborating entity "lpm_add_8bit" for hierarchy "lpm_add_8bit:inst72"
+Info: Elaborating entity "lpm_add_sub" for hierarchy "lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component"
+Info: Elaborated megafunction instantiation "lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component"
+Info: Instantiated megafunction "lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component" with the following parameter:
+    Info: Parameter "lpm_direction" = "ADD"
+    Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=NO,CIN_USED=NO"
+    Info: Parameter "lpm_pipeline" = "1"
+    Info: Parameter "lpm_representation" = "UNSIGNED"
+    Info: Parameter "lpm_type" = "LPM_ADD_SUB"
+    Info: Parameter "lpm_width" = "8"
+Info: Found 1 design units, including 1 entities, in source file db/add_sub_j4k.tdf
+    Info: Found entity 1: add_sub_j4k
+Info: Elaborating entity "add_sub_j4k" for hierarchy "lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component|add_sub_j4k:auto_generated"
 Info: Elaborating entity "RON" for hierarchy "RON:inst13"
 Info: Elaborating entity "lpm_dff0" for hierarchy "RON:inst13|lpm_dff0:inst35"
+Warning: Using design file lpm_bustri_8.tdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info: Found entity 1: lpm_bustri_8
+Info: Elaborating entity "lpm_bustri_8" for hierarchy "RON:inst13|lpm_bustri_8:inst14"
+Info: Elaborating entity "lpm_bustri" for hierarchy "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component"
+Info: Elaborated megafunction instantiation "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component"
+Info: Instantiated megafunction "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component" with the following parameter:
+    Info: Parameter "LPM_TYPE" = "LPM_BUSTRI"
+    Info: Parameter "LPM_WIDTH" = "8"
 Info: Elaborating entity "RAM" for hierarchy "RAM:inst24"
 Warning: Can't find a definition for parameter LPM_FILE -- assuming RAM.hex was intended to be a quoted string
 Info: Elaborating entity "LPM_RAM_IO" for hierarchy "RAM:inst24|LPM_RAM_IO:inst"
@@ -6455,10 +6562,18 @@ Info: Instantiated megafunction "ALU:inst12|lpm_shiftreg_8bit:inst10|lpm_shiftre
     Info: Parameter "LPM_WIDTH" = "8"
     Info: Parameter "LPM_DIRECTION" = "LEFT"
 Warning: Tri-state node(s) do not directly drive top-level pin(s)
-    Warning: Converted tri-state node "gdfx_temp1[3]" into a selector
-    Warning: Converted tri-state node "gdfx_temp1[2]" into a selector
-    Warning: Converted tri-state node "gdfx_temp1[1]" into a selector
-    Warning: Converted tri-state node "gdfx_temp1[0]" into a selector
+    Warning: Converted tri-state node "gdfx_temp2[7]" into a selector
+    Warning: Converted tri-state node "gdfx_temp2[6]" into a selector
+    Warning: Converted tri-state node "gdfx_temp2[5]" into a selector
+    Warning: Converted tri-state node "gdfx_temp2[4]" into a selector
+    Warning: Converted tri-state node "gdfx_temp2[3]" into a selector
+    Warning: Converted tri-state node "gdfx_temp2[2]" into a selector
+    Warning: Converted tri-state node "gdfx_temp2[1]" into a selector
+    Warning: Converted tri-state node "gdfx_temp2[0]" into a selector
+    Warning: Converted tri-state node "gdfx_temp3[3]" into a selector
+    Warning: Converted tri-state node "gdfx_temp3[2]" into a selector
+    Warning: Converted tri-state node "gdfx_temp3[1]" into a selector
+    Warning: Converted tri-state node "gdfx_temp3[0]" into a selector
     Warning: Converted tri-state node "Cache:inst23|IsSetFullInit" into a selector
     Warning: Converted tri-state node "Cache:inst23|Set:inst30|isTag0" into a selector
     Warning: Converted tri-state node "Cache:inst23|Set:inst30|isTag2" into a selector
@@ -6478,10 +6593,12 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted tri-state node "Cache:inst23|Set:inst32|isTag1" into a selector
 Warning: Clock multiplexers are found and protected
     Warning: Found clock multiplexer inst20~synth
-    Warning: Found clock multiplexer gdfx_temp1[0]~synth
-    Warning: Found clock multiplexer gdfx_temp1[1]~synth
-    Warning: Found clock multiplexer gdfx_temp1[3]~synth
-    Warning: Found clock multiplexer gdfx_temp1[2]~synth
+    Warning: Found clock multiplexer gdfx_temp3[1]~synth
+    Warning: Found clock multiplexer inst61~synth
+    Warning: Found clock multiplexer inst59~synth
+    Warning: Found clock multiplexer gdfx_temp3[0]~synth
+    Warning: Found clock multiplexer gdfx_temp3[3]~synth
+    Warning: Found clock multiplexer gdfx_temp3[2]~synth
 Warning: Always-enabled tri-state buffer(s) removed
     Warning: Converted the fanout from the always-enabled tri-state buffer "Cache:inst23|Set:inst32|lpm_bustri_4bit:inst13|lpm_bustri:lpm_bustri_component|dout[2]" to the node "Cache:inst23|Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[1]" into a wire
     Warning: Converted the fanout from the always-enabled tri-state buffer "Cache:inst23|Set:inst32|lpm_bustri_4bit:inst13|lpm_bustri:lpm_bustri_component|dout[3]" to the node "Cache:inst23|Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[1]" into a wire
@@ -6548,14 +6665,6 @@ Warning: Always-enabled tri-state buffer(s) removed
     Warning: Converted the fanout from the always-enabled tri-state buffer "Cache:inst23|Set:inst|lpm_bustri_4bit:inst12|lpm_bustri:lpm_bustri_component|dout[0]" to the node "Cache:inst23|Set:inst|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[0]" into a wire
     Warning: Converted the fanout from the always-enabled tri-state buffer "Cache:inst23|Set:inst|lpm_bustri_4bit:inst12|lpm_bustri:lpm_bustri_component|dout[1]" to the node "Cache:inst23|Set:inst|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[0]" into a wire
 Warning: Tri-state node(s) do not directly drive top-level pin(s)
-    Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[7]" to the node "RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[7]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[6]" to the node "RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[6]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[5]" to the node "RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[5]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[4]" to the node "RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[4]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[3]" to the node "RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[3]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[2]" to the node "RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[2]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[1]" to the node "RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[1]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[0]" to the node "RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component|din[7]" to the node "RON:inst13|lpm_dff0:inst36|lpm_ff:lpm_ff_component|dffs[7]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component|din[6]" to the node "RON:inst13|lpm_dff0:inst36|lpm_ff:lpm_ff_component|dffs[6]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component|din[5]" to the node "RON:inst13|lpm_dff0:inst36|lpm_ff:lpm_ff_component|dffs[5]" into an OR gate
@@ -6564,6 +6673,14 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component|din[2]" to the node "RON:inst13|lpm_dff0:inst36|lpm_ff:lpm_ff_component|dffs[2]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component|din[1]" to the node "RON:inst13|lpm_dff0:inst36|lpm_ff:lpm_ff_component|dffs[1]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component|din[0]" to the node "RON:inst13|lpm_dff0:inst36|lpm_ff:lpm_ff_component|dffs[0]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[7]" to the node "RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[7]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[6]" to the node "RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[6]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[5]" to the node "RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[5]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[4]" to the node "RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[4]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[3]" to the node "RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[3]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[2]" to the node "RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[2]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[1]" to the node "RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[1]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[0]" to the node "RON:inst13|lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "Cache:inst23|Set:inst32|lpm_bustri_8bit:inst14|lpm_bustri:lpm_bustri_component|dout[7]" to the node "Cache:inst23|Set:inst32|lpm_dff_8bit:inst17|lpm_ff:lpm_ff_component|dffs[7]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "Cache:inst23|Set:inst32|lpm_bustri_8bit:inst14|lpm_bustri:lpm_bustri_component|dout[6]" to the node "Cache:inst23|Set:inst32|lpm_dff_8bit:inst17|lpm_ff:lpm_ff_component|dffs[6]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "Cache:inst23|Set:inst32|lpm_bustri_8bit:inst14|lpm_bustri:lpm_bustri_component|dout[5]" to the node "Cache:inst23|Set:inst32|lpm_dff_8bit:inst17|lpm_ff:lpm_ff_component|dffs[5]" into an OR gate
@@ -7216,22 +7333,30 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "Cache:inst23|inst76" to the node "Cache:inst23|inst20" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "inst50" to the node "Cache:inst23|inst39" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "inst47" to the node "Cache:inst23|inst3" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst30|lpm_bustri:lpm_bustri_component|dout[7]" to the node "RAM:inst24|lpm_ram_io:inst|altram:sram|altsyncram:ram_block|altsyncram_aa91:auto_generated|q_a[0]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst30|lpm_bustri:lpm_bustri_component|dout[6]" to the node "RAM:inst24|lpm_ram_io:inst|altram:sram|altsyncram:ram_block|altsyncram_aa91:auto_generated|q_a[0]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst30|lpm_bustri:lpm_bustri_component|dout[5]" to the node "Cache:inst23|Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[1]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst30|lpm_bustri:lpm_bustri_component|dout[4]" to the node "Cache:inst23|Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[1]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst30|lpm_bustri:lpm_bustri_component|dout[3]" to the node "Cache:inst23|Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[0]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst30|lpm_bustri:lpm_bustri_component|dout[2]" to the node "Cache:inst23|Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[0]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst30|lpm_bustri:lpm_bustri_component|dout[1]" to the node "Cache:inst23|Set:inst30|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component|decode_p7f:auto_generated|w_anode15w[2]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst30|lpm_bustri:lpm_bustri_component|dout[0]" to the node "Cache:inst23|Set:inst30|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component|decode_p7f:auto_generated|w_anode15w[2]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[7]" to the node "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[7]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[6]" to the node "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[6]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[5]" to the node "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[5]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[4]" to the node "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[4]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[3]" to the node "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[3]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[2]" to the node "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[2]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[1]" to the node "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[1]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[0]" to the node "RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component|din[0]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst80|lpm_bustri:lpm_bustri_component|dout[7]" to the node "lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component|add_sub_j4k:auto_generated|op_1" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst80|lpm_bustri:lpm_bustri_component|dout[6]" to the node "lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component|add_sub_j4k:auto_generated|op_1" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst80|lpm_bustri:lpm_bustri_component|dout[5]" to the node "lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component|add_sub_j4k:auto_generated|op_1" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst80|lpm_bustri:lpm_bustri_component|dout[4]" to the node "lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component|add_sub_j4k:auto_generated|op_1" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst80|lpm_bustri:lpm_bustri_component|dout[3]" to the node "lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component|add_sub_j4k:auto_generated|op_1" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst80|lpm_bustri:lpm_bustri_component|dout[2]" to the node "lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component|add_sub_j4k:auto_generated|op_1" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst80|lpm_bustri:lpm_bustri_component|dout[1]" to the node "lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component|add_sub_j4k:auto_generated|op_1" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst80|lpm_bustri:lpm_bustri_component|dout[0]" to the node "lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component|add_sub_j4k:auto_generated|op_1" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst32|lpm_bustri:lpm_bustri_component|dout[7]" to the node "RAM:inst24|lpm_ram_io:inst|altram:sram|altsyncram:ram_block|altsyncram_aa91:auto_generated|q_a[0]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst32|lpm_bustri:lpm_bustri_component|dout[6]" to the node "RAM:inst24|lpm_ram_io:inst|altram:sram|altsyncram:ram_block|altsyncram_aa91:auto_generated|q_a[0]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst32|lpm_bustri:lpm_bustri_component|dout[5]" to the node "Cache:inst23|Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[1]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst32|lpm_bustri:lpm_bustri_component|dout[4]" to the node "Cache:inst23|Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[1]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst32|lpm_bustri:lpm_bustri_component|dout[3]" to the node "Cache:inst23|Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[0]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst32|lpm_bustri:lpm_bustri_component|dout[2]" to the node "Cache:inst23|Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[0]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst32|lpm_bustri:lpm_bustri_component|dout[1]" to the node "Cache:inst23|Set:inst30|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component|decode_p7f:auto_generated|w_anode15w[2]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8bit:inst32|lpm_bustri:lpm_bustri_component|dout[0]" to the node "Cache:inst23|Set:inst30|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component|decode_p7f:auto_generated|w_anode15w[2]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[7]" to the node "RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component|din[7]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[6]" to the node "RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component|din[6]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[5]" to the node "RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component|din[5]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[4]" to the node "RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component|din[4]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[3]" to the node "RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component|din[3]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[2]" to the node "RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component|din[2]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[1]" to the node "RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component|din[1]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[0]" to the node "RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component|din[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "Cache:inst23|lpm_bustri_8bit:inst54|lpm_bustri:lpm_bustri_component|dout[7]" to the node "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[7]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "Cache:inst23|lpm_bustri_8bit:inst54|lpm_bustri:lpm_bustri_component|dout[6]" to the node "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[6]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "Cache:inst23|lpm_bustri_8bit:inst54|lpm_bustri:lpm_bustri_component|dout[5]" to the node "lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component|dout[5]" into an OR gate
@@ -7254,15 +7379,15 @@ Info: 8 registers lost all their fanouts during netlist optimizations. The first
 Warning: Ignored assignments for entity "Project" -- entity does not exist in design
     Warning: Assignment for entity set_global_assignment -name LL_ROOT_REGION ON -entity Project -section_id "Root Region" was ignored
     Warning: Assignment for entity set_global_assignment -name LL_MEMBER_STATE LOCKED -entity Project -section_id "Root Region" was ignored
-Info: Implemented 1567 device resources after synthesis - the final resource count might be different
+Info: Implemented 1642 device resources after synthesis - the final resource count might be different
     Info: Implemented 1 input pins
-    Info: Implemented 139 output pins
-    Info: Implemented 1411 logic cells
+    Info: Implemented 163 output pins
+    Info: Implemented 1462 logic cells
     Info: Implemented 16 RAM segments
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 909 warnings
-    Info: Peak virtual memory: 262 megabytes
-    Info: Processing ended: Sun May 05 03:34:16 2013
-    Info: Elapsed time: 00:00:38
-    Info: Total CPU time (on all processors): 00:00:37
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 926 warnings
+    Info: Peak virtual memory: 263 megabytes
+    Info: Processing ended: Sun May 05 17:13:42 2013
+    Info: Elapsed time: 00:01:03
+    Info: Total CPU time (on all processors): 00:01:03
 
 
