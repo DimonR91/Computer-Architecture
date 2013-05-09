@@ -1,0 +1,64 @@
+MED
+D:\Учеба\СиФО\Курсач\Project\ROM.hex
+
+	Undo Commands
+	     1.	Cells
+	     2.	Cells
+	     3.	Cells
+	     4.	Cells
+	     5.	Cells
+	     6.	Cells
+	     7.	Deleting Cells
+	     8.	Paste from Clipboard
+
+	Redo Commands
+	     1.	Cells
+
+
+GED
+
+	Undo Commands
+	     1.	Properties
+	     2.	Insert Node
+	     3.	Delete
+	     4.	Properties
+	     5.	Move
+	     6.	Move
+	     7.	Move
+	     8.	Move
+	     9.	Move
+	    10.	Move
+	    11.	Move
+	    12.	Properties
+	    13.	Insert Node
+	    14.	Move
+	    15.	Move
+	    16.	Move
+	    17.	Move
+	    18.	Move
+	    19.	Move
+	    20.	Move
+	    21.	Move
+	    22.	Move
+	    23.	Move
+	    24.	Move
+	    25.	Move
+	    26.	Insert Symbol
+	    27.	Delete
+	    28.	Move
+	    29.	Move
+	    30.	Move
+	    31.	Properties
+	    32.	Move
+	    33.	Move
+	    34.	Move
+	    35.	Move
+	    36.	Move
+
+
+RPW
+
+	Undo Commands
+	     1.	||Simulation Report||Simulator||Simulation Waveforms
+
+

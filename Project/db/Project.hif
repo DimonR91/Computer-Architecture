@@ -114,11 +114,11 @@ lpm_bustri.inc
 e542f5adf6af653bd181242b9785544
 }
 # hierarchies {
+lpm_bustri_8:inst27
 RON:inst13|lpm_bustri_8:inst14
 RON:inst13|lpm_bustri_8:inst19
 RON:inst13|lpm_bustri_8:inst15
 RON:inst13|lpm_bustri_8:inst20
-lpm_bustri_8:inst27
 RAM:inst24|lpm_bustri_8:inst3
 }
 # macro_sequence
@@ -221,11 +221,11 @@ data0
 3
 }
 # hierarchies {
+lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component
 RON:inst13|lpm_bustri_8:inst14|lpm_bustri:lpm_bustri_component
 RON:inst13|lpm_bustri_8:inst19|lpm_bustri:lpm_bustri_component
 RON:inst13|lpm_bustri_8:inst15|lpm_bustri:lpm_bustri_component
 RON:inst13|lpm_bustri_8:inst20|lpm_bustri:lpm_bustri_component
-lpm_bustri_8:inst27|lpm_bustri:lpm_bustri_component
 RAM:inst24|lpm_bustri_8:inst3|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
@@ -1751,12 +1751,15 @@ Cache:inst23|Set:inst30|lpm_bustri_8bit:inst43
 Cache:inst23|lpm_bustri_8bit:inst21
 lpm_bustri_8bit:inst41
 lpm_bustri_8bit:inst53
+lpm_bustri_8bit:inst38
 lpm_bustri_8bit:inst32
 lpm_bustri_8bit:inst80
 lpm_bustri_8bit:inst79
 lpm_bustri_8bit:inst30
 lpm_bustri_8bit:inst28
 lpm_bustri_8bit:inst58
+lpm_bustri_8bit:inst88
+lpm_bustri_8bit:inst89
 }
 # lmf
 |altera|91|quartus|lmf|maxplus2.lmf
@@ -1976,12 +1979,15 @@ Cache:inst23|Set:inst30|lpm_bustri_8bit:inst43|lpm_bustri:lpm_bustri_component
 Cache:inst23|lpm_bustri_8bit:inst21|lpm_bustri:lpm_bustri_component
 lpm_bustri_8bit:inst41|lpm_bustri:lpm_bustri_component
 lpm_bustri_8bit:inst53|lpm_bustri:lpm_bustri_component
+lpm_bustri_8bit:inst38|lpm_bustri:lpm_bustri_component
 lpm_bustri_8bit:inst32|lpm_bustri:lpm_bustri_component
 lpm_bustri_8bit:inst80|lpm_bustri:lpm_bustri_component
 lpm_bustri_8bit:inst79|lpm_bustri:lpm_bustri_component
 lpm_bustri_8bit:inst30|lpm_bustri:lpm_bustri_component
 lpm_bustri_8bit:inst28|lpm_bustri:lpm_bustri_component
 lpm_bustri_8bit:inst58|lpm_bustri:lpm_bustri_component
+lpm_bustri_8bit:inst88|lpm_bustri:lpm_bustri_component
+lpm_bustri_8bit:inst89|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -4759,26 +4765,6 @@ agb
 
 # end
 # entity
-ALU
-# storage
-db|Project.(31).cnf
-db|Project.(31).cnf
-# case_insensitive
-# source_file
-alu.bdf
-551d8c7c9079281e79a970f7e7c04d24
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-ALU:inst12
-}
-# macro_sequence
-
-# end
-# entity
 lpm_compare_Equal_8bit
 # storage
 db|Project.(53).cnf
@@ -6272,6 +6258,7 @@ lpm_dff_8bit_en:inst6
 lpm_dff_8bit_en:inst
 lpm_dff_8bit_en:inst7
 lpm_dff_8bit_en:inst8
+lpm_dff_8bit_en:inst90
 }
 # lmf
 |altera|91|quartus|lmf|maxplus2.lmf
@@ -6392,6 +6379,7 @@ lpm_dff_8bit_en:inst6|lpm_ff:lpm_ff_component
 lpm_dff_8bit_en:inst|lpm_ff:lpm_ff_component
 lpm_dff_8bit_en:inst7|lpm_ff:lpm_ff_component
 lpm_dff_8bit_en:inst8|lpm_ff:lpm_ff_component
+lpm_dff_8bit_en:inst90|lpm_ff:lpm_ff_component
 }
 # macro_sequence
 
@@ -9059,10 +9047,30 @@ lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component|add_sub_j4k:auto_generated
 
 # end
 # entity
+CPUManager
+# storage
+db|Project.(11).cnf
+db|Project.(11).cnf
+# case_insensitive
+# source_file
+cpumanager.bdf
+89777a43138219109f4cc09f1bc66e4c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
 altsyncram_nrv
 # storage
-db|Project.(77).cnf
-db|Project.(77).cnf
+db|Project.(31).cnf
+db|Project.(31).cnf
 # case_insensitive
 # source_file
 db|altsyncram_nrv.tdf
@@ -9123,7 +9131,7 @@ address_a0
 }
 # memory_file {
 rom.hex
-3d1494da6415b5b3ac0c946104edef0
+22c49ae42090b37293d6d457959d7f69
 }
 # hierarchies {
 ROM:inst3|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_nrv:auto_generated
@@ -9132,21 +9140,21 @@ ROM:inst3|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_nrv:auto_gene
 
 # end
 # entity
-CPUManager
+ALU
 # storage
-db|Project.(11).cnf
-db|Project.(11).cnf
+db|Project.(77).cnf
+db|Project.(77).cnf
 # case_insensitive
 # source_file
-cpumanager.bdf
-bbfdd91d93d311a56c02f157c49d526
+alu.bdf
+f94afc45536c89961815edaaa273c19
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-|
+ALU:inst12
 }
 # macro_sequence
 
