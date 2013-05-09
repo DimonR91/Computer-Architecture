@@ -5226,11 +5226,11 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/ALU.vwf")
 VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 {
 	ZOOM{
-		ZBEGIN = 292963;
-		ZEND = 703186;
-		NUMERATOR = 780;
-		DENOMINATOR = 332614;
-		TOP_INDEX = 100;
+		ZBEGIN = 883802;
+		ZEND = 1862026;
+		NUMERATOR = 1147;
+		DENOMINATOR = 978224;
+		TOP_INDEX = 0;
 	}
 	CLOCK{
 		PERIOD = 10000;
