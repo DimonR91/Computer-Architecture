@@ -5226,11 +5226,11 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/ALU.vwf")
 VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 {
 	ZOOM{
-		ZBEGIN = 482729;
-		ZEND = 892950;
+		ZBEGIN = 292963;
+		ZEND = 703186;
 		NUMERATOR = 780;
 		DENOMINATOR = 332614;
-		TOP_INDEX = 0;
+		TOP_INDEX = 100;
 	}
 	CLOCK{
 		PERIOD = 10000;
@@ -5393,7 +5393,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "IR";
+		SIGNAL = "IP";
 		INDEX = 19;
 		FORMAT = T;
 		SCALE = 1;
@@ -5401,7 +5401,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "IR[7]";
+		SIGNAL = "IP[7]";
 		INDEX = 20;
 		FORMAT = E;
 		SCALE = 1;
@@ -5409,7 +5409,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "IR[6]";
+		SIGNAL = "IP[6]";
 		INDEX = 21;
 		FORMAT = E;
 		SCALE = 1;
@@ -5417,7 +5417,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "IR[5]";
+		SIGNAL = "IP[5]";
 		INDEX = 22;
 		FORMAT = E;
 		SCALE = 1;
@@ -5425,7 +5425,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "IR[4]";
+		SIGNAL = "IP[4]";
 		INDEX = 23;
 		FORMAT = E;
 		SCALE = 1;
@@ -5433,7 +5433,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "IR[3]";
+		SIGNAL = "IP[3]";
 		INDEX = 24;
 		FORMAT = E;
 		SCALE = 1;
@@ -5441,7 +5441,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "IR[2]";
+		SIGNAL = "IP[2]";
 		INDEX = 25;
 		FORMAT = E;
 		SCALE = 1;
@@ -5449,7 +5449,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "IR[1]";
+		SIGNAL = "IP[1]";
 		INDEX = 26;
 		FORMAT = E;
 		SCALE = 1;
@@ -5457,7 +5457,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "IR[0]";
+		SIGNAL = "IP[0]";
 		INDEX = 27;
 		FORMAT = E;
 		SCALE = 1;
@@ -5465,7 +5465,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op1R";
+		SIGNAL = "IR";
 		INDEX = 28;
 		FORMAT = T;
 		SCALE = 1;
@@ -5473,7 +5473,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op1R[7]";
+		SIGNAL = "IR[7]";
 		INDEX = 29;
 		FORMAT = E;
 		SCALE = 1;
@@ -5481,7 +5481,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op1R[6]";
+		SIGNAL = "IR[6]";
 		INDEX = 30;
 		FORMAT = E;
 		SCALE = 1;
@@ -5489,7 +5489,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op1R[5]";
+		SIGNAL = "IR[5]";
 		INDEX = 31;
 		FORMAT = E;
 		SCALE = 1;
@@ -5497,7 +5497,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op1R[4]";
+		SIGNAL = "IR[4]";
 		INDEX = 32;
 		FORMAT = E;
 		SCALE = 1;
@@ -5505,7 +5505,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op1R[3]";
+		SIGNAL = "IR[3]";
 		INDEX = 33;
 		FORMAT = E;
 		SCALE = 1;
@@ -5513,7 +5513,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op1R[2]";
+		SIGNAL = "IR[2]";
 		INDEX = 34;
 		FORMAT = E;
 		SCALE = 1;
@@ -5521,7 +5521,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op1R[1]";
+		SIGNAL = "IR[1]";
 		INDEX = 35;
 		FORMAT = E;
 		SCALE = 1;
@@ -5529,7 +5529,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op1R[0]";
+		SIGNAL = "IR[0]";
 		INDEX = 36;
 		FORMAT = E;
 		SCALE = 1;
@@ -5537,7 +5537,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op2R";
+		SIGNAL = "Op1R";
 		INDEX = 37;
 		FORMAT = T;
 		SCALE = 1;
@@ -5545,7 +5545,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op2R[7]";
+		SIGNAL = "Op1R[7]";
 		INDEX = 38;
 		FORMAT = E;
 		SCALE = 1;
@@ -5553,7 +5553,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op2R[6]";
+		SIGNAL = "Op1R[6]";
 		INDEX = 39;
 		FORMAT = E;
 		SCALE = 1;
@@ -5561,7 +5561,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op2R[5]";
+		SIGNAL = "Op1R[5]";
 		INDEX = 40;
 		FORMAT = E;
 		SCALE = 1;
@@ -5569,7 +5569,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op2R[4]";
+		SIGNAL = "Op1R[4]";
 		INDEX = 41;
 		FORMAT = E;
 		SCALE = 1;
@@ -5577,7 +5577,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op2R[3]";
+		SIGNAL = "Op1R[3]";
 		INDEX = 42;
 		FORMAT = E;
 		SCALE = 1;
@@ -5585,7 +5585,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op2R[2]";
+		SIGNAL = "Op1R[2]";
 		INDEX = 43;
 		FORMAT = E;
 		SCALE = 1;
@@ -5593,7 +5593,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op2R[1]";
+		SIGNAL = "Op1R[1]";
 		INDEX = 44;
 		FORMAT = E;
 		SCALE = 1;
@@ -5601,7 +5601,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Op2R[0]";
+		SIGNAL = "Op1R[0]";
 		INDEX = 45;
 		FORMAT = E;
 		SCALE = 1;
@@ -5609,7 +5609,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CNTR";
+		SIGNAL = "Op2R";
 		INDEX = 46;
 		FORMAT = T;
 		SCALE = 1;
@@ -5617,7 +5617,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CNTR[4]";
+		SIGNAL = "Op2R[7]";
 		INDEX = 47;
 		FORMAT = E;
 		SCALE = 1;
@@ -5625,7 +5625,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CNTR[3]";
+		SIGNAL = "Op2R[6]";
 		INDEX = 48;
 		FORMAT = E;
 		SCALE = 1;
@@ -5633,7 +5633,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CNTR[2]";
+		SIGNAL = "Op2R[5]";
 		INDEX = 49;
 		FORMAT = E;
 		SCALE = 1;
@@ -5641,7 +5641,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CNTR[1]";
+		SIGNAL = "Op2R[4]";
 		INDEX = 50;
 		FORMAT = E;
 		SCALE = 1;
@@ -5649,7 +5649,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CNTR[0]";
+		SIGNAL = "Op2R[3]";
 		INDEX = 51;
 		FORMAT = E;
 		SCALE = 1;
@@ -5657,7 +5657,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "c1";
+		SIGNAL = "Op2R[2]";
 		INDEX = 52;
 		FORMAT = E;
 		SCALE = 1;
@@ -5665,7 +5665,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "hitCache";
+		SIGNAL = "Op2R[1]";
 		INDEX = 53;
 		FORMAT = E;
 		SCALE = 1;
@@ -5673,7 +5673,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "missCache";
+		SIGNAL = "Op2R[0]";
 		INDEX = 54;
 		FORMAT = E;
 		SCALE = 1;
@@ -5681,7 +5681,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AX";
+		SIGNAL = "CNTR";
 		INDEX = 55;
 		FORMAT = T;
 		SCALE = 1;
@@ -5689,7 +5689,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AX[7]";
+		SIGNAL = "CNTR[4]";
 		INDEX = 56;
 		FORMAT = E;
 		SCALE = 1;
@@ -5697,7 +5697,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AX[6]";
+		SIGNAL = "CNTR[3]";
 		INDEX = 57;
 		FORMAT = E;
 		SCALE = 1;
@@ -5705,7 +5705,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AX[5]";
+		SIGNAL = "CNTR[2]";
 		INDEX = 58;
 		FORMAT = E;
 		SCALE = 1;
@@ -5713,7 +5713,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AX[4]";
+		SIGNAL = "CNTR[1]";
 		INDEX = 59;
 		FORMAT = E;
 		SCALE = 1;
@@ -5721,7 +5721,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AX[3]";
+		SIGNAL = "CNTR[0]";
 		INDEX = 60;
 		FORMAT = E;
 		SCALE = 1;
@@ -5729,7 +5729,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AX[2]";
+		SIGNAL = "c1";
 		INDEX = 61;
 		FORMAT = E;
 		SCALE = 1;
@@ -5737,7 +5737,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AX[1]";
+		SIGNAL = "hitCache";
 		INDEX = 62;
 		FORMAT = E;
 		SCALE = 1;
@@ -5745,7 +5745,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AX[0]";
+		SIGNAL = "missCache";
 		INDEX = 63;
 		FORMAT = E;
 		SCALE = 1;
@@ -5753,7 +5753,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "BX";
+		SIGNAL = "AX";
 		INDEX = 64;
 		FORMAT = T;
 		SCALE = 1;
@@ -5761,7 +5761,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "BX[7]";
+		SIGNAL = "AX[7]";
 		INDEX = 65;
 		FORMAT = E;
 		SCALE = 1;
@@ -5769,7 +5769,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "BX[6]";
+		SIGNAL = "AX[6]";
 		INDEX = 66;
 		FORMAT = E;
 		SCALE = 1;
@@ -5777,7 +5777,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "BX[5]";
+		SIGNAL = "AX[5]";
 		INDEX = 67;
 		FORMAT = E;
 		SCALE = 1;
@@ -5785,7 +5785,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "BX[4]";
+		SIGNAL = "AX[4]";
 		INDEX = 68;
 		FORMAT = E;
 		SCALE = 1;
@@ -5793,7 +5793,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "BX[3]";
+		SIGNAL = "AX[3]";
 		INDEX = 69;
 		FORMAT = E;
 		SCALE = 1;
@@ -5801,7 +5801,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "BX[2]";
+		SIGNAL = "AX[2]";
 		INDEX = 70;
 		FORMAT = E;
 		SCALE = 1;
@@ -5809,7 +5809,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "BX[1]";
+		SIGNAL = "AX[1]";
 		INDEX = 71;
 		FORMAT = E;
 		SCALE = 1;
@@ -5817,7 +5817,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "BX[0]";
+		SIGNAL = "AX[0]";
 		INDEX = 72;
 		FORMAT = E;
 		SCALE = 1;
@@ -5825,7 +5825,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL00";
+		SIGNAL = "BX";
 		INDEX = 73;
 		FORMAT = T;
 		SCALE = 1;
@@ -5833,7 +5833,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL00[7]";
+		SIGNAL = "BX[7]";
 		INDEX = 74;
 		FORMAT = E;
 		SCALE = 1;
@@ -5841,7 +5841,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL00[6]";
+		SIGNAL = "BX[6]";
 		INDEX = 75;
 		FORMAT = E;
 		SCALE = 1;
@@ -5849,7 +5849,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL00[5]";
+		SIGNAL = "BX[5]";
 		INDEX = 76;
 		FORMAT = E;
 		SCALE = 1;
@@ -5857,7 +5857,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL00[4]";
+		SIGNAL = "BX[4]";
 		INDEX = 77;
 		FORMAT = E;
 		SCALE = 1;
@@ -5865,7 +5865,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL00[3]";
+		SIGNAL = "BX[3]";
 		INDEX = 78;
 		FORMAT = E;
 		SCALE = 1;
@@ -5873,7 +5873,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL00[2]";
+		SIGNAL = "BX[2]";
 		INDEX = 79;
 		FORMAT = E;
 		SCALE = 1;
@@ -5881,7 +5881,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL00[1]";
+		SIGNAL = "BX[1]";
 		INDEX = 80;
 		FORMAT = E;
 		SCALE = 1;
@@ -5889,7 +5889,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL00[0]";
+		SIGNAL = "BX[0]";
 		INDEX = 81;
 		FORMAT = E;
 		SCALE = 1;
@@ -5897,7 +5897,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL01";
+		SIGNAL = "CELL00";
 		INDEX = 82;
 		FORMAT = T;
 		SCALE = 1;
@@ -5905,7 +5905,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL01[7]";
+		SIGNAL = "CELL00[7]";
 		INDEX = 83;
 		FORMAT = E;
 		SCALE = 1;
@@ -5913,7 +5913,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL01[6]";
+		SIGNAL = "CELL00[6]";
 		INDEX = 84;
 		FORMAT = E;
 		SCALE = 1;
@@ -5921,7 +5921,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL01[5]";
+		SIGNAL = "CELL00[5]";
 		INDEX = 85;
 		FORMAT = E;
 		SCALE = 1;
@@ -5929,7 +5929,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL01[4]";
+		SIGNAL = "CELL00[4]";
 		INDEX = 86;
 		FORMAT = E;
 		SCALE = 1;
@@ -5937,7 +5937,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL01[3]";
+		SIGNAL = "CELL00[3]";
 		INDEX = 87;
 		FORMAT = E;
 		SCALE = 1;
@@ -5945,7 +5945,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL01[2]";
+		SIGNAL = "CELL00[2]";
 		INDEX = 88;
 		FORMAT = E;
 		SCALE = 1;
@@ -5953,7 +5953,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL01[1]";
+		SIGNAL = "CELL00[1]";
 		INDEX = 89;
 		FORMAT = E;
 		SCALE = 1;
@@ -5961,7 +5961,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL01[0]";
+		SIGNAL = "CELL00[0]";
 		INDEX = 90;
 		FORMAT = E;
 		SCALE = 1;
@@ -5969,7 +5969,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL02";
+		SIGNAL = "CELL01";
 		INDEX = 91;
 		FORMAT = T;
 		SCALE = 1;
@@ -5977,7 +5977,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL02[7]";
+		SIGNAL = "CELL01[7]";
 		INDEX = 92;
 		FORMAT = E;
 		SCALE = 1;
@@ -5985,7 +5985,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL02[6]";
+		SIGNAL = "CELL01[6]";
 		INDEX = 93;
 		FORMAT = E;
 		SCALE = 1;
@@ -5993,7 +5993,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL02[5]";
+		SIGNAL = "CELL01[5]";
 		INDEX = 94;
 		FORMAT = E;
 		SCALE = 1;
@@ -6001,7 +6001,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL02[4]";
+		SIGNAL = "CELL01[4]";
 		INDEX = 95;
 		FORMAT = E;
 		SCALE = 1;
@@ -6009,7 +6009,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL02[3]";
+		SIGNAL = "CELL01[3]";
 		INDEX = 96;
 		FORMAT = E;
 		SCALE = 1;
@@ -6017,7 +6017,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL02[2]";
+		SIGNAL = "CELL01[2]";
 		INDEX = 97;
 		FORMAT = E;
 		SCALE = 1;
@@ -6025,7 +6025,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL02[1]";
+		SIGNAL = "CELL01[1]";
 		INDEX = 98;
 		FORMAT = E;
 		SCALE = 1;
@@ -6033,7 +6033,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL02[0]";
+		SIGNAL = "CELL01[0]";
 		INDEX = 99;
 		FORMAT = E;
 		SCALE = 1;
@@ -6041,7 +6041,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL03";
+		SIGNAL = "CELL02";
 		INDEX = 100;
 		FORMAT = T;
 		SCALE = 1;
@@ -6049,7 +6049,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL03[7]";
+		SIGNAL = "CELL02[7]";
 		INDEX = 101;
 		FORMAT = E;
 		SCALE = 1;
@@ -6057,7 +6057,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL03[6]";
+		SIGNAL = "CELL02[6]";
 		INDEX = 102;
 		FORMAT = E;
 		SCALE = 1;
@@ -6065,7 +6065,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL03[5]";
+		SIGNAL = "CELL02[5]";
 		INDEX = 103;
 		FORMAT = E;
 		SCALE = 1;
@@ -6073,7 +6073,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL03[4]";
+		SIGNAL = "CELL02[4]";
 		INDEX = 104;
 		FORMAT = E;
 		SCALE = 1;
@@ -6081,7 +6081,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL03[3]";
+		SIGNAL = "CELL02[3]";
 		INDEX = 105;
 		FORMAT = E;
 		SCALE = 1;
@@ -6089,7 +6089,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL03[2]";
+		SIGNAL = "CELL02[2]";
 		INDEX = 106;
 		FORMAT = E;
 		SCALE = 1;
@@ -6097,7 +6097,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL03[1]";
+		SIGNAL = "CELL02[1]";
 		INDEX = 107;
 		FORMAT = E;
 		SCALE = 1;
@@ -6105,7 +6105,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL03[0]";
+		SIGNAL = "CELL02[0]";
 		INDEX = 108;
 		FORMAT = E;
 		SCALE = 1;
@@ -6113,7 +6113,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL10";
+		SIGNAL = "CELL03";
 		INDEX = 109;
 		FORMAT = T;
 		SCALE = 1;
@@ -6121,7 +6121,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL10[7]";
+		SIGNAL = "CELL03[7]";
 		INDEX = 110;
 		FORMAT = E;
 		SCALE = 1;
@@ -6129,7 +6129,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL10[6]";
+		SIGNAL = "CELL03[6]";
 		INDEX = 111;
 		FORMAT = E;
 		SCALE = 1;
@@ -6137,7 +6137,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL10[5]";
+		SIGNAL = "CELL03[5]";
 		INDEX = 112;
 		FORMAT = E;
 		SCALE = 1;
@@ -6145,7 +6145,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL10[4]";
+		SIGNAL = "CELL03[4]";
 		INDEX = 113;
 		FORMAT = E;
 		SCALE = 1;
@@ -6153,7 +6153,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL10[3]";
+		SIGNAL = "CELL03[3]";
 		INDEX = 114;
 		FORMAT = E;
 		SCALE = 1;
@@ -6161,7 +6161,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL10[2]";
+		SIGNAL = "CELL03[2]";
 		INDEX = 115;
 		FORMAT = E;
 		SCALE = 1;
@@ -6169,7 +6169,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL10[1]";
+		SIGNAL = "CELL03[1]";
 		INDEX = 116;
 		FORMAT = E;
 		SCALE = 1;
@@ -6177,7 +6177,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CELL10[0]";
+		SIGNAL = "CELL03[0]";
 		INDEX = 117;
 		FORMAT = E;
 		SCALE = 1;
@@ -6185,7 +6185,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "addrToCache";
+		SIGNAL = "CELL10";
 		INDEX = 118;
 		FORMAT = T;
 		SCALE = 1;
@@ -6193,7 +6193,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "addrToCache[7]";
+		SIGNAL = "CELL10[7]";
 		INDEX = 119;
 		FORMAT = E;
 		SCALE = 1;
@@ -6201,7 +6201,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "addrToCache[6]";
+		SIGNAL = "CELL10[6]";
 		INDEX = 120;
 		FORMAT = E;
 		SCALE = 1;
@@ -6209,7 +6209,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "addrToCache[5]";
+		SIGNAL = "CELL10[5]";
 		INDEX = 121;
 		FORMAT = E;
 		SCALE = 1;
@@ -6217,7 +6217,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "addrToCache[4]";
+		SIGNAL = "CELL10[4]";
 		INDEX = 122;
 		FORMAT = E;
 		SCALE = 1;
@@ -6225,7 +6225,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "addrToCache[3]";
+		SIGNAL = "CELL10[3]";
 		INDEX = 123;
 		FORMAT = E;
 		SCALE = 1;
@@ -6233,7 +6233,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "addrToCache[2]";
+		SIGNAL = "CELL10[2]";
 		INDEX = 124;
 		FORMAT = E;
 		SCALE = 1;
@@ -6241,7 +6241,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "addrToCache[1]";
+		SIGNAL = "CELL10[1]";
 		INDEX = 125;
 		FORMAT = E;
 		SCALE = 1;
@@ -6249,7 +6249,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "addrToCache[0]";
+		SIGNAL = "CELL10[0]";
 		INDEX = 126;
 		FORMAT = E;
 		SCALE = 1;
@@ -6257,7 +6257,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataFromCache";
+		SIGNAL = "addrToCache";
 		INDEX = 127;
 		FORMAT = T;
 		SCALE = 1;
@@ -6265,7 +6265,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataFromCache[7]";
+		SIGNAL = "addrToCache[7]";
 		INDEX = 128;
 		FORMAT = E;
 		SCALE = 1;
@@ -6273,7 +6273,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataFromCache[6]";
+		SIGNAL = "addrToCache[6]";
 		INDEX = 129;
 		FORMAT = E;
 		SCALE = 1;
@@ -6281,7 +6281,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataFromCache[5]";
+		SIGNAL = "addrToCache[5]";
 		INDEX = 130;
 		FORMAT = E;
 		SCALE = 1;
@@ -6289,7 +6289,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataFromCache[4]";
+		SIGNAL = "addrToCache[4]";
 		INDEX = 131;
 		FORMAT = E;
 		SCALE = 1;
@@ -6297,7 +6297,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataFromCache[3]";
+		SIGNAL = "addrToCache[3]";
 		INDEX = 132;
 		FORMAT = E;
 		SCALE = 1;
@@ -6305,7 +6305,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataFromCache[2]";
+		SIGNAL = "addrToCache[2]";
 		INDEX = 133;
 		FORMAT = E;
 		SCALE = 1;
@@ -6313,7 +6313,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataFromCache[1]";
+		SIGNAL = "addrToCache[1]";
 		INDEX = 134;
 		FORMAT = E;
 		SCALE = 1;
@@ -6321,7 +6321,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataFromCache[0]";
+		SIGNAL = "addrToCache[0]";
 		INDEX = 135;
 		FORMAT = E;
 		SCALE = 1;
@@ -6329,7 +6329,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataToCache";
+		SIGNAL = "dataFromCache";
 		INDEX = 136;
 		FORMAT = T;
 		SCALE = 1;
@@ -6337,7 +6337,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataToCache[7]";
+		SIGNAL = "dataFromCache[7]";
 		INDEX = 137;
 		FORMAT = E;
 		SCALE = 1;
@@ -6345,7 +6345,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataToCache[6]";
+		SIGNAL = "dataFromCache[6]";
 		INDEX = 138;
 		FORMAT = E;
 		SCALE = 1;
@@ -6353,7 +6353,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataToCache[5]";
+		SIGNAL = "dataFromCache[5]";
 		INDEX = 139;
 		FORMAT = E;
 		SCALE = 1;
@@ -6361,7 +6361,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataToCache[4]";
+		SIGNAL = "dataFromCache[4]";
 		INDEX = 140;
 		FORMAT = E;
 		SCALE = 1;
@@ -6369,7 +6369,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataToCache[3]";
+		SIGNAL = "dataFromCache[3]";
 		INDEX = 141;
 		FORMAT = E;
 		SCALE = 1;
@@ -6377,7 +6377,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataToCache[2]";
+		SIGNAL = "dataFromCache[2]";
 		INDEX = 142;
 		FORMAT = E;
 		SCALE = 1;
@@ -6385,7 +6385,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataToCache[1]";
+		SIGNAL = "dataFromCache[1]";
 		INDEX = 143;
 		FORMAT = E;
 		SCALE = 1;
@@ -6393,7 +6393,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dataToCache[0]";
+		SIGNAL = "dataFromCache[0]";
 		INDEX = 144;
 		FORMAT = E;
 		SCALE = 1;
@@ -6401,15 +6401,15 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ReadyCache";
+		SIGNAL = "dataToCache";
 		INDEX = 145;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "readCache";
+		SIGNAL = "dataToCache[7]";
 		INDEX = 146;
 		FORMAT = E;
 		SCALE = 1;
@@ -6417,7 +6417,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "writeCache";
+		SIGNAL = "dataToCache[6]";
 		INDEX = 147;
 		FORMAT = E;
 		SCALE = 1;
@@ -6425,15 +6425,15 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CACHE_CNTR";
+		SIGNAL = "dataToCache[5]";
 		INDEX = 148;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CACHE_CNTR[7]";
+		SIGNAL = "dataToCache[4]";
 		INDEX = 149;
 		FORMAT = E;
 		SCALE = 1;
@@ -6441,7 +6441,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CACHE_CNTR[6]";
+		SIGNAL = "dataToCache[3]";
 		INDEX = 150;
 		FORMAT = E;
 		SCALE = 1;
@@ -6449,7 +6449,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CACHE_CNTR[5]";
+		SIGNAL = "dataToCache[2]";
 		INDEX = 151;
 		FORMAT = E;
 		SCALE = 1;
@@ -6457,7 +6457,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CACHE_CNTR[4]";
+		SIGNAL = "dataToCache[1]";
 		INDEX = 152;
 		FORMAT = E;
 		SCALE = 1;
@@ -6465,7 +6465,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CACHE_CNTR[3]";
+		SIGNAL = "dataToCache[0]";
 		INDEX = 153;
 		FORMAT = E;
 		SCALE = 1;
@@ -6473,7 +6473,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CACHE_CNTR[2]";
+		SIGNAL = "ReadyCache";
 		INDEX = 154;
 		FORMAT = E;
 		SCALE = 1;
@@ -6481,7 +6481,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CACHE_CNTR[1]";
+		SIGNAL = "readCache";
 		INDEX = 155;
 		FORMAT = E;
 		SCALE = 1;
@@ -6489,7 +6489,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CACHE_CNTR[0]";
+		SIGNAL = "writeCache";
 		INDEX = 156;
 		FORMAT = E;
 		SCALE = 1;
@@ -6497,15 +6497,15 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AlB";
+		SIGNAL = "CACHE_CNTR";
 		INDEX = 157;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ZF";
+		SIGNAL = "CACHE_CNTR[7]";
 		INDEX = 158;
 		FORMAT = E;
 		SCALE = 1;
@@ -6513,7 +6513,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AgB";
+		SIGNAL = "CACHE_CNTR[6]";
 		INDEX = 159;
 		FORMAT = E;
 		SCALE = 1;
@@ -6521,15 +6521,15 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "OP_REG";
+		SIGNAL = "CACHE_CNTR[5]";
 		INDEX = 160;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "OP_REG[7]";
+		SIGNAL = "CACHE_CNTR[4]";
 		INDEX = 161;
 		FORMAT = E;
 		SCALE = 1;
@@ -6537,7 +6537,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "OP_REG[6]";
+		SIGNAL = "CACHE_CNTR[3]";
 		INDEX = 162;
 		FORMAT = E;
 		SCALE = 1;
@@ -6545,7 +6545,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "OP_REG[5]";
+		SIGNAL = "CACHE_CNTR[2]";
 		INDEX = 163;
 		FORMAT = E;
 		SCALE = 1;
@@ -6553,7 +6553,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "OP_REG[4]";
+		SIGNAL = "CACHE_CNTR[1]";
 		INDEX = 164;
 		FORMAT = E;
 		SCALE = 1;
@@ -6561,7 +6561,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "OP_REG[3]";
+		SIGNAL = "CACHE_CNTR[0]";
 		INDEX = 165;
 		FORMAT = E;
 		SCALE = 1;
@@ -6569,7 +6569,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "OP_REG[2]";
+		SIGNAL = "AlB";
 		INDEX = 166;
 		FORMAT = E;
 		SCALE = 1;
@@ -6577,7 +6577,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "OP_REG[1]";
+		SIGNAL = "ZF";
 		INDEX = 167;
 		FORMAT = E;
 		SCALE = 1;
@@ -6585,7 +6585,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "OP_REG[0]";
+		SIGNAL = "AgB";
 		INDEX = 168;
 		FORMAT = E;
 		SCALE = 1;
@@ -6593,7 +6593,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_RES";
+		SIGNAL = "OP_REG";
 		INDEX = 169;
 		FORMAT = T;
 		SCALE = 1;
@@ -6601,7 +6601,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_RES[7]";
+		SIGNAL = "OP_REG[7]";
 		INDEX = 170;
 		FORMAT = E;
 		SCALE = 1;
@@ -6609,7 +6609,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_RES[6]";
+		SIGNAL = "OP_REG[6]";
 		INDEX = 171;
 		FORMAT = E;
 		SCALE = 1;
@@ -6617,7 +6617,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_RES[5]";
+		SIGNAL = "OP_REG[5]";
 		INDEX = 172;
 		FORMAT = E;
 		SCALE = 1;
@@ -6625,7 +6625,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_RES[4]";
+		SIGNAL = "OP_REG[4]";
 		INDEX = 173;
 		FORMAT = E;
 		SCALE = 1;
@@ -6633,7 +6633,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_RES[3]";
+		SIGNAL = "OP_REG[3]";
 		INDEX = 174;
 		FORMAT = E;
 		SCALE = 1;
@@ -6641,7 +6641,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_RES[2]";
+		SIGNAL = "OP_REG[2]";
 		INDEX = 175;
 		FORMAT = E;
 		SCALE = 1;
@@ -6649,7 +6649,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_RES[1]";
+		SIGNAL = "OP_REG[1]";
 		INDEX = 176;
 		FORMAT = E;
 		SCALE = 1;
@@ -6657,7 +6657,7 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ALU_RES[0]";
+		SIGNAL = "OP_REG[0]";
 		INDEX = 177;
 		FORMAT = E;
 		SCALE = 1;
@@ -6665,8 +6665,80 @@ VECTOR("D:/Учеба/СиФО/Курсач/Project/CPUManager.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ReadyALU";
+		SIGNAL = "ALU_RES";
 		INDEX = 178;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_RES[7]";
+		INDEX = 179;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_RES[6]";
+		INDEX = 180;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_RES[5]";
+		INDEX = 181;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_RES[4]";
+		INDEX = 182;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_RES[3]";
+		INDEX = 183;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_RES[2]";
+		INDEX = 184;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_RES[1]";
+		INDEX = 185;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_RES[0]";
+		INDEX = 186;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ReadyALU";
+		INDEX = 187;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
