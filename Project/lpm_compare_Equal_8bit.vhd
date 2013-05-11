@@ -42,6 +42,7 @@ USE lpm.all;
 ENTITY lpm_compare_Equal_8bit IS
 	PORT
 	(
+		clock		: IN STD_LOGIC ;
 		dataa		: IN STD_LOGIC_VECTOR (7 DOWNTO 0);
 		datab		: IN STD_LOGIC_VECTOR (7 DOWNTO 0);
 		AeB		: OUT STD_LOGIC 
@@ -57,6 +58,7 @@ ARCHITECTURE SYN OF lpm_compare_equal_8bit IS
 
 	COMPONENT lpm_compare
 	GENERIC (
+		lpm_pipeline		: NATURAL;
 		lpm_representation		: STRING;
 		lpm_type		: STRING;
 		lpm_width		: NATURAL
@@ -64,6 +66,7 @@ ARCHITECTURE SYN OF lpm_compare_equal_8bit IS
 	PORT (
 			dataa	: IN STD_LOGIC_VECTOR (7 DOWNTO 0);
 			datab	: IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+			clock	: IN STD_LOGIC ;
 			AeB	: OUT STD_LOGIC 
 	);
 	END COMPONENT;
@@ -73,6 +76,7 @@ BEGIN
 
 	lpm_compare_component : lpm_compare
 	GENERIC MAP (
+		lpm_pipeline => 1,
 		lpm_representation => "UNSIGNED",
 		lpm_type => "LPM_COMPARE",
 		lpm_width => 8
@@ -80,6 +84,7 @@ BEGIN
 	PORT MAP (
 		dataa => dataa,
 		datab => datab,
+		clock => clock,
 		AeB => sub_wire0
 	);
 
@@ -97,8 +102,8 @@ END SYN;
 -- Retrieval info: PRIVATE: AltB NUMERIC "0"
 -- Retrieval info: PRIVATE: AneB NUMERIC "0"
 -- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Stratix II"
--- Retrieval info: PRIVATE: LPM_PIPELINE NUMERIC "0"
--- Retrieval info: PRIVATE: Latency NUMERIC "0"
+-- Retrieval info: PRIVATE: LPM_PIPELINE NUMERIC "1"
+-- Retrieval info: PRIVATE: Latency NUMERIC "1"
 -- Retrieval info: PRIVATE: PortBValue NUMERIC "0"
 -- Retrieval info: PRIVATE: Radix NUMERIC "10"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
@@ -107,15 +112,18 @@ END SYN;
 -- Retrieval info: PRIVATE: clken NUMERIC "0"
 -- Retrieval info: PRIVATE: isPortBConstant NUMERIC "0"
 -- Retrieval info: PRIVATE: nBit NUMERIC "8"
+-- Retrieval info: CONSTANT: LPM_PIPELINE NUMERIC "1"
 -- Retrieval info: CONSTANT: LPM_REPRESENTATION STRING "UNSIGNED"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COMPARE"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "8"
 -- Retrieval info: USED_PORT: AeB 0 0 0 0 OUTPUT NODEFVAL AeB
+-- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL clock
 -- Retrieval info: USED_PORT: dataa 0 0 8 0 INPUT NODEFVAL dataa[7..0]
 -- Retrieval info: USED_PORT: datab 0 0 8 0 INPUT NODEFVAL datab[7..0]
 -- Retrieval info: CONNECT: AeB 0 0 0 0 @AeB 0 0 0 0
 -- Retrieval info: CONNECT: @dataa 0 0 8 0 dataa 0 0 8 0
 -- Retrieval info: CONNECT: @datab 0 0 8 0 datab 0 0 8 0
+-- Retrieval info: CONNECT: @clock 0 0 0 0 clock 0 0 0 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare_Equal_8bit.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare_Equal_8bit.inc TRUE

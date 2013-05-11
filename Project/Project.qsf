@@ -49,7 +49,6 @@ set_global_assignment -name LL_MEMBER_STATE LOCKED -entity Project -section_id "
 set_global_assignment -name SIMULATION_MODE FUNCTIONAL
 set_global_assignment -name LL_ROOT_REGION ON -entity ROM -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -entity ROM -section_id "Root Region"
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE CPUManager.vwf
 set_global_assignment -name HEX_FILE RAM.hex
 set_global_assignment -name BDF_FILE RAM.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE RAM.vwf
@@ -102,9 +101,11 @@ set_global_assignment -name QIP_FILE lpm_decode_5bit.qip
 set_global_assignment -name QIP_FILE lpm_counter_5bit.qip
 set_global_assignment -name QIP_FILE lpm_dff_8bit_en.qip
 set_global_assignment -name QIP_FILE lpm_decode_8bit_20out.qip
+set_global_assignment -name QIP_FILE lpm_add_8bit.qip
+set_global_assignment -name QIP_FILE lpm_decode_4out.qip
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE CPUManager.vwf
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name QIP_FILE lpm_add_8bit.qip
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

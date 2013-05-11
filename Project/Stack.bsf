@@ -79,13 +79,6 @@ applicable agreement for further details.
 		(text "ADDRESS[7..0]" (rect 77 75 163 89)(font "Arial" (font_size 8)))
 		(line (pt 184 80)(pt 168 80)(line_width 3))
 	)
-	(port
-		(pt 184 96)
-		(output)
-		(text "cntr[7..0]" (rect 0 0 50 14)(font "Arial" (font_size 8)))
-		(text "cntr[7..0]" (rect 113 91 163 105)(font "Arial" (font_size 8)))
-		(line (pt 184 96)(pt 168 96)(line_width 3))
-	)
 	(drawing
 		(rectangle (rect 16 16 168 112)(line_width 1))
 	)

@@ -15,6 +15,7 @@
 
 FUNCTION lpm_compare_Equal_8bit 
 (
+	clock,
 	dataa[7..0],
 	datab[7..0]
 )
