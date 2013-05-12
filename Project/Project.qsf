@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY CPUManager
+set_global_assignment -name TOP_LEVEL_ENTITY MAIN
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:38:32  MARCH 03, 2013"
 set_global_assignment -name LAST_QUARTUS_VERSION 9.1
@@ -63,15 +63,17 @@ set_global_assignment -name BDF_FILE test.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE test.vwf
 set_global_assignment -name BDF_FILE ALU.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE ALU.vwf
-set_global_assignment -name BDF_FILE CacheCounter.bdf
 set_global_assignment -name BDF_FILE Set.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Set.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Set_t.vwf
 set_global_assignment -name BDF_FILE Cache.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Cache.vwf
 set_global_assignment -name BDF_FILE Predictor.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Predictor.vwf
 set_global_assignment -name BDF_FILE CPUManager.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE CPUManager.vwf
+set_global_assignment -name BDF_FILE DMA.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE DMA.vwf
 set_global_assignment -name QIP_FILE lpm_bustri_8.qip
 set_global_assignment -name QIP_FILE lpm_dff0.qip
 set_global_assignment -name QIP_FILE lpm_dff_8bit.qip
@@ -103,9 +105,21 @@ set_global_assignment -name QIP_FILE lpm_dff_8bit_en.qip
 set_global_assignment -name QIP_FILE lpm_decode_8bit_20out.qip
 set_global_assignment -name QIP_FILE lpm_add_8bit.qip
 set_global_assignment -name QIP_FILE lpm_decode_4out.qip
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE CPUManager.vwf
+set_global_assignment -name QIP_FILE lpm_decode_8bit_16out.qip
+set_global_assignment -name QIP_FILE lpm_counter_revers_2bit.qip
+set_global_assignment -name QIP_FILE lpm_dff_2bit.qip
+set_global_assignment -name QIP_FILE lpm_decode0.qip
+set_global_assignment -name QIP_FILE lpm_bustri_2bit.qip
+set_global_assignment -name QIP_FILE lpm_shiftreg_2bit.qip
+set_global_assignment -name QIP_FILE lpm_counter_2bit_clr.qip
+set_global_assignment -name QIP_FILE lpm_counter_8bit_load.qip
+set_global_assignment -name QIP_FILE lpm_compare_8bit_EQUAL.qip
+set_global_assignment -name QIP_FILE lpm_decode_8bit_1out.qip
+set_global_assignment -name BDF_FILE MAIN.bdf
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE MAIN.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE MAIN.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
