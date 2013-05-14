@@ -607,41 +607,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 2208 1280 2384 1296)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "TT[7..0]" (rect 90 0 127 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
 	(rect 1824 1192 2008 1208)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "AddressRAM[7..0]" (rect 90 0 179 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect 1160 232 1336 248)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ReadROM" (rect 90 0 140 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -686,72 +654,8 @@ applicable agreement for further details.
 	)
 )
 (pin
-	(output)
-	(rect 1920 1232 2096 1248)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "WriteRAM2" (rect 90 0 145 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect 1920 1328 2096 1344)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ReadRAM1" (rect 90 0 145 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect 1920 1360 2096 1376)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ReadRAM2" (rect 90 0 145 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect 1920 1264 2096 1280)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "WriteRAM1" (rect 90 0 145 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
 	(bidir)
-	(rect 2208 1216 2387 1232)
+	(rect 2208 1168 2387 1184)
 	(text "BIDIR" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "DataToRAM[7..0]" (rect 90 0 174 12)(font "Arial" ))
 	(pt 0 8)
@@ -765,6 +669,24 @@ applicable agreement for further details.
 		(line (pt 52 8)(pt 56 12)(line_width 1))
 	)
 	(text "VCC" (rect 4 7 24 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(bidir)
+	(rect 2408 40 2424 216)
+	(text "BIDIR" (rect 0 151 10 175)(font "Arial" (font_size 6))(vertical))
+	(text "ControlBus[7..0]" (rect 0 5 12 85)(font "Arial" )(vertical))
+	(pt 8 176)
+	(drawing
+		(line (pt 4 120)(pt 4 98)(line_width 1))
+		(line (pt 8 176)(pt 8 124)(line_width 1))
+		(line (pt 12 120)(pt 12 98)(line_width 1))
+		(line (pt 4 98)(pt 8 94)(line_width 1))
+		(line (pt 12 98)(pt 8 94)(line_width 1))
+		(line (pt 4 120)(pt 8 124)(line_width 1))
+		(line (pt 8 124)(pt 12 120)(line_width 1))
+	)
+	(rotate90)
+	(text "VCC" (rect 7 152 17 172)(font "Arial" (font_size 6))(vertical))
 )
 (symbol
 	(rect 336 56 480 152)
@@ -7397,7 +7319,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1840 1352 1888 1384)
+	(rect 1840 1344 1888 1376)
 	(text "TRI" (rect 1 22 16 32)(font "Arial" (font_size 6)))
 	(text "inst66" (rect 3 -1 32 11)(font "Arial" ))
 	(port
@@ -9728,16 +9650,6 @@ applicable agreement for further details.
 	(pt 800 712)
 )
 (connector
-	(pt 1080 1176)
-	(pt 2104 1176)
-	(bus)
-)
-(connector
-	(pt 2104 1176)
-	(pt 2104 1224)
-	(bus)
-)
-(connector
 	(pt 1064 1224)
 	(pt 1072 1224)
 	(bus)
@@ -10273,11 +10185,6 @@ applicable agreement for further details.
 	(pt 1416 1392)
 )
 (connector
-	(pt 2208 1288)
-	(pt 2168 1288)
-	(bus)
-)
-(connector
 	(text "StackReady" (rect 654 158 666 219)(font "Arial" )(vertical))
 	(pt 672 184)
 	(pt 672 208)
@@ -10286,11 +10193,6 @@ applicable agreement for further details.
 	(text "c7" (rect 1488 1680 1499 1692)(font "Arial" ))
 	(pt 1512 1696)
 	(pt 1480 1696)
-)
-(connector
-	(pt 2168 1224)
-	(pt 2208 1224)
-	(bus)
 )
 (connector
 	(text "c0" (rect 979 196 990 208)(font "Arial" ))
@@ -10311,10 +10213,6 @@ applicable agreement for further details.
 	(text "c3" (rect 979 244 990 256)(font "Arial" ))
 	(pt 1008 264)
 	(pt 968 264)
-)
-(connector
-	(pt 1072 240)
-	(pt 1160 240)
 )
 (connector
 	(text "dataFromROM[7..0]" (rect 1145 168 1242 180)(font "Arial" ))
@@ -10659,10 +10557,6 @@ applicable agreement for further details.
 	(pt 1864 1216)
 )
 (connector
-	(pt 1888 1240)
-	(pt 1920 1240)
-)
-(connector
 	(pt 1224 1552)
 	(pt 1264 1552)
 )
@@ -10763,21 +10657,6 @@ applicable agreement for further details.
 	(pt 1632 1472)
 )
 (connector
-	(pt 2104 1224)
-	(pt 2128 1224)
-	(bus)
-)
-(connector
-	(pt 2128 1224)
-	(pt 2168 1224)
-	(bus)
-)
-(connector
-	(pt 2128 1224)
-	(pt 2128 1376)
-	(bus)
-)
-(connector
 	(pt 1408 1432)
 	(pt 2112 1432)
 )
@@ -10797,16 +10676,6 @@ applicable agreement for further details.
 	(text "dataToRON[7..0]" (rect 2156 1529 2168 1612)(font "Arial" )(vertical))
 	(pt 2168 1464)
 	(pt 2168 1640)
-	(bus)
-)
-(connector
-	(pt 2168 1224)
-	(pt 2168 1288)
-	(bus)
-)
-(connector
-	(pt 2168 1288)
-	(pt 2168 1368)
 	(bus)
 )
 (connector
@@ -10843,10 +10712,6 @@ applicable agreement for further details.
 (connector
 	(pt 1632 1328)
 	(pt 1648 1328)
-)
-(connector
-	(pt 1888 1336)
-	(pt 1920 1336)
 )
 (connector
 	(pt 1632 1344)
@@ -10889,14 +10754,6 @@ applicable agreement for further details.
 	(pt 1360 1280)
 )
 (connector
-	(pt 1888 1368)
-	(pt 1920 1368)
-)
-(connector
-	(pt 1888 1272)
-	(pt 1920 1272)
-)
-(connector
 	(pt 1840 1272)
 	(pt 1824 1272)
 )
@@ -10913,38 +10770,6 @@ applicable agreement for further details.
 	(pt 1840 1240)
 )
 (connector
-	(pt 1840 1368)
-	(pt 1824 1368)
-)
-(connector
-	(pt 1824 1368)
-	(pt 1824 1336)
-)
-(connector
-	(pt 1712 1336)
-	(pt 1824 1336)
-)
-(connector
-	(pt 1824 1336)
-	(pt 1840 1336)
-)
-(connector
-	(pt 1776 1392)
-	(pt 1864 1392)
-)
-(connector
-	(pt 1864 1384)
-	(pt 1864 1392)
-)
-(connector
-	(pt 1776 1216)
-	(pt 1776 1304)
-)
-(connector
-	(pt 1776 1304)
-	(pt 1776 1392)
-)
-(connector
 	(text "push" (rect 864 1152 887 1164)(font "Arial" ))
 	(pt 856 1168)
 	(pt 888 1168)
@@ -10957,6 +10782,119 @@ applicable agreement for further details.
 (connector
 	(pt 736 1160)
 	(pt 792 1160)
+)
+(connector
+	(pt 2128 1176)
+	(pt 2128 1376)
+	(bus)
+)
+(connector
+	(pt 1080 1176)
+	(pt 2128 1176)
+	(bus)
+)
+(connector
+	(pt 2128 1176)
+	(pt 2168 1176)
+	(bus)
+)
+(connector
+	(pt 2168 1176)
+	(pt 2208 1176)
+	(bus)
+)
+(connector
+	(pt 2168 1176)
+	(pt 2168 1368)
+	(bus)
+)
+(connector
+	(pt 1824 1336)
+	(pt 1824 1360)
+)
+(connector
+	(pt 1864 1376)
+	(pt 1864 1384)
+)
+(connector
+	(pt 1776 1384)
+	(pt 1864 1384)
+)
+(connector
+	(pt 1824 1360)
+	(pt 1840 1360)
+)
+(connector
+	(pt 1712 1336)
+	(pt 1824 1336)
+)
+(connector
+	(pt 1824 1336)
+	(pt 1840 1336)
+)
+(connector
+	(pt 1776 1216)
+	(pt 1776 1304)
+)
+(connector
+	(pt 1776 1304)
+	(pt 1776 1384)
+)
+(connector
+	(text "ControlBus[0]" (rect 2187 224 2254 236)(font "Arial" ))
+	(pt 2416 240)
+	(pt 1072 240)
+)
+(connector
+	(pt 2416 216)
+	(pt 2416 240)
+	(bus)
+)
+(connector
+	(text "ControlBus[1]" (rect 2206 1320 2273 1332)(font "Arial" ))
+	(pt 2416 1336)
+	(pt 1888 1336)
+)
+(connector
+	(pt 2416 1272)
+	(pt 2416 1336)
+	(bus)
+)
+(connector
+	(text "ControlBus[2]" (rect 2210 1256 2277 1268)(font "Arial" ))
+	(pt 2416 1272)
+	(pt 1888 1272)
+)
+(connector
+	(text "ControlBus[7..0]" (rect 2400 330 2412 410)(font "Arial" )(vertical))
+	(pt 2416 240)
+	(pt 2416 1240)
+	(bus)
+)
+(connector
+	(pt 2416 1240)
+	(pt 2416 1272)
+	(bus)
+)
+(connector
+	(text "ControlBus[4]" (rect 2209 1224 2276 1236)(font "Arial" ))
+	(pt 2416 1240)
+	(pt 1888 1240)
+)
+(connector
+	(pt 2416 1336)
+	(pt 2416 1360)
+	(bus)
+)
+(connector
+	(pt 2416 1360)
+	(pt 2416 1384)
+	(bus)
+)
+(connector
+	(text "ControlBus[3]" (rect 2207 1344 2274 1356)(font "Arial" ))
+	(pt 2416 1360)
+	(pt 1888 1360)
 )
 (junction (pt 584 -368))
 (junction (pt 936 -368))
@@ -11008,12 +10946,9 @@ applicable agreement for further details.
 (junction (pt 1120 1664))
 (junction (pt 960 1640))
 (junction (pt 1072 1664))
-(junction (pt 2128 1224))
 (junction (pt 1560 1216))
 (junction (pt 1408 1376))
 (junction (pt 1496 1384))
-(junction (pt 2168 1288))
-(junction (pt 2168 1224))
 (junction (pt 16 1320))
 (junction (pt 464 -24))
 (junction (pt 560 1240))
@@ -11033,9 +10968,20 @@ applicable agreement for further details.
 (junction (pt 1824 1240))
 (junction (pt 1824 1336))
 (junction (pt 1776 1304))
+(junction (pt 2128 1176))
+(junction (pt 2168 1176))
+(junction (pt 2416 240))
+(junction (pt 2416 1336))
+(junction (pt 2416 1272))
+(junction (pt 2416 1240))
+(junction (pt 2416 1360))
 (text "IP" (rect 424 72 433 86)(font "Arial" (font_size 8)))
 (text "PC" (rect 752 64 767 78)(font "Arial" (font_size 8)))
 (text "IR" (rect 448 -440 458 -426)(font "Arial" (font_size 8)))
 (text "Op1R" (rect 800 -440 831 -426)(font "Arial" (font_size 8)))
 (text "Op2R" (rect 1136 -440 1167 -426)(font "Arial" (font_size 8)))
 (text "IP" (rect 352 40 361 54)(font "Arial" (font_size 8)))
+(text "WRITE RAM 2" (rect 2288 1216 2365 1230)(font "Arial" (font_size 8)))
+(text "WRITE RAM 1" (rect 2288 1256 2365 1270)(font "Arial" (font_size 8)))
+(text "READ RAM 1" (rect 2288 1306 2362 1320)(font "Arial" (font_size 8)))
+(text "READ RAM 2" (rect 2288 1346 2362 1360)(font "Arial" (font_size 8)))

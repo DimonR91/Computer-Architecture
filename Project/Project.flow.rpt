@@ -1,5 +1,5 @@
 Flow report for Project
-Tue May 14 02:39:44 2013
+Tue May 14 03:55:54 2013
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,19 +38,19 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Flow Summary                                                            ;
 +-------------------------------+-----------------------------------------+
-; Flow Status                   ; Successful - Tue May 14 02:39:44 2013   ;
+; Flow Status                   ; Successful - Tue May 14 03:55:54 2013   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; Project                                 ;
-; Top-level Entity Name         ; MAIN                                    ;
+; Top-level Entity Name         ; DMA                                     ;
 ; Family                        ; Stratix II                              ;
 ; Met timing requirements       ; Yes                                     ;
-; Logic utilization             ; 14 %                                    ;
-;     Combinational ALUTs       ; 1,529 / 12,480 ( 12 % )                 ;
-;     Dedicated logic registers ; 756 / 12,480 ( 6 % )                    ;
-; Total registers               ; 756                                     ;
-; Total pins                    ; 110 / 343 ( 32 % )                      ;
+; Logic utilization             ; < 1 %                                   ;
+;     Combinational ALUTs       ; 53 / 12,480 ( < 1 % )                   ;
+;     Dedicated logic registers ; 34 / 12,480 ( < 1 % )                   ;
+; Total registers               ; 34                                      ;
+; Total pins                    ; 66 / 343 ( 19 % )                       ;
 ; Total virtual pins            ; 0                                       ;
-; Total block memory bits       ; 4,096 / 419,328 ( < 1 % )               ;
+; Total block memory bits       ; 0 / 419,328 ( 0 % )                     ;
 ; DSP block 9-bit elements      ; 0 / 96 ( 0 % )                          ;
 ; Total PLLs                    ; 0 / 6 ( 0 % )                           ;
 ; Total DLLs                    ; 0 / 2 ( 0 % )                           ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/14/2013 02:37:17 ;
+; Start date & time ; 05/14/2013 03:55:36 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Project             ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +------------------------------------+--------------------------------+---------------+-------------+----------------+
 ; Assignment Name                    ; Value                          ; Default Value ; Entity Name ; Section Id     ;
 +------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 143307691995.136848823705044   ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 143307691995.136849293604644   ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_BUSTRI                     ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_FF                         ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_FF                         ; --            ; --          ; --             ;
@@ -241,9 +241,9 @@ applicable agreement for further details.
 ; MISC_FILE                          ; lpm_compare_8bit_EQUAL.inc     ; --            ; --          ; --             ;
 ; MISC_FILE                          ; lpm_decode_8bit_1out.bsf       ; --            ; --          ; --             ;
 ; MISC_FILE                          ; lpm_decode_8bit_1out.inc       ; --            ; --          ; --             ;
-; PARTITION_COLOR                    ; 16764057                       ; --            ; MAIN        ; Top            ;
-; PARTITION_NETLIST_TYPE             ; SOURCE                         ; --            ; MAIN        ; Top            ;
-; TOP_LEVEL_ENTITY                   ; MAIN                           ; Project       ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                       ; --            ; DMA         ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                         ; --            ; DMA         ; Top            ;
+; TOP_LEVEL_ENTITY                   ; DMA                            ; Project       ; --          ; --             ;
 ; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                            ; --            ; --          ; eda_blast_fpga ;
 +------------------------------------+--------------------------------+---------------+-------------+----------------+
 
@@ -253,11 +253,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:58     ; 1.0                     ; 275 MB              ; 00:01:03                           ;
-; Fitter                  ; 00:01:12     ; 1.0                     ; 266 MB              ; 00:01:07                           ;
-; Assembler               ; 00:00:03     ; 1.0                     ; 228 MB              ; 00:00:03                           ;
-; Classic Timing Analyzer ; 00:00:08     ; 1.0                     ; 193 MB              ; 00:00:09                           ;
-; Total                   ; 00:02:21     ; --                      ; --                  ; 00:02:22                           ;
+; Analysis & Synthesis    ; 00:00:05     ; 1.0                     ; 243 MB              ; 00:00:05                           ;
+; Fitter                  ; 00:00:07     ; 1.0                     ; 246 MB              ; 00:00:07                           ;
+; Assembler               ; 00:00:03     ; 1.0                     ; 224 MB              ; 00:00:03                           ;
+; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 154 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:16     ; --                      ; --                  ; 00:00:15                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
