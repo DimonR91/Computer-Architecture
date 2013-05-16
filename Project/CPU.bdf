@@ -181,40 +181,6 @@ applicable agreement for further details.
 	)
 )
 (pin
-	(output)
-	(rect 1760 2392 1776 2568)
-	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "W" (rect 4 90 16 100)(font "Arial" )(vertical))
-	(pt 8 0)
-	(drawing
-		(line (pt 8 0)(pt 8 52)(line_width 1))
-		(line (pt 12 52)(pt 12 78)(line_width 1))
-		(line (pt 4 52)(pt 4 78)(line_width 1))
-		(line (pt 4 52)(pt 12 52)(line_width 1))
-		(line (pt 12 78)(pt 8 82)(line_width 1))
-		(line (pt 8 82)(pt 4 78)(line_width 1))
-		(line (pt 4 78)(pt 8 82)(line_width 1))
-	)
-	(rotate270)
-)
-(pin
-	(output)
-	(rect 1784 2392 1800 2568)
-	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "R" (rect 4 90 16 98)(font "Arial" )(vertical))
-	(pt 8 0)
-	(drawing
-		(line (pt 8 0)(pt 8 52)(line_width 1))
-		(line (pt 12 52)(pt 12 78)(line_width 1))
-		(line (pt 4 52)(pt 4 78)(line_width 1))
-		(line (pt 4 52)(pt 12 52)(line_width 1))
-		(line (pt 12 78)(pt 8 82)(line_width 1))
-		(line (pt 8 82)(pt 4 78)(line_width 1))
-		(line (pt 4 78)(pt 8 82)(line_width 1))
-	)
-	(rotate270)
-)
-(pin
 	(bidir)
 	(rect 2360 1960 2536 1976)
 	(text "BIDIR" (rect 1 0 25 10)(font "Arial" (font_size 6)))
@@ -1258,14 +1224,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1768 1872)
-	(pt 1768 2392)
-)
-(connector
-	(pt 1792 1888)
-	(pt 1792 2392)
-)
-(connector
 	(pt 2512 1248)
 	(pt 2512 1808)
 )
@@ -1417,10 +1375,6 @@ applicable agreement for further details.
 	(pt 2640 1856)
 )
 (connector
-	(pt 1768 1872)
-	(pt 1864 1872)
-)
-(connector
 	(pt 1864 1872)
 	(pt 1928 1872)
 )
@@ -1431,10 +1385,6 @@ applicable agreement for further details.
 (connector
 	(pt 1896 1712)
 	(pt 1928 1712)
-)
-(connector
-	(pt 1792 1888)
-	(pt 1880 1888)
 )
 (connector
 	(pt 1880 1888)
@@ -1605,6 +1555,4 @@ applicable agreement for further details.
 (junction (pt 2848 1264))
 (junction (pt 2288 1856))
 (junction (pt 1896 1712))
-(junction (pt 1880 1888))
-(junction (pt 1864 1872))
 (junction (pt 2528 1784))

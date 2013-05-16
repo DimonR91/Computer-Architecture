@@ -70,7 +70,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 664 120 840 136)
+	(rect 728 120 904 136)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "ADDR[7..0]" (rect 90 0 147 12)(font "Arial" ))
 	(pt 0 8)
@@ -1946,6 +1946,62 @@ applicable agreement for further details.
 		(arc (pt 31 36)(pt 31 12)(rect 19 12 44 37)(line_width 1))
 	)
 )
+(symbol
+	(rect 612 56 660 88)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst50" (rect 3 21 32 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16)(line_width 1))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16)(line_width 1))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7)(line_width 1))
+		(line (pt 13 7)(pt 31 16)(line_width 1))
+		(line (pt 13 25)(pt 31 16)(line_width 1))
+		(circle (rect 31 12 39 20)(line_width 1))
+	)
+)
+(symbol
+	(rect 656 112 704 144)
+	(text "TRI" (rect 1 0 16 10)(font "Arial" (font_size 6)))
+	(text "inst52" (rect 3 21 32 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16)(line_width 1))
+	)
+	(port
+		(pt 24 0)
+		(input)
+		(text "OE" (rect 26 0 37 12)(font "Courier New" (bold))(invisible))
+		(text "OE" (rect 26 0 37 12)(font "Courier New" (bold))(invisible))
+		(line (pt 24 12)(pt 24 0)(line_width 1))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16)(line_width 1))
+	)
+	(drawing
+		(line (pt 14 25)(pt 14 7)(line_width 1))
+		(line (pt 14 25)(pt 32 16)(line_width 1))
+		(line (pt 14 7)(pt 32 16)(line_width 1))
+	)
+)
 (connector
 	(text "SourcAddr[7..0]" (rect 161 344 237 356)(font "Arial" ))
 	(pt 224 360)
@@ -2156,16 +2212,6 @@ applicable agreement for further details.
 (connector
 	(pt 520 88)
 	(pt 472 88)
-)
-(connector
-	(pt 576 128)
-	(pt 616 128)
-	(bus)
-)
-(connector
-	(pt 616 128)
-	(pt 664 128)
-	(bus)
 )
 (connector
 	(pt 8 824)
@@ -2888,6 +2934,34 @@ applicable agreement for further details.
 	(pt -64 496)
 	(pt 8 496)
 	(bus)
+)
+(connector
+	(pt 576 128)
+	(pt 616 128)
+	(bus)
+)
+(connector
+	(pt 616 128)
+	(pt 656 128)
+	(bus)
+)
+(connector
+	(pt 704 128)
+	(pt 728 128)
+	(bus)
+)
+(connector
+	(text "ControlBus[5]" (rect 536 56 603 68)(font "Arial" ))
+	(pt 612 72)
+	(pt 540 72)
+)
+(connector
+	(pt 680 72)
+	(pt 660 72)
+)
+(connector
+	(pt 680 72)
+	(pt 680 112)
 )
 (junction (pt 520 424))
 (junction (pt 352 432))

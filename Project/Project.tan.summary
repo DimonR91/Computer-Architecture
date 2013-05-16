@@ -2,52 +2,22 @@
 Timing Analyzer Summary
 --------------------------------------------------------------------------------------
 
-Type           : Worst-case tsu
-Slack          : N/A
-Required Time  : None
-Actual Time    : 3.591 ns
-From           : DATA[1]
-To             : lpm_dff_8bit_en:inst18|lpm_ff:lpm_ff_component|dffs[1]
-From Clock     : --
-To Clock       : CLK
-Failed Paths   : 0
-
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 12.414 ns
-From           : lpm_counter_8bit_load:inst8|lpm_counter:lpm_counter_component|cntr_21i:auto_generated|safe_q[7]
-To             : DATA[4]
+Actual Time    : 1685.819 ns
+From           : CPU:inst1|CPUManager:inst2|inst10
+To             : AlB
 From Clock     : CLK
 To Clock       : --
-Failed Paths   : 0
-
-Type           : Worst-case tpd
-Slack          : N/A
-Required Time  : None
-Actual Time    : 7.551 ns
-From           : ControlBus[5]
-To             : ControlBus[4]
-From Clock     : --
-To Clock       : --
-Failed Paths   : 0
-
-Type           : Worst-case th
-Slack          : N/A
-Required Time  : None
-Actual Time    : -0.497 ns
-From           : DataBus[4]
-To             : lpm_counter_8bit_load:inst7|lpm_counter:lpm_counter_component|cntr_21i:auto_generated|safe_q[4]
-From Clock     : --
-To Clock       : CLK
 Failed Paths   : 0
 
 Type           : Clock Setup: 'CLK'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 142.33 MHz ( period = 7.026 ns )
-From           : lpm_counter_8bit_load:inst8|lpm_counter:lpm_counter_component|cntr_21i:auto_generated|safe_q[7]
-To             : lpm_dff_8bit_en:inst18|lpm_ff:lpm_ff_component|dffs[2]
+Actual Time    : 0.30 MHz ( period = 3319.200 ns )
+From           : CPU:inst1|CPUManager:inst2|inst5
+To             : RAM:inst21|lpm_ram_io:inst|altram:sram|altsyncram:ram_block|altsyncram_aa91:auto_generated|ram_block1a0~porta_address_reg2
 From Clock     : CLK
 To Clock       : CLK
 Failed Paths   : 0
@@ -56,11 +26,11 @@ Type           : Clock Hold: 'CLK'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[7]
-To             : lpm_counter_8bit_load:inst7|lpm_counter:lpm_counter_component|cntr_21i:auto_generated|safe_q[7]
+From           : CPU:inst1|RON:inst13|lpm_dff0:inst37|lpm_ff:lpm_ff_component|dffs[0]
+To             : CPU:inst1|CPUManager:inst2|inst9
 From Clock     : CLK
 To Clock       : CLK
-Failed Paths   : 16
+Failed Paths   : 10000
 
 Type           : Total number of failed paths
 Slack          : 
@@ -70,7 +40,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 16
+Failed Paths   : 10000
 
 --------------------------------------------------------------------------------------
 

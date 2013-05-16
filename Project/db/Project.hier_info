@@ -15,8 +15,6 @@ ControlBus[7] <= ControlBus~1.DB_MAX_OUTPUT_PORT_TYPE
 ControlBus[8] <= ControlBus~0.DB_MAX_OUTPUT_PORT_TYPE
 AlB <= CPU:inst1.AlB
 ZF <= CPU:inst1.ZF
-W <= CPU:inst1.W
-R <= CPU:inst1.R
 ADR[0] <= gdfx_temp1[0].DB_MAX_OUTPUT_PORT_TYPE
 ADR[1] <= gdfx_temp1[1].DB_MAX_OUTPUT_PORT_TYPE
 ADR[2] <= gdfx_temp1[2].DB_MAX_OUTPUT_PORT_TYPE
@@ -122,8 +120,6 @@ DataFromROM[6] => CPUManager:inst2.DataFromROM[6]
 DataFromROM[7] => CPUManager:inst2.DataFromROM[7]
 AlB <= CPUManager:inst2.AlB
 AgB <= CPUManager:inst2.AgB
-W <= Cache:inst23.writeRAM
-R <= Cache:inst23.readRAM
 AddressBus[0] <= CPUManager:inst2.AddressBus[0]
 AddressBus[1] <= CPUManager:inst2.AddressBus[1]
 AddressBus[2] <= CPUManager:inst2.AddressBus[2]
@@ -233,22 +229,14 @@ ReadCache <= ReadCache~0.DB_MAX_OUTPUT_PORT_TYPE
 CLK_CACHE <= inst74.DB_MAX_OUTPUT_PORT_TYPE
 CLK_PREDICTOR <= inst50.DB_MAX_OUTPUT_PORT_TYPE
 CLK_ALU <= inst106.DB_MAX_OUTPUT_PORT_TYPE
-AddressBus[0] <= AdressRAM[0].DB_MAX_OUTPUT_PORT_TYPE
-AddressBus[1] <= AdressRAM[1].DB_MAX_OUTPUT_PORT_TYPE
-AddressBus[2] <= AdressRAM[2].DB_MAX_OUTPUT_PORT_TYPE
-AddressBus[3] <= AdressRAM[3].DB_MAX_OUTPUT_PORT_TYPE
-AddressBus[4] <= AdressRAM[4].DB_MAX_OUTPUT_PORT_TYPE
-AddressBus[5] <= AdressRAM[5].DB_MAX_OUTPUT_PORT_TYPE
-AddressBus[6] <= AdressRAM[6].DB_MAX_OUTPUT_PORT_TYPE
-AddressBus[7] <= AdressRAM[7].DB_MAX_OUTPUT_PORT_TYPE
-CacheAddressToRAM[0] => lpm_bustri_8bit:inst158.data[0]
-CacheAddressToRAM[1] => lpm_bustri_8bit:inst158.data[1]
-CacheAddressToRAM[2] => lpm_bustri_8bit:inst158.data[2]
-CacheAddressToRAM[3] => lpm_bustri_8bit:inst158.data[3]
-CacheAddressToRAM[4] => lpm_bustri_8bit:inst158.data[4]
-CacheAddressToRAM[5] => lpm_bustri_8bit:inst158.data[5]
-CacheAddressToRAM[6] => lpm_bustri_8bit:inst158.data[6]
-CacheAddressToRAM[7] => lpm_bustri_8bit:inst158.data[7]
+AddressBus[0] <= inst147[0].DB_MAX_OUTPUT_PORT_TYPE
+AddressBus[1] <= inst147[1].DB_MAX_OUTPUT_PORT_TYPE
+AddressBus[2] <= inst147[2].DB_MAX_OUTPUT_PORT_TYPE
+AddressBus[3] <= inst147[3].DB_MAX_OUTPUT_PORT_TYPE
+AddressBus[4] <= inst147[4].DB_MAX_OUTPUT_PORT_TYPE
+AddressBus[5] <= inst147[5].DB_MAX_OUTPUT_PORT_TYPE
+AddressBus[6] <= inst147[6].DB_MAX_OUTPUT_PORT_TYPE
+AddressBus[7] <= inst147[7].DB_MAX_OUTPUT_PORT_TYPE
 ADDRESS_STACK[0] => lpm_bustri_8bit:inst155.data[0]
 ADDRESS_STACK[1] => lpm_bustri_8bit:inst155.data[1]
 ADDRESS_STACK[2] => lpm_bustri_8bit:inst155.data[2]
@@ -257,6 +245,24 @@ ADDRESS_STACK[4] => lpm_bustri_8bit:inst155.data[4]
 ADDRESS_STACK[5] => lpm_bustri_8bit:inst155.data[5]
 ADDRESS_STACK[6] => lpm_bustri_8bit:inst155.data[6]
 ADDRESS_STACK[7] => lpm_bustri_8bit:inst155.data[7]
+CacheAddressToRAM[0] => lpm_bustri_8bit:inst158.data[0]
+CacheAddressToRAM[1] => lpm_bustri_8bit:inst158.data[1]
+CacheAddressToRAM[2] => lpm_bustri_8bit:inst158.data[2]
+CacheAddressToRAM[3] => lpm_bustri_8bit:inst158.data[3]
+CacheAddressToRAM[4] => lpm_bustri_8bit:inst158.data[4]
+CacheAddressToRAM[5] => lpm_bustri_8bit:inst158.data[5]
+CacheAddressToRAM[6] => lpm_bustri_8bit:inst158.data[6]
+CacheAddressToRAM[7] => lpm_bustri_8bit:inst158.data[7]
+ControlBus[0] <> inst22
+ControlBus[1] <> inst25
+ControlBus[2] <> inst42
+ControlBus[3] <> inst66
+ControlBus[4] <> inst24
+ControlBus[5] <> inst159
+ControlBus[5] <> inst151
+ControlBus[6] <> inst23
+ControlBus[7] <> inst31
+ControlBus[8] <> inst56
 AddressToCache[0] <= gdfx_temp2[0].DB_MAX_OUTPUT_PORT_TYPE
 AddressToCache[1] <= gdfx_temp2[1].DB_MAX_OUTPUT_PORT_TYPE
 AddressToCache[2] <= gdfx_temp2[2].DB_MAX_OUTPUT_PORT_TYPE
@@ -382,19 +388,10 @@ CNTR[1] <= lpm_counter_5bit:inst4.q[1]
 CNTR[2] <= lpm_counter_5bit:inst4.q[2]
 CNTR[3] <= lpm_counter_5bit:inst4.q[3]
 CNTR[4] <= lpm_counter_5bit:inst4.q[4]
-ControlBus[0] <> inst22
-ControlBus[1] <> inst25
-ControlBus[2] <> inst42
-ControlBus[3] <> inst66
-ControlBus[4] <> inst24
-ControlBus[5] <> inst113
-ControlBus[6] <> inst23
-ControlBus[7] <> inst31
-ControlBus[8] <> inst56
-CacheReadRAM => inst113.IN0
-CacheReadRAM => inst183.IN1
-CacheWriteRAM => inst113.IN2
 CacheWriteRAM => inst64.DATAIN
+CacheWriteRAM => inst113.IN2
+CacheReadRAM => inst183.IN1
+CacheReadRAM => inst113.IN0
 DataToCache[0] <= lpm_bustri_8bit:inst58.tridata[0]
 DataToCache[1] <= lpm_bustri_8bit:inst58.tridata[1]
 DataToCache[2] <= lpm_bustri_8bit:inst58.tridata[2]
@@ -2223,7 +2220,7 @@ sclr => counter_reg_bit1a[1].SCLR
 sclr => counter_reg_bit1a[0].SCLR
 
 
-|MAIN|CPU:inst1|CPUManager:inst2|lpm_bustri_8bit:inst158
+|MAIN|CPU:inst1|CPUManager:inst2|lpm_bustri_8bit:inst155
 data[0] => lpm_bustri:lpm_bustri_component.data[0]
 data[1] => lpm_bustri:lpm_bustri_component.data[1]
 data[2] => lpm_bustri:lpm_bustri_component.data[2]
@@ -2243,7 +2240,7 @@ tridata[6] <> lpm_bustri:lpm_bustri_component.tridata[6]
 tridata[7] <> lpm_bustri:lpm_bustri_component.tridata[7]
 
 
-|MAIN|CPU:inst1|CPUManager:inst2|lpm_bustri_8bit:inst158|lpm_bustri:lpm_bustri_component
+|MAIN|CPU:inst1|CPUManager:inst2|lpm_bustri_8bit:inst155|lpm_bustri:lpm_bustri_component
 tridata[0] <> dout[0]
 tridata[1] <> dout[1]
 tridata[2] <> dout[2]
@@ -2279,7 +2276,7 @@ result[6] <= result[6]~1.DB_MAX_OUTPUT_PORT_TYPE
 result[7] <= result[7]~0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|MAIN|CPU:inst1|CPUManager:inst2|lpm_bustri_8bit:inst155
+|MAIN|CPU:inst1|CPUManager:inst2|lpm_bustri_8bit:inst158
 data[0] => lpm_bustri:lpm_bustri_component.data[0]
 data[1] => lpm_bustri:lpm_bustri_component.data[1]
 data[2] => lpm_bustri:lpm_bustri_component.data[2]
@@ -2299,7 +2296,7 @@ tridata[6] <> lpm_bustri:lpm_bustri_component.tridata[6]
 tridata[7] <> lpm_bustri:lpm_bustri_component.tridata[7]
 
 
-|MAIN|CPU:inst1|CPUManager:inst2|lpm_bustri_8bit:inst155|lpm_bustri:lpm_bustri_component
+|MAIN|CPU:inst1|CPUManager:inst2|lpm_bustri_8bit:inst158|lpm_bustri:lpm_bustri_component
 tridata[0] <> dout[0]
 tridata[1] <> dout[1]
 tridata[2] <> dout[2]
@@ -26867,14 +26864,14 @@ q[1] <= dffs[1].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |MAIN|DMA:inst5
-ADDR[0] <= gdfx_temp0[0].DB_MAX_OUTPUT_PORT_TYPE
-ADDR[1] <= gdfx_temp0[1].DB_MAX_OUTPUT_PORT_TYPE
-ADDR[2] <= gdfx_temp0[2].DB_MAX_OUTPUT_PORT_TYPE
-ADDR[3] <= gdfx_temp0[3].DB_MAX_OUTPUT_PORT_TYPE
-ADDR[4] <= gdfx_temp0[4].DB_MAX_OUTPUT_PORT_TYPE
-ADDR[5] <= gdfx_temp0[5].DB_MAX_OUTPUT_PORT_TYPE
-ADDR[6] <= gdfx_temp0[6].DB_MAX_OUTPUT_PORT_TYPE
-ADDR[7] <= gdfx_temp0[7].DB_MAX_OUTPUT_PORT_TYPE
+ADDR[0] <= inst52[0].DB_MAX_OUTPUT_PORT_TYPE
+ADDR[1] <= inst52[1].DB_MAX_OUTPUT_PORT_TYPE
+ADDR[2] <= inst52[2].DB_MAX_OUTPUT_PORT_TYPE
+ADDR[3] <= inst52[3].DB_MAX_OUTPUT_PORT_TYPE
+ADDR[4] <= inst52[4].DB_MAX_OUTPUT_PORT_TYPE
+ADDR[5] <= inst52[5].DB_MAX_OUTPUT_PORT_TYPE
+ADDR[6] <= inst52[6].DB_MAX_OUTPUT_PORT_TYPE
+ADDR[7] <= inst52[7].DB_MAX_OUTPUT_PORT_TYPE
 ControlBus[1] <> inst44
 ControlBus[2] <> inst42
 ControlBus[3] <> inst45
