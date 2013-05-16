@@ -117,8 +117,7 @@ set_global_assignment -name QIP_FILE lpm_counter_2bit_clr.qip
 set_global_assignment -name QIP_FILE lpm_counter_8bit_load.qip
 set_global_assignment -name QIP_FILE lpm_compare_8bit_EQUAL.qip
 set_global_assignment -name QIP_FILE lpm_decode_8bit_1out.qip
-set_global_assignment -name BDF_FILE ttt.bdf
-set_global_assignment -name VECTOR_WAVEFORM_FILE ttt.vwf
+set_global_assignment -name BDF_FILE CPU.bdf
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE MAIN.vwf
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"

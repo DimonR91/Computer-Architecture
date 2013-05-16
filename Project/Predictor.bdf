@@ -1513,7 +1513,7 @@ applicable agreement for further details.
 	(rotate270)
 )
 (symbol
-	(rect 392 480 520 592)
+	(rect 408 480 536 592)
 	(text "lpm_decode_2bit" (rect 15 1 130 17)(font "Arial" (font_size 10)))
 	(text "inst38" (rect 8 96 37 108)(font "Arial" ))
 	(port
@@ -1601,7 +1601,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 168 528 216 560)
+	(rect 184 528 232 560)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst43" (rect 3 21 32 33)(font "Arial" ))
 	(port
@@ -2171,7 +2171,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 232 480 376 576)
+	(rect 248 480 392 576)
 	(text "lpm_counter_2bit_clr" (rect 12 1 153 17)(font "Arial" (font_size 10)))
 	(text "inst62" (rect 8 80 37 92)(font "Arial" ))
 	(port
@@ -3240,26 +3240,6 @@ applicable agreement for further details.
 	(pt 520 432)
 )
 (connector
-	(text "t0" (rect 528 496 537 508)(font "Arial" ))
-	(pt 520 512)
-	(pt 544 512)
-)
-(connector
-	(text "t1" (rect 528 512 537 524)(font "Arial" ))
-	(pt 520 528)
-	(pt 544 528)
-)
-(connector
-	(text "t2" (rect 528 528 537 540)(font "Arial" ))
-	(pt 520 544)
-	(pt 544 544)
-)
-(connector
-	(text "t3" (rect 528 544 537 556)(font "Arial" ))
-	(pt 520 560)
-	(pt 544 560)
-)
-(connector
 	(pt 600 1616)
 	(pt 616 1616)
 )
@@ -3452,20 +3432,6 @@ applicable agreement for further details.
 	(pt 312 264)
 	(pt 312 312)
 	(bus)
-)
-(connector
-	(text "clk" (rect 144 528 158 540)(font "Arial" ))
-	(pt 168 544)
-	(pt 136 544)
-)
-(connector
-	(pt 216 544)
-	(pt 232 544)
-)
-(connector
-	(text "t2" (rect 192 496 201 508)(font "Arial" ))
-	(pt 232 512)
-	(pt 184 512)
 )
 (connector
 	(text "t1" (rect 582 126 594 135)(font "Arial" )(vertical))
@@ -4141,15 +4107,49 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 376 536)
-	(pt 392 536)
-	(bus)
-)
-(connector
 	(text "rn[3..0]" (rect 330 296 365 308)(font "Arial" ))
 	(pt 312 312)
 	(pt 360 312)
 	(bus)
+)
+(connector
+	(text "t0" (rect 544 496 553 508)(font "Arial" ))
+	(pt 536 512)
+	(pt 560 512)
+)
+(connector
+	(text "t1" (rect 544 512 553 524)(font "Arial" ))
+	(pt 536 528)
+	(pt 560 528)
+)
+(connector
+	(text "t2" (rect 544 528 553 540)(font "Arial" ))
+	(pt 536 544)
+	(pt 560 544)
+)
+(connector
+	(text "t3" (rect 544 544 553 556)(font "Arial" ))
+	(pt 536 560)
+	(pt 560 560)
+)
+(connector
+	(pt 392 536)
+	(pt 408 536)
+	(bus)
+)
+(connector
+	(text "clk" (rect 160 528 174 540)(font "Arial" ))
+	(pt 152 544)
+	(pt 184 544)
+)
+(connector
+	(text "t2" (rect 208 496 217 508)(font "Arial" ))
+	(pt 200 512)
+	(pt 248 512)
+)
+(connector
+	(pt 232 544)
+	(pt 248 544)
 )
 (junction (pt 712 1512))
 (junction (pt 712 1416))

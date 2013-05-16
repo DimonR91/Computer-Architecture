@@ -20,7 +20,7 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 272 144)
+	(rect 16 16 216 144)
 	(text "RAM" (rect 5 0 32 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 112 25 124)(font "Arial" ))
 	(port
@@ -52,20 +52,13 @@ applicable agreement for further details.
 		(line (pt 0 80)(pt 16 80)(line_width 1))
 	)
 	(port
-		(pt 256 48)
-		(output)
-		(text "dataOutForTest[7..0]" (rect 0 0 116 14)(font "Arial" (font_size 8)))
-		(text "dataOutForTest[7..0]" (rect 119 43 235 57)(font "Arial" (font_size 8)))
-		(line (pt 256 48)(pt 240 48)(line_width 3))
-	)
-	(port
-		(pt 256 32)
+		(pt 200 32)
 		(bidir)
 		(text "DATA[7..0]" (rect 0 0 62 14)(font "Arial" (font_size 8)))
-		(text "DATA[7..0]" (rect 173 27 235 41)(font "Arial" (font_size 8)))
-		(line (pt 256 32)(pt 240 32)(line_width 3))
+		(text "DATA[7..0]" (rect 117 27 179 41)(font "Arial" (font_size 8)))
+		(line (pt 200 32)(pt 184 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 240 112)(line_width 1))
+		(rectangle (rect 16 16 184 112)(line_width 1))
 	)
 )

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Project
-Tue May 14 03:55:40 2013
+Thu May 16 04:05:00 2013
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -13,25 +13,23 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Registers Removed During Synthesis
-  9. Removed Registers Triggering Further Register Optimizations
- 10. General Register Statistics
- 11. Source assignments for lpm_counter_8bit_load:inst8|lpm_counter:lpm_counter_component
- 12. Source assignments for lpm_counter_8:inst11|lpm_counter:lpm_counter_component
- 13. Source assignments for lpm_counter_8bit_load:inst7|lpm_counter:lpm_counter_component
- 14. Source assignments for lpm_counter_8bit_load:inst6|lpm_counter:lpm_counter_component
- 15. Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst29|lpm_bustri:lpm_bustri_component
- 16. Parameter Settings for User Entity Instance: lpm_compare_8bit_EQUAL:inst12|lpm_compare:lpm_compare_component
- 17. Parameter Settings for User Entity Instance: lpm_counter_8bit_load:inst8|lpm_counter:lpm_counter_component
- 18. Parameter Settings for User Entity Instance: lpm_constant_8bit_0:inst13|lpm_constant:lpm_constant_component
- 19. Parameter Settings for User Entity Instance: lpm_counter_8:inst11|lpm_counter:lpm_counter_component
- 20. Parameter Settings for User Entity Instance: lpm_counter_8bit_load:inst7|lpm_counter:lpm_counter_component
- 21. Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst31|lpm_bustri:lpm_bustri_component
- 22. Parameter Settings for User Entity Instance: lpm_counter_8bit_load:inst6|lpm_counter:lpm_counter_component
- 23. Parameter Settings for User Entity Instance: lpm_dff_8bit_en:inst18|lpm_ff:lpm_ff_component
- 24. Parameter Settings for User Entity Instance: lpm_bustri_8:inst41|lpm_bustri:lpm_bustri_component
- 25. Parameter Settings for User Entity Instance: lpm_decode_8bit_1out:inst14|lpm_decode:lpm_decode_component
- 26. Analysis & Synthesis Messages
+  8. General Register Statistics
+  9. Source assignments for lpm_counter_8bit_load:inst8|lpm_counter:lpm_counter_component
+ 10. Source assignments for lpm_counter_8:inst11|lpm_counter:lpm_counter_component
+ 11. Source assignments for lpm_counter_8bit_load:inst7|lpm_counter:lpm_counter_component
+ 12. Source assignments for lpm_counter_8bit_load:inst6|lpm_counter:lpm_counter_component
+ 13. Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst29|lpm_bustri:lpm_bustri_component
+ 14. Parameter Settings for User Entity Instance: lpm_compare_8bit_EQUAL:inst12|lpm_compare:lpm_compare_component
+ 15. Parameter Settings for User Entity Instance: lpm_counter_8bit_load:inst8|lpm_counter:lpm_counter_component
+ 16. Parameter Settings for User Entity Instance: lpm_constant_8bit_0:inst13|lpm_constant:lpm_constant_component
+ 17. Parameter Settings for User Entity Instance: lpm_counter_8:inst11|lpm_counter:lpm_counter_component
+ 18. Parameter Settings for User Entity Instance: lpm_counter_8bit_load:inst7|lpm_counter:lpm_counter_component
+ 19. Parameter Settings for User Entity Instance: lpm_bustri_8bit:inst31|lpm_bustri:lpm_bustri_component
+ 20. Parameter Settings for User Entity Instance: lpm_counter_8bit_load:inst6|lpm_counter:lpm_counter_component
+ 21. Parameter Settings for User Entity Instance: lpm_dff_8bit_en:inst18|lpm_ff:lpm_ff_component
+ 22. Parameter Settings for User Entity Instance: lpm_bustri_8:inst41|lpm_bustri:lpm_bustri_component
+ 23. Parameter Settings for User Entity Instance: lpm_decode_8bit_1out:inst14|lpm_decode:lpm_decode_component
+ 24. Analysis & Synthesis Messages
 
 
 
@@ -57,15 +55,15 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Tue May 14 03:55:40 2013   ;
+; Analysis & Synthesis Status   ; Successful - Thu May 16 04:05:00 2013   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; Project                                 ;
 ; Top-level Entity Name         ; DMA                                     ;
 ; Family                        ; Stratix II                              ;
 ; Logic utilization             ; N/A                                     ;
-;     Combinational ALUTs       ; 52                                      ;
-;     Dedicated logic registers ; 34                                      ;
-; Total registers               ; 34                                      ;
+;     Combinational ALUTs       ; 60                                      ;
+;     Dedicated logic registers ; 41                                      ;
+; Total registers               ; 41                                      ;
 ; Total pins                    ; 66                                      ;
 ; Total virtual pins            ; 0                                       ;
 ; Total block memory bits       ; 0                                       ;
@@ -199,38 +197,38 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-----------------------------------------------+------------------------------------------------------------------------------------------+
 ; Resource                                      ; Usage                                                                                    ;
 +-----------------------------------------------+------------------------------------------------------------------------------------------+
-; Estimated ALUTs Used                          ; 52                                                                                       ;
-; Dedicated logic registers                     ; 34                                                                                       ;
+; Estimated ALUTs Used                          ; 60                                                                                       ;
+; Dedicated logic registers                     ; 41                                                                                       ;
 ;                                               ;                                                                                          ;
 ; Estimated ALUTs Unavailable                   ; 1                                                                                        ;
 ;                                               ;                                                                                          ;
-; Total combinational functions                 ; 52                                                                                       ;
+; Total combinational functions                 ; 60                                                                                       ;
 ; Combinational ALUT usage by number of inputs  ;                                                                                          ;
 ;     -- 7 input functions                      ; 0                                                                                        ;
 ;     -- 6 input functions                      ; 1                                                                                        ;
 ;     -- 5 input functions                      ; 8                                                                                        ;
 ;     -- 4 input functions                      ; 8                                                                                        ;
-;     -- <=3 input functions                    ; 35                                                                                       ;
+;     -- <=3 input functions                    ; 43                                                                                       ;
 ;                                               ;                                                                                          ;
 ; Combinational ALUTs by mode                   ;                                                                                          ;
 ;     -- normal mode                            ; 28                                                                                       ;
 ;     -- extended LUT mode                      ; 0                                                                                        ;
-;     -- arithmetic mode                        ; 24                                                                                       ;
+;     -- arithmetic mode                        ; 32                                                                                       ;
 ;     -- shared arithmetic mode                 ; 0                                                                                        ;
 ;                                               ;                                                                                          ;
-; Estimated ALUT/register pairs used            ; 53                                                                                       ;
+; Estimated ALUT/register pairs used            ; 61                                                                                       ;
 ;                                               ;                                                                                          ;
-; Total registers                               ; 34                                                                                       ;
-;     -- Dedicated logic registers              ; 34                                                                                       ;
+; Total registers                               ; 41                                                                                       ;
+;     -- Dedicated logic registers              ; 41                                                                                       ;
 ;     -- I/O registers                          ; 0                                                                                        ;
 ;                                               ;                                                                                          ;
-; Estimated ALMs:  partially or completely used ; 27                                                                                       ;
+; Estimated ALMs:  partially or completely used ; 31                                                                                       ;
 ;                                               ;                                                                                          ;
 ; I/O pins                                      ; 66                                                                                       ;
 ; Maximum fan-out node                          ; lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[0] ;
 ; Maximum fan-out                               ; 30                                                                                       ;
-; Total fan-out                                 ; 346                                                                                      ;
-; Average fan-out                               ; 2.28                                                                                     ;
+; Total fan-out                                 ; 388                                                                                      ;
+; Average fan-out                               ; 2.32                                                                                     ;
 +-----------------------------------------------+------------------------------------------------------------------------------------------+
 
 
@@ -239,7 +237,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+----------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                          ; Library Name ;
 +-------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+----------------------------------------------------------------------------------------------+--------------+
-; |DMA                                      ; 52 (7)            ; 34 (1)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 66   ; 0            ; |DMA                                                                                         ; work         ;
+; |DMA                                      ; 60 (8)            ; 41 (1)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 66   ; 0            ; |DMA                                                                                         ; work         ;
 ;    |lpm_bustri_8:inst41|                  ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DMA|lpm_bustri_8:inst41                                                                     ; work         ;
 ;       |lpm_bustri:lpm_bustri_component|   ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DMA|lpm_bustri_8:inst41|lpm_bustri:lpm_bustri_component                                     ; work         ;
 ;    |lpm_bustri_8bit:inst29|               ; 9 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DMA|lpm_bustri_8bit:inst29                                                                  ;              ;
@@ -247,9 +245,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;    |lpm_compare_8bit_EQUAL:inst12|        ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DMA|lpm_compare_8bit_EQUAL:inst12                                                           ; work         ;
 ;       |lpm_compare:lpm_compare_component| ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DMA|lpm_compare_8bit_EQUAL:inst12|lpm_compare:lpm_compare_component                         ; work         ;
 ;          |cmpr_fig:auto_generated|        ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DMA|lpm_compare_8bit_EQUAL:inst12|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated ; work         ;
-;    |lpm_counter_8:inst11|                 ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DMA|lpm_counter_8:inst11                                                                    ; work         ;
-;       |lpm_counter:lpm_counter_component| ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DMA|lpm_counter_8:inst11|lpm_counter:lpm_counter_component                                  ; work         ;
-;          |cntr_i4i:auto_generated|        ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DMA|lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated          ; work         ;
+;    |lpm_counter_8:inst11|                 ; 8 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DMA|lpm_counter_8:inst11                                                                    ; work         ;
+;       |lpm_counter:lpm_counter_component| ; 8 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DMA|lpm_counter_8:inst11|lpm_counter:lpm_counter_component                                  ; work         ;
+;          |cntr_i4i:auto_generated|        ; 8 (8)             ; 8 (8)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DMA|lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated          ; work         ;
 ;    |lpm_counter_8bit_load:inst6|          ; 8 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DMA|lpm_counter_8bit_load:inst6                                                             ; work         ;
 ;       |lpm_counter:lpm_counter_component| ; 8 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DMA|lpm_counter_8bit_load:inst6|lpm_counter:lpm_counter_component                           ; work         ;
 ;          |cntr_21i:auto_generated|        ; 8 (8)             ; 8 (8)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DMA|lpm_counter_8bit_load:inst6|lpm_counter:lpm_counter_component|cntr_21i:auto_generated   ; work         ;
@@ -265,38 +263,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                               ;
-+---------------------------------------------------------------------------------------------+--------------------+
-; Register name                                                                               ; Reason for Removal ;
-+---------------------------------------------------------------------------------------------+--------------------+
-; lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[1..7] ; Lost fanout        ;
-; Total Number of Removed Registers = 7                                                       ;                    ;
-+---------------------------------------------------------------------------------------------+--------------------+
-
-
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                                                                                               ;
-+------------------------------------------------------------------------------------------+--------------------+-------------------------------------------------------------------------------------------+
-; Register name                                                                            ; Reason for Removal ; Registers Removed due to This Register                                                    ;
-+------------------------------------------------------------------------------------------+--------------------+-------------------------------------------------------------------------------------------+
-; lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[7] ; Lost Fanouts       ; lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[6], ;
-;                                                                                          ;                    ; lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[5], ;
-;                                                                                          ;                    ; lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[4], ;
-;                                                                                          ;                    ; lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[3], ;
-;                                                                                          ;                    ; lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[2], ;
-;                                                                                          ;                    ; lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[1]  ;
-+------------------------------------------------------------------------------------------+--------------------+-------------------------------------------------------------------------------------------+
-
-
 +------------------------------------------------------+
 ; General Register Statistics                          ;
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 34    ;
-; Number of registers using Synchronous Clear  ; 1     ;
-; Number of registers using Synchronous Load   ; 24    ;
+; Total registers                              ; 41    ;
+; Number of registers using Synchronous Clear  ; 8     ;
+; Number of registers using Synchronous Load   ; 16    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 32    ;
@@ -567,7 +541,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Tue May 14 03:55:36 2013
+    Info: Processing started: Thu May 16 04:04:56 2013
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Project -c Project
 Warning: Tcl Script File lpm_counter_4bit.qip not found
     Info: set_global_assignment -name QIP_FILE lpm_counter_4bit.qip
@@ -700,8 +674,8 @@ Info: Found 2 design units, including 1 entities, in source file lpm_compare_8bi
 Info: Found 2 design units, including 1 entities, in source file lpm_decode_8bit_1out.vhd
     Info: Found design unit 1: lpm_decode_8bit_1out-SYN
     Info: Found entity 1: lpm_decode_8bit_1out
-Info: Found 1 design units, including 1 entities, in source file ttt.bdf
-    Info: Found entity 1: ttt
+Info: Found 1 design units, including 1 entities, in source file cpu.bdf
+    Info: Found entity 1: CPU
 Info: Elaborating entity "DMA" for the top level hierarchy
 Info: Elaborating entity "lpm_bustri_8bit" for hierarchy "lpm_bustri_8bit:inst29"
 Info: Elaborating entity "lpm_bustri" for hierarchy "lpm_bustri_8bit:inst29|lpm_bustri:lpm_bustri_component"
@@ -779,6 +753,7 @@ Warning: The following bidir pins have no drivers
     Warning: Bidir "ControlBus" has no driver
     Warning: Bidir "ControlBus" has no driver
     Warning: Bidir "ControlBus" has no driver
+    Warning: Bidir "ControlBus" has no driver
 Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst41|lpm_bustri:lpm_bustri_component|din[7]" to the node "lpm_dff_8bit_en:inst18|lpm_ff:lpm_ff_component|dffs[7]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst41|lpm_bustri:lpm_bustri_component|din[6]" to the node "lpm_dff_8bit_en:inst18|lpm_ff:lpm_ff_component|dffs[6]" into an OR gate
@@ -788,34 +763,21 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst41|lpm_bustri:lpm_bustri_component|din[2]" to the node "lpm_dff_8bit_en:inst18|lpm_ff:lpm_ff_component|dffs[2]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst41|lpm_bustri:lpm_bustri_component|din[1]" to the node "lpm_dff_8bit_en:inst18|lpm_ff:lpm_ff_component|dffs[1]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "lpm_bustri_8:inst41|lpm_bustri:lpm_bustri_component|din[0]" to the node "lpm_dff_8bit_en:inst18|lpm_ff:lpm_ff_component|dffs[0]" into an OR gate
-Warning: TRI or OPNDRN buffers permanently enabled
-    Warning: Node "inst19~synth"
-    Warning: Node "inst21~synth"
-    Warning: Node "inst20~synth"
-    Warning: Node "inst26~synth"
-Info: 7 registers lost all their fanouts during netlist optimizations. The first 7 are displayed below.
-    Info: Register "lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[7]" lost all its fanouts during netlist optimizations.
-    Info: Register "lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[6]" lost all its fanouts during netlist optimizations.
-    Info: Register "lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[5]" lost all its fanouts during netlist optimizations.
-    Info: Register "lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[4]" lost all its fanouts during netlist optimizations.
-    Info: Register "lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[3]" lost all its fanouts during netlist optimizations.
-    Info: Register "lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[2]" lost all its fanouts during netlist optimizations.
-    Info: Register "lpm_counter_8:inst11|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[1]" lost all its fanouts during netlist optimizations.
 Warning: Ignored assignments for entity "Project" -- entity does not exist in design
     Warning: Assignment for entity set_global_assignment -name LL_ROOT_REGION ON -entity Project -section_id "Root Region" was ignored
     Warning: Assignment for entity set_global_assignment -name LL_MEMBER_STATE LOCKED -entity Project -section_id "Root Region" was ignored
 Warning: Ignored assignments for entity "ROM" -- entity does not exist in design
     Warning: Assignment for entity set_global_assignment -name LL_ROOT_REGION ON -entity ROM -section_id "Root Region" was ignored
     Warning: Assignment for entity set_global_assignment -name LL_MEMBER_STATE LOCKED -entity ROM -section_id "Root Region" was ignored
-Info: Implemented 118 device resources after synthesis - the final resource count might be different
-    Info: Implemented 26 input pins
-    Info: Implemented 24 output pins
-    Info: Implemented 16 bidirectional pins
-    Info: Implemented 52 logic cells
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 27 warnings
-    Info: Peak virtual memory: 243 megabytes
-    Info: Processing ended: Tue May 14 03:55:40 2013
+Info: Implemented 126 device resources after synthesis - the final resource count might be different
+    Info: Implemented 9 input pins
+    Info: Implemented 40 output pins
+    Info: Implemented 17 bidirectional pins
+    Info: Implemented 60 logic cells
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 23 warnings
+    Info: Peak virtual memory: 237 megabytes
+    Info: Processing ended: Thu May 16 04:05:00 2013
     Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Total CPU time (on all processors): 00:00:06
 
 

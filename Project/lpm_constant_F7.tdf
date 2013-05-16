@@ -44,7 +44,7 @@ SUBDESIGN lpm_constant_F7
 VARIABLE
 
 	lpm_constant_component : lpm_constant WITH (
-			LPM_CVALUE = 255,
+			LPM_CVALUE = 127,
 			LPM_HINT = "ENABLE_RUNTIME_MOD=NO",
 			LPM_TYPE = "LPM_CONSTANT",
 			LPM_WIDTH = 8
@@ -65,9 +65,9 @@ END;
 -- Retrieval info: PRIVATE: JTAG_ID STRING "NONE"
 -- Retrieval info: PRIVATE: Radix NUMERIC "16"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
--- Retrieval info: PRIVATE: Value NUMERIC "255"
+-- Retrieval info: PRIVATE: Value NUMERIC "127"
 -- Retrieval info: PRIVATE: nBit NUMERIC "8"
--- Retrieval info: CONSTANT: LPM_CVALUE NUMERIC "255"
+-- Retrieval info: CONSTANT: LPM_CVALUE NUMERIC "127"
 -- Retrieval info: CONSTANT: LPM_HINT STRING "ENABLE_RUNTIME_MOD=NO"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_CONSTANT"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "8"

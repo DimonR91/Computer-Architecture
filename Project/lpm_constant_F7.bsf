@@ -31,7 +31,7 @@ applicable agreement for further details.
 		(line (pt 104 24)(pt 88 24)(line_width 3))
 	)
 	(drawing
-		(text "255" (rect 73 18 88 30)(font "Arial" ))
+		(text "127" (rect 73 18 88 30)(font "Arial" ))
 		(text "8" (rect 95 25 100 37)(font "Arial" ))
 		(line (pt 16 16)(pt 88 16)(line_width 1))
 		(line (pt 88 16)(pt 88 32)(line_width 1))

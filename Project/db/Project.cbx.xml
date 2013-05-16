@@ -1,62 +1,62 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="Project">
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst32|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst32|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_olh.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|lpm_decode_2bit:inst36|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|ALU:inst12|lpm_compare_8bit:inst|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_87h.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|lpm_decode_8bit_16out:inst25|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_8bf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Stack:inst56|lpm_counter_8:inst35|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_i4i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst30|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst30|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst31|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst30|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst31|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst31|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|ALU:inst12|lpm_compare_Equal_8bit:inst5|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_7gi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|CPUManager:inst2|lpm_counter_5bit:inst4|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_f4i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst30|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst30|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_olh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst31|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst32|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst32|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Stack:inst56|lpm_add_sub_STACK:inst|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_pki.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|RAM:inst20|LPM_RAM_IO:inst|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_aa91.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst30|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Stack:inst56|lpm_constant_F7:inst33|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_6j6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst31|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst31|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_olh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst32|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Stack:inst56|lpm_decode_4out:inst14|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_8bf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|RAM:inst21|LPM_RAM_IO:inst|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_aa91.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst31|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst32|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|lpm_counter_5bit:inst4|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_f4i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|CPUManager:inst2|lpm_counter_8bit_with_load:inst18|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_pki.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst32|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst32|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_olh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|lpm_decode_2bit:inst36|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Predictor:inst4|lpm_decode0:inst2|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_e9f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|DMA:inst5|lpm_compare_8bit_EQUAL:inst12|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_fig.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|ALU:inst12|lpm_counter_8:inst35|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_i4i.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|lpm_counter_8:inst40|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_i4i.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst31|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst31|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_olh.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst32|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Predictor:inst3|lpm_counter_revers_2bit:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_gch.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Predictor:inst3|lpm_decode0:inst2|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_e9f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Stack:inst56|lpm_decode_4out:inst14|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_8bf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|lpm_counter_8bit_with_load:inst18|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_pki.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|ALU:inst12|lpm_compare_8bit:inst|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_87h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|lpm_decode_8bit_16out:inst25|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_8bf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Stack:inst56|lpm_counter_8:inst35|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_i4i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|CPUManager:inst2|lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_j4k.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst30|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst30|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_olh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Stack:inst56|lpm_constant_F7:inst33|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_ph6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|DMA:inst5|lpm_constant_8bit_0:inst13|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_qf6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|DMA:inst5|lpm_decode_8bit_1out:inst14|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_8bf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|ROM:inst|LPM_ROM:inst|altrom:srom|altsyncram:rom_block" CBX_FILE_NAME="altsyncram_nrv.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Predictor:inst3|lpm_decode_2bit:inst38|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Predictor:inst3|lpm_counter_2bit_clr:inst62|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_c4i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|CPUManager:inst2|lpm_decode_8bit_20out:inst2|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_8bf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst31|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst32|lpm_decode_2bit:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|DMA:inst5|lpm_counter_8:inst11|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_i4i.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|lpm_add_8bit:inst72|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_j4k.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst30|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_olh.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|lpm_decode_8bit_20out:inst2|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_8bf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|ALU:inst12|lpm_counter_8:inst35|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_i4i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|lpm_counter_8:inst40|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_i4i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|CPUManager:inst2|lpm_decode_5bit:inst1|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_d9f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|DMA:inst5|lpm_counter_8bit_load:inst6|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_21i.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst30|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst30|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst31|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Predictor:inst4|lpm_counter_revers_2bit:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_gch.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|DMA:inst5|lpm_counter_8bit_load:inst7|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_21i.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst30|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst31|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst31|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst32|lpm_compare_4bit:inst33|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Predictor:inst4|lpm_decode_2bit:inst38|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|DMA:inst5|lpm_counter_8bit_load:inst8|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_21i.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|ALU:inst12|lpm_compare_Equal_8bit:inst5|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_7gi.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst30|lpm_compare_4bit:inst36|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst30|lpm_counter_2bit:inst196|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_olh.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst31|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst32|lpm_compare_4bit:inst34|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Cache:inst23|Set:inst32|lpm_decode_2bit:inst198|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|Stack:inst56|lpm_add_sub_STACK:inst|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_pki.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPUManager:inst2|lpm_decode_5bit:inst1|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_d9f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Cache:inst23|Set:inst|lpm_compare_4bit:inst35|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|CPU:inst1|Predictor:inst4|lpm_counter_2bit_clr:inst62|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_c4i.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

@@ -1,4 +1,4 @@
-Fitter Status : Successful - Tue May 14 03:55:48 2013
+Fitter Status : Successful - Thu May 16 04:05:08 2013
 Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
 Revision Name : Project
 Top-level Entity Name : DMA
@@ -6,9 +6,9 @@ Family : Stratix II
 Device : EP2S15F484C3
 Timing Models : Final
 Logic utilization : < 1 %
-    Combinational ALUTs : 53 / 12,480 ( < 1 % )
-    Dedicated logic registers : 34 / 12,480 ( < 1 % )
-Total registers : 34
+    Combinational ALUTs : 61 / 12,480 ( < 1 % )
+    Dedicated logic registers : 41 / 12,480 ( < 1 % )
+Total registers : 41
 Total pins : 66 / 343 ( 19 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 419,328 ( 0 % )
